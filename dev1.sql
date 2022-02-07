@@ -43,6 +43,10 @@ bj DATE,
 ez DATE,
 km INT,
 ps INT,
+gears INT,
+ladedurck  FLOAT,
+haltedruck FLOAT,
+diesel BOOLEAN(false),
 turbo BOOLEAN(false),
 kompressor BOOLEAN(false),
 carsUrl VARCHAR(255),
@@ -51,10 +55,26 @@ PRIMARY KEY (car_id)
 
 CREATE TABLE results (
 results_id INT NOT NULL AUTO_INCREMENT,
-ps INT,
-nm INT,
-region(VARCHAR 100)
+ps_first_run INT,
+ps_second_run INT,
+ps_third_run INT,
+ps_fourth_run INT,
+ps_fifth_run INT,
+nm_first_run INT,
+nm_second_run INT,
+nm_third_run INT,
+nm_fourth_run INT,
+nm_fifth_run INT,
 PRIMARY KEY (results_id)
 FOREIGN KEY (cars_id) REFERENCES cars (results_id)
+);
+
+CREATE TABLE drivers (
+drivers_id INT NOT NULL AUTO_INCREMENT,
+bundesland(VARCHAR 100),
+country(VARCHAR 100),
+region(VARCHAR 100)
+PRIMARY KEY (drivers_id)
+FOREIGN KEY (results_id) REFERENCES results (drivers_id)
 );
 
