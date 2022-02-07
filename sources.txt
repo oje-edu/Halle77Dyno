@@ -1,6 +1,6 @@
 // Da die "#Auf der Rolle" Clips lediglich teilweise oder garnicht richtig via VT getaggt wurden ... folgt hier nun eine sysifuss Arbeit,
-// generell kann ich sagen ... entweder ist das echt so gewollt, das keine Tags vorhanden sind, und auch die Tagline nicht zum Titel passt, noch in eine Kategroie hinzugefügt wurde ..// persönlich finde ich das ultra kacke, bietet mir allerdings möglichkeiten
-//  btw.  Schnitt ist nicht alles!
+// generell kann ich sagen ... entweder ist das echt so gewollt, das keine Tags vorhanden sind, und auch die Tagline nicht zum Titel passt, noch in eine Kategrorie hinzugefügt wurde .// persönlich finde ich das ultra kacke, bietet mir allerdings möglichkeiten.
+//  Und btw.  Schnitt ist nicht alles!
 //  T.OJE  (c)2022
 
 1. stage  (get data)
@@ -32,5 +32,5 @@
 # 21 https://www.youtube.com/watch?v=8L9YhVK3dfw
 # 20 https://www.youtube.com/watch?v=Z_73k9Mxn3c
 # 19 https://www.youtube.com/watch?v=LZCKyJTHM40
-# 18 (Tzja hier gabs im Thumbnail nichtmal mehr einen Hinweis .... )
+# 18 (Tzja hier gabs im Thumbnail nichtmal mehr einen Hinweis .... help welcome )
 
