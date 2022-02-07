@@ -13,8 +13,8 @@
 */
 
 DROP DATABASE IF EXISTS halle77Dyno;
-CREATE DATABASE dyno;
-USE dyno;
+CREATE DATABASE halle77Dyno;
+USE halle77Dyno;
 
 CREATE TABLE seasons (
 season_id INT NOT NULL AUTO_INCREMENT,
