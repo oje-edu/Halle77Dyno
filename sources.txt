@@ -1,7 +1,5 @@
 // Da die "#Auf der Rolle" Clips lediglich teilweise oder garnicht richtig via VT getaggt wurden ... folgt hier nun eine sysifuss Arbeit,
-// generell kann ich sagen ... entweder ist das echt so gewollt, das keine Tags vorhanden sind, und auch die Tagline nicht zum Titel passt, noch in eine Kategrorie hinzugefügt wurde .// persönlich finde ich das ultra kacke, bietet mir allerdings möglichkeiten.
-//  Und btw.  Schnitt ist nicht alles!
-//  T.OJE  (c)2022
+//  (c)2022 T.OJE & ...
 
 1. stage  (get data)
 # 46 https://www.youtube.com/watch?v=BP_DuLkvy5A
@@ -34,3 +32,29 @@
 # 19 https://www.youtube.com/watch?v=LZCKyJTHM40
 # 18 (Tzja hier gabs im Thumbnail nichtmal mehr einen Hinweis .... help welcome )
 
+#### EPISODE 46
+stage 2 (get episode_46)
+1. BWM (E39,  520i),  Zylinder 6, Manuell, 150PS, Verbrauch 9.5/10, unter 170.000km
+  -> pMax 137.2 (5710) / nMax 171.9 (4690)
+  -> pMax 138.4 (5749) / nMax 174,4 (4677)
+
+2. Opel Vectra (B, Caravan Sport Umbau, 2.2L, Steuerketten Motor Z22SE),  170PS, 217.000km
+  -> pMax 146.2 (6050) / nMax 193 .4(4348)
+
+3. Ford Escort (MK-III, 1.6L Vergaser), bj81, 78PS, region = SO (Solingen? NRW)
+  -> pMax 82.7 (5566) / nMax 121 .4(3177)
+
+4.VW T4 (2.5D), 88 PS, 920.000KM (region = RE (Recklinghausen NRW)
+ -> pMax 82.3 (3240) / nMax 205 .9(2470)
+
+5. BMW (E30, 318is [mehrventiler 16v]), 136PS (region = OP (Olpe NRW))
+  -> pMax 135.7 (6436) / nMax 165.1(4820)
+
+6. Audi 80 (B3, 1.8S Vergaser), 88PS
+  -> pMax 88.4 (5424) / nMax 147.2(3090)
+
+7. Golf  2 (GTI 16V), 139PS (region = GLA (Gladbeck NRW))
+  -> pMax 134,4 (6467) / nMax 159.4(5494)
+
+#### EPISODE 45
+stage 2 (get episode_45)
