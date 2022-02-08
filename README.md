@@ -38,6 +38,10 @@ The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](
 [# 19](https://www.youtube.com/watch?v=LZCKyJTHM40)
 [# 18 - Tzja hier gabs im Thumbnail nichtmal mehr einen Hinweis .... help welcome](#)
 
+[# 12](https://www.youtube.com/watch?v=m1Yfs-ENkC4)
+[# 9](https://www.youtube.com/watch?v=VIbkf3p4oBE)
+[# 3](https://www.youtube.com/watch?v=eZ4BLLSVVo8)
+
 ### Wer mitmachen möchte
 
 dieses repo clonen .. und die csv bearbeiten .. oder schreibt mich einfach an .. und ich werde die Daten entsprechend einpflegen,
