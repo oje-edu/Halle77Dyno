@@ -36,10 +36,12 @@ The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](
 [# 21](https://www.youtube.com/watch?v=8L9YhVK3dfw)
 [# 20](https://www.youtube.com/watch?v=Z_73k9Mxn3c)
 [# 19](https://www.youtube.com/watch?v=LZCKyJTHM40)
-[# 18 - Tzja hier gabs im Thumbnail nichtmal mehr einen Hinweis .... help welcome](#)
+[# 18](https://www.youtube.com/watch?v=5nfUh6V5adQ)
+[# 14](https://www.youtube.com/watch?v=pdXfTF4kNQQ)
 
 [# 12](https://www.youtube.com/watch?v=m1Yfs-ENkC4)
 [# 9](https://www.youtube.com/watch?v=VIbkf3p4oBE)
+[# 4](https://www.youtube.com/watch?v=nXnDJVK-cr4)
 [# 3](https://www.youtube.com/watch?v=eZ4BLLSVVo8)
 
 ### Wer mitmachen möchte
