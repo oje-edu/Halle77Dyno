@@ -37,17 +37,22 @@ The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](
 [# 20](https://www.youtube.com/watch?v=Z_73k9Mxn3c)
 [# 19](https://www.youtube.com/watch?v=LZCKyJTHM40)
 [# 18](https://www.youtube.com/watch?v=5nfUh6V5adQ)
+[# 17](https://www.youtube.com/watch?v=MBoTJRx2S9Q)
+[# 16](https://www.youtube.com/watch?v=o9_-y0S3odg)
+[# 15](https://www.youtube.com/watch?v=UWzepIKSErU)
 [# 14](https://www.youtube.com/watch?v=pdXfTF4kNQQ)
-
+[# 13](https://www.youtube.com/watch?v=0LXYZteQOkE)
 [# 12](https://www.youtube.com/watch?v=m1Yfs-ENkC4)
+[# 11](https://www.youtube.com/watch?v=AXpFX4AtpbY)
+[# 10](https://www.youtube.com/watch?v=Q3uZ8m2ljdo)
 [# 9](https://www.youtube.com/watch?v=VIbkf3p4oBE)
+[# 8](https://www.youtube.com/watch?v=djQVD9sAPNI)
+[# 7](https://www.youtube.com/watch?v=__5KDiJOqa0)
+[# 6](https://www.youtube.com/watch?v=l3yIQiLBLdQ)
+[# 5](https://www.youtube.com/watch?v=GtusWvFzYaQ)
 [# 4](https://www.youtube.com/watch?v=nXnDJVK-cr4)
 [# 3](https://www.youtube.com/watch?v=eZ4BLLSVVo8)
-
-### Wer mitmachen möchte
-
-dieses repo clonen .. und die csv bearbeiten .. oder schreibt mich einfach an .. und ich werde die Daten entsprechend einpflegen,
-später wird das eine richtige Datenbank .. auf die über eine Webseite/App zugegriffen werden kann ...
-und mit etwas bastelei gehen die Dyno Daten sofern gewünscht und alle mitmachen direkt in die Datenbank aber das ist erstmal Zukunftsmusik .. also für den Beta (MILESTONE).
+[# 2](https://www.youtube.com/watch?v=SrU_Op2Mc2Y)
+[# 1](https://www.youtube.com/watch?v=97FspZAbtG8)
 
 > (c)2022 T.OJE & ...
