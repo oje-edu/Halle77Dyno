@@ -18,8 +18,6 @@ USE halle77Dyno;
 
 CREATE TABLE seasons (
 season_id INT NOT NULL AUTO_INCREMENT,
-title VARCHAR(100),
-plot VARCHAR(255),
 year YEAR NOT NULL,
 PRIMARY KEY (season_id)
 );
@@ -28,7 +26,7 @@ CREATE TABLE episodes (
 episode_id INT NOT NULL AUTO_INCREMENT,
 title VARCHAR(100) NOT NULL,
 episodeUrl VARCHAR(255) NOT NULL,
-plot TEXT NOT NULL,
+plot TEXT,
 season_id INT,
 seasonepisode INT,
 PRIMARY KEY (episode_id),
@@ -41,11 +39,11 @@ manufacturer VARCHAR(120),
 model VARCHAR(120),
 bj DATE,
 ez DATE,
-km INT,
-ps INT,
+km DECIMAL(7,1),
+ps DECIMAL(4,1),
+nm DECIMAL(4,1),
 gears INT,
-ladedurck  FLOAT,
-haltedruck FLOAT,
+automatic BOOLEAN(false),
 diesel BOOLEAN(false),
 turbo BOOLEAN(false),
 kompressor BOOLEAN(false),
@@ -55,26 +53,39 @@ PRIMARY KEY (car_id)
 
 CREATE TABLE results (
 results_id INT NOT NULL AUTO_INCREMENT,
-ps_first_run INT,
-ps_second_run INT,
-ps_third_run INT,
-ps_fourth_run INT,
-ps_fifth_run INT,
-nm_first_run INT,
-nm_second_run INT,
-nm_third_run INT,
-nm_fourth_run INT,
-nm_fifth_run INT,
-PRIMARY KEY (results_id)
+ps_first_run DECIMAL(4,1),
+ps_umin_first_run INT,
+nm_first_run DECIMAL(4,1),
+nm_umin_first_run INT,
+ps_second_run DECIMAL(4,1),
+ps_umin_second_run INT,
+nm_second_run DECIMAL(4,1),
+nm_umin_second_run INT,
+ps_third_run DECIMAL(4,1),
+ps_umin_third_run INT,
+nm_third_run DECIMAL(4,1),
+nm_umin_third_run INT,
+ps_fourth_run DECIMAL(4,1),
+ps_umin_fourth_run INT,
+nm_fourth_run DECIMAL(4,1),
+nm_umin_fourth_run INT,
+ps_fifth_run DECIMAL(4,1),
+ps_umin_first_run INT,
+nm_fifth_run DECIMAL(4,1),
+nm_umin_fifth_run INT,
+
+PRIMARY KEY (results_id),
 FOREIGN KEY (cars_id) REFERENCES cars (results_id)
 );
 
 CREATE TABLE drivers (
 drivers_id INT NOT NULL AUTO_INCREMENT,
-bundesland(VARCHAR 100),
-country(VARCHAR 100),
-region(VARCHAR 100)
-PRIMARY KEY (drivers_id)
+kz (VARCHAR 3),
+region(VARCHAR 100),
+bundesland(VARCHAR 25),
+country(VARCHAR 2),
+distance(INT),
+PRIMARY KEY (drivers_id),
 FOREIGN KEY (results_id) REFERENCES results (drivers_id)
 );
 
