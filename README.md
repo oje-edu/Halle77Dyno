@@ -58,9 +58,13 @@ The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](
 
 ### DISCLAIMER
 
+- Ich bin auf der Suche nach einem 9 monatigem Pflicht-Praktikumsplatz (05/2022 - 02/2023)
+
+  - Umschüler zum Anwendungsentwickler.
+
 - I Love Cars, but I am not an EXPERT! ...
 - I do a lot of research and hopefully hit the right ccm², PS and so on (if not provided).
-- Also I give no garantee that all Car-Data's are correct.
+- Also I give no guarantee that all Car-Data's are correct.
 - If you know some Car-Data's better, please let me know!
 
 ### TECH
