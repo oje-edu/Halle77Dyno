@@ -19,13 +19,13 @@ USE halle77Dyno;
 CREATE TABLE brands (
 brand_id INT NOT NULL AUTO_INCREMENT,
 manufacturer VARCHAR(120),
-PRIMARY KEY (brand_id),
-FOREIGN KEY (model_id) REFERENCES models (model_id)
+model_id INT,
+PRIMARY KEY (brand_id)
 );
 
 INSERT INTO brands (brand_id, manufacturer) VALUES
-	('1','Alfa Romeo'),
-	('2','Audi'),
+  ('1','Alfa Romeo'),
+  ('2','Audi'),
   ('3','BMW'),
   ('4','Citroën'),
   ('5','Dacia'),
@@ -60,14 +60,15 @@ INSERT INTO brands (brand_id, manufacturer) VALUES
 
 CREATE TABLE models (
 model_id INT NOT NULL AUTO_INCREMENT,
-type VARCHAR(120),
+mtype VARCHAR(120),
 ccm INT,
 ps DECIMAL(4,1),
-PRIMARY KEY (model_id)
-FOREIGN KEY (car_id) REFERENCES cars (car_id)
+brand_id INT,
+PRIMARY KEY (model_id),
+FOREIGN KEY (brand_id) REFERENCES brands (brand_id)
 );
 
-INSERT INTO models (model_id, type, ccm,ps) VALUES
+INSERT INTO models (model_id, mtype, ccm,ps) VALUES
 	('1','156','','150'),
 	('2','Alfetta','1800','115'),
 	('3','Alfsud','1200','63'),
@@ -89,5 +90,4 @@ INSERT INTO models (model_id, type, ccm,ps) VALUES
 	('19','100 CC','','75'),
 	('20','1502','1800','115'),
 	('21','1602 (Cabrio)','2000','150'),
-	('','','','','');
-
+	('22','','','');
