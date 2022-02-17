@@ -6,6 +6,8 @@
 
 The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](https://www.youtube.com/channel/UCNhFsNZQfB2mdM1FoV6q1Kw)
 
+Maybe I can do a little online Map with Pins from where you are ...
+
 ## Episoden (get Data)
 
 [# 47](https://www.youtube.com/watch?v=-U2iLAAdLb0)
