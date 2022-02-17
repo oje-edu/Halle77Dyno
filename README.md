@@ -1,4 +1,4 @@
-# Dyno @[5ZYLMarco](https://www.youtube.com/c/5ZYLMarco) - Halle77 based in Dortmund
+# Dyno [@5ZYLMarco](https://www.youtube.com/c/5ZYLMarco) - Halle77 based in Dortmund
 
 ## This Projekt is in Alpha.
 
