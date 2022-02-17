@@ -58,15 +58,16 @@ The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](
 
 ### DISCLAIMER
 
-I Love Cars, but I am not an EXPERT! ... I do a lot of research and hopefully hit the right ccm², PS and so on (if not provided).
-Also I give no garantee that all Car-Data's are correct.
-If you know some Car-Data's better, please let me know!
+- I Love Cars, but I am not an EXPERT! ...
+- I do a lot of research and hopefully hit the right ccm², PS and so on (if not provided).
+- Also I give no garantee that all Car-Data's are correct.
+- If you know some Car-Data's better, please let me know!
 
 ### TECH
 
-The Database will not be full optimzied (nomalized).
-It is a "private" small Projekt - I do this alone (at the moment), and I have just 24h a Day ...
-I have to get all datas manual.
-Thats not an excuse its just to let you something know.
+- The Database will not be full optimzied (nomalized).
+- It is a "private" small Projekt - I do this alone (at the moment), and I have just 24h a Day ...
+- I have to get all datas manual.
 
+> Thats not an excuse its just to let you something know.
 > (c)2022 T.OJE & ... help welcome
