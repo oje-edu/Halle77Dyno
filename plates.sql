@@ -55,6 +55,33 @@ INSERT INTO regions (region_id,kz, name) VALUES
 (15,'SH','Schleswig-Holstein'),
 (16,'TH','Thüringen');
 
+CREATE TABLE countries_regions (
+	cr_id INT NOT NULL AUTO_INCREMENT,
+  cr_country INT NOT NULL,
+  cr_region INT NOT NULL,
+  PRIMARY KEY(cr_id),
+  FOREIGN KEY (cr_country) REFERENCES countries (country_id),
+	FOREIGN KEY (cr_region) REFERENCES regions (region_id)
+);
+
+INSERT INTO countries_regions (cr_country, cr_region) VALUES
+('1','1'),
+('1','2'),
+('1','3'),
+('1','4'),
+('1','5'),
+('1','6'),
+('1','7'),
+('1','8'),
+('1','9'),
+('1','10'),
+('1','11'),
+('1','12'),
+('1','13'),
+('1','14'),
+('1','15'),
+('1','16');
+
 CREATE TABLE plates (
 plate_id INT NOT NULL AUTO_INCREMENT,
 kz VARCHAR(3),
