@@ -19,49 +19,50 @@ USE halle77Dyno;
 CREATE TABLE countries (
 country_id INT NOT NULL AUTO_INCREMENT,
 kz VARCHAR(2) NOT NULL,
-name VARCHAR(120),
+cname VARCHAR(120),
 PRIMARY KEY (country_id)
 );
 
-INSERT INTO countries (country_id, kz, name) VALUES
-('1','DE','Deutschland'),
-('2','NL', 'Niederlande'),
-('3','AT', 'Österreich'),
-('4','CH','Schweiz');
+INSERT INTO countries (kz, cname) VALUES
+('DE','Deutschland'),
+('NL', 'Niederlande'),
+('AT', 'Österreich'),
+('CH','Schweiz');
 
 CREATE TABLE regions (
 region_id INT NOT NULL AUTO_INCREMENT,
 kz VARCHAR(3),
-name VARCHAR(120),
-PRIMARY KEY (region_id)
+rname VARCHAR(120),
+country_id INT,
+PRIMARY KEY (region_id),
 FOREIGN KEY (country_id) REFERENCES countries (country_id)
 );
 
-INSERT INTO regions (region_id,kz, name) VALUES
-(1,'BW','Baden-Württemberg'),
-(2,'BY','Bayern'),
-(3,'BE','Berlin'),
-(4,'BB','Brandenburg'),
-(5,'HB','Bremen'),
-(6,'HH','Hamburg'),
-(7,'HE','Hessen'),
-(8,'MV','Mecklenburg-Vorpommern'),
-(9,'NI','Niedersachsen'),
-(10,'NW','Nordrhein-Westfalen'),
-(11,'RP','Rheinland-Pfalz'),
-(12,'SL','Saarland'),
-(13,'SN''Sachsen'),
-(14,'ST','Sachsen-Anhalt'),
-(15,'SH','Schleswig-Holstein'),
-(16,'TH','Thüringen');
+INSERT INTO regions (country_id,region_id,kz,rname) VALUES
+(1,1,'BW','Baden-Württemberg'),
+(1,2,'BY','Bayern'),
+(1,3,'BE','Berlin'),
+(1,4,'BB','Brandenburg'),
+(1,5,'HB','Bremen'),
+(1,6,'HH','Hamburg'),
+(1,7,'HE','Hessen'),
+(1,8,'MV','Mecklenburg-Vorpommern'),
+(1,9,'NI','Niedersachsen'),
+(1,10,'NW','Nordrhein-Westfalen'),
+(1,11,'RP','Rheinland-Pfalz'),
+(1,12,'SL','Saarland'),
+(1,13,'SN','Sachsen'),
+(1,14,'ST','Sachsen-Anhalt'),
+(1,15,'SH','Schleswig-Holstein'),
+(1,16,'TH','Thüringen');
 
 CREATE TABLE countries_regions (
-	cr_id INT NOT NULL AUTO_INCREMENT,
-  cr_country INT NOT NULL,
-  cr_region INT NOT NULL,
-  PRIMARY KEY(cr_id),
-  FOREIGN KEY (cr_country) REFERENCES countries (country_id),
-	FOREIGN KEY (cr_region) REFERENCES regions (region_id)
+ cr_id INT NOT NULL AUTO_INCREMENT,
+ cr_country INT NOT NULL,
+ cr_region INT NOT NULL,
+ PRIMARY KEY(cr_id),
+ FOREIGN KEY (cr_country) REFERENCES countries (country_id),
+ FOREIGN KEY (cr_region) REFERENCES regions (region_id)
 );
 
 INSERT INTO countries_regions (cr_country, cr_region) VALUES
@@ -87,7 +88,8 @@ plate_id INT NOT NULL AUTO_INCREMENT,
 kz VARCHAR(3),
 name VARCHAR(120),
 distance INT,
-PRIMARY KEY (plate_id)
+region_id INT,
+PRIMARY KEY (plate_id),
 FOREIGN KEY (region_id) REFERENCES regions (region_id)
 );
 
@@ -213,5 +215,3 @@ INSERT INTO plates (plate_id, kz, name, distance) VALUES
 ('119','WND','St. Wendel',320),
 ('120','WOB','Wolfsburg',300),
 ('121','WW','Westerwald',180);
-
-
