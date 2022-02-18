@@ -65,7 +65,7 @@ Maybe I can do a little online Map with Pins from where you are ...
   - Umschüler zum Anwendungsentwickler.
 
 - I Love Cars, but I am not an EXPERT! ...
-- I do a lot of research and hopefully hit the right ccm², PS and so on (if not provided).
+- I do a lot of research and hopefully hit the right ccm³, PS and so on (if not provided).
 - Also I give no guarantee that all Car-Data's are correct.
 - If you know some Car-Data's better, please let me know!
 
