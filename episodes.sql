@@ -24,6 +24,7 @@ PRIMARY KEY (episode_id),
 );
 
 INSERT INTO episodes (episode_id, title, episodeUrl) VALUES
+('48','Mehr LEISTUNG ohne ENDSCHALLDÄMPFER?','https://www.youtube.com/watch?v=fx_mDSNQ17A'),
 ('47','Auto ZERLEGT SICH beim PRÜFSTANDSLAUF!','https://www.youtube.com/watch?v=-U2iLAAdLb0'),
 ('46','BUS mit 900.000 KM?!','https://www.youtube.com/watch?v=BP_DuLkvy5A'),
 ('45','Ein OPEL-MOTOR im PONTIAC?','https://www.youtube.com/watch?v=VI1e417i130'),
