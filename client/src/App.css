@@ -1,7 +1,12 @@
+:root {
+  --h77base: #e4cc9c;
+  --h77bg: #6eb8b3;
+}
 .header {
   width: 100%;
   height: 5vh;
-  background-color: lightskyblue;
+  color: var(--h77base);
+  background-color: var(--h77bg);
 }
 
 .logo img {
@@ -22,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightskyblue;
+  color: var(--h77base);
+  background-color: var(--h77bg);
   text-align: center;
 }
