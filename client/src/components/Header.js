@@ -6,7 +6,13 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <a
+          href="https://hd-autos.de/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={logo} alt="logo" />
+        </a>
       </div>
     </div>
   );

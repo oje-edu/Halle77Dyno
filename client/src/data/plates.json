@@ -23,6 +23,17 @@
         }
       },
       {
+        "kz": "AG (CH)",
+        "name": "Aargau",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.403182,
+            8.084340
+          ]
+        }
+      },
+      {
         "kz": "AH",
         "name": "Ahaus",
         "geometry": {
@@ -1145,6 +1156,17 @@
         }
       },
       {
+        "kz": "MR",
+        "name": "Marburg",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8021728,
+            8.7667933
+          ]
+        }
+      },
+      {
         "kz": "MS",
         "name": "Münster",
         "geometry": {
@@ -1372,6 +1394,17 @@
           "coordinates": [
             51.6140649,
             7.1979453
+          ]
+        }
+      },
+      {
+        "kz": "RH",
+        "name": "Roth",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.252047,
+            11.091189
           ]
         }
       },
