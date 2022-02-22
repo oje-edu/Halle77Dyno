@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
 import plates from "./data/plates.json";
@@ -6,6 +7,8 @@ import "./App.css";
 const position = [51.5072, 7.49142];
 
 export default function App() {
+  const [activePlate, setActivePlate] = useState(null);
+
   return (
     <MapContainer center={position} zoom={6}>
       <TileLayer
@@ -24,7 +27,16 @@ export default function App() {
             plate.geometry.coordinates[0],
             plate.geometry.coordinates[1],
           ]}
-        />
+          onClick={() => {
+            setActivePlate(plate);
+          }}
+        >
+          <Popup>
+            <div>
+              <h2>{plate.kz}</h2>
+            </div>
+          </Popup>
+        </Marker>
       ))}
     </MapContainer>
   );

@@ -135,7 +135,7 @@ INSERT INTO plates (kz, name, distance, coords) VALUES
 ('F','Frankfurt am Main',250,'50.1109221, 8.6821267'),
 ('FB','Friedberg',250,'50.333333, 8.75'),
 ('FD','Fulda',280,'50.5558095, 9.6808449'),
-('FRI','Friesland',280,'53.1641642, 5.7817542'),
+('FRI','Friesland',280,'53.596679, 7.90034'),
 ('GE','Gelsenkirchen',40,'51.517744, 7.0857172'),
 ('GER','Germersheim',350,'49.2140244, 8.3668146'),
 ('GF','Gifhorn',280,'52.4809091, 10.5507829'),
