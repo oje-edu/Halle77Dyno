@@ -27,7 +27,8 @@ export default function App() {
         >
           <Popup>
             <div>
-              <h2>{plate.kz}</h2>
+              <h2>Kennzeichen: {plate.kz}</h2>
+              <p>{plate.name}</p>
             </div>
           </Popup>
         </Marker>
