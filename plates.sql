@@ -148,6 +148,7 @@ INSERT INTO plates (kz, name, distance, coords) VALUES
 ('GL','Bergisch Gladbach',85,'50.9923091, 7.1286213'),
 ('GLA','Gladbeck',50,'51.5706624, 6.9853921'),
 ('GM','Gummersbach',77,'51.0266668, 7.569283'),
+('GOA','Sankt Goar',230,'50.1512782, 7.7131202'),
 ('GP','Göppingen',490,'48.7054382, 9.6512491'),
 ('GS','Goslar',270,'51.9059531, 10.4289963'),
 ('GT','Gütersloh',90,'51.9032375, 8.3857535'),

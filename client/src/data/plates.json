@@ -531,6 +531,16 @@
         }
       },
       {
+        "kz": "GOA",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.1512782,
+            7.7131202
+          ]
+        }
+      },
+      {
         "kz": "GP",
         "geometry": {
           "type": "Point",
