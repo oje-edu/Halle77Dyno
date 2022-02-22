@@ -1,0 +1,354 @@
+  {
+    "plates": [
+      {
+        "kz": "AA",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.8366887,
+            10.0971163
+          ]
+        }
+      },
+      {
+        "kz": "AC",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.7753455,
+            6.0838868
+          ]
+        }
+      },
+      {
+        "kz": "AH",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.0825322,
+            7.0150057
+          ]
+        }
+      },
+      {
+        "kz": "AK",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.687222,
+            7.645556
+          ]
+        }
+      },
+      {
+        "kz": "AUR",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.4708393,
+            7.4848308
+          ]
+        }
+      },
+      {
+        "kz": "AW",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.541815,
+            7.1197177
+          ]
+        }
+      },
+      {
+        "kz": "AZ",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.7462012,
+            8.1171135
+          ]
+        }
+      },
+      {
+        "kz": "B",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.520007,
+            13.404954
+          ]
+        }
+      },
+      {
+        "kz": "BA",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.8988135,
+            10.9027636
+          ]
+        }
+      },
+      {
+        "kz": "BCH",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.521666666667,
+            93233333333333337
+          ]
+        }
+      },
+      {
+        "kz": "BI",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.0302285,
+            8.5324708
+          ]
+        }
+      },
+      {
+        "kz": "BIN",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.9667396,
+            7.904596
+          ]
+        }
+      },
+      {
+        "kz": "BM",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.9451945,
+            6.6555022
+          ]
+        }
+      },
+      {
+        "kz": "BOR",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.8482714,
+            6.8594477
+          ]
+        }
+      },
+      {
+        "kz": "BRA",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.327237,
+            8.4775443
+          ]
+        }
+      },
+      {
+        "kz": "BS",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.2688736,
+            10.5267696
+          ]
+        }
+      },
+      {
+        "kz": "BÜD",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.2862963,
+            9.1113838
+          ]
+        }
+      },
+      {
+        "kz": "BÜR",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.55092,
+            8.5597678
+          ]
+        }
+      },
+      {
+        "kz": "CE",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.6175963,
+            10.0628515
+          ]
+        }
+      },
+      {
+        "kz": "COE",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.9382944,
+            7.1675831
+          ]
+        }
+      },
+      {
+        "kz": "CR",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.1337354,
+            10.0633573
+          ]
+        }
+      },
+      {
+        "kz": "CUX",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.859336,
+            8.6879057
+          ]
+        }
+      },
+      {
+        "kz": "D",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.2277411,
+            6.7734556
+          ]
+        }
+      },
+      {
+        "kz": "DA",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.8728253,
+            8.6511929
+          ]
+        }
+      },
+      {
+        "kz": "DEL",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.0521886,
+            8.6355932
+          ]
+        }
+      },
+      {
+        "kz": "DD",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.0504088,
+            13.7372621
+          ]
+        }
+      },
+      {
+        "kz": "DH",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.6056456,
+            8.3707878
+          ]
+        }
+      },
+      {
+        "kz": "DIL",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.67097,
+            8.358588
+          ]
+        }
+      },
+      {
+        "kz": "DIN",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.5674264,
+            6.747534
+          ]
+        }
+      },
+      {
+        "kz": "DO",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.5072,
+            7.49142
+          ]
+        }
+      },
+      {
+        "kz": "DT",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.9384783,
+            8.868638
+          ]
+        }
+      },
+      {
+        "kz": "DU",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.4344079,
+            6.7623293
+          ]
+        }
+      },
+      {
+        "kz": "E",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.4556432,
+            7.0115552
+          ]
+        }
+      },
+      {
+        "kz": "EL",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.52306,
+            7.323279
+          ]
+        }
+      },
+      {
+        "kz": "EM",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.1170918,
+            7.8539047
+          ]
+        }
+      }
+    ]
+  }
