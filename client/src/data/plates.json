@@ -122,6 +122,17 @@
         }
       },
       {
+        "kz": "BAR",
+        "name": "Barnim",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.857445,
+            13.699830
+          ]
+        }
+      },
+      {
         "kz": "BCH",
         "name": "Buchen (ODW.)",
         "geometry": {
@@ -364,6 +375,17 @@
         }
       },
       {
+        "kz": "DON",
+        "name": "Donauwörth",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.7185826,
+            10.7778041
+          ]
+        }
+      },
+      {
         "kz": "DO",
         "name": "Dortmund",
         "geometry": {
@@ -448,6 +470,17 @@
           "coordinates": [
             51.3001092,
             7.3613429
+          ]
+        }
+      },
+      {
+        "kz": "EU",
+        "name": "Euskirchen",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.6574392,
+            6.7899945
           ]
         }
       },
@@ -1200,6 +1233,17 @@
         }
       },
       {
+        "kz": "MZ",
+        "name": "Mainz",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.9928617,
+            8.2472526
+          ]
+        }
+      },
+      {
         "kz": "MZG",
         "name": "Merzig",
         "geometry": {
@@ -1673,6 +1717,17 @@
         }
       },
       {
+        "kz": "VAI",
+        "name": "Vaihingen an der Enz",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.9334357,
+            8.961208
+          ]
+        }
+      },
+      {
         "kz": "VB",
         "name": "Vogelsberg-Kreis",
         "geometry": {
@@ -1724,6 +1779,17 @@
           "coordinates": [
             51.2562128,
             7.1507636
+          ]
+        }
+      },
+      {
+        "kz": "W (AT)",
+        "name": "Wien",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.208174,
+            16.373819
           ]
         }
       },
