@@ -81,6 +81,16 @@
         }
       },
       {
+        "kz": "B (Belgien)",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.506213,
+            4.476049
+          ]
+        }
+      },
+      {
         "kz": "BA",
         "geometry": {
           "type": "Point",
@@ -97,6 +107,16 @@
           "coordinates": [
             49.521667,
             9.323333
+          ]
+        }
+      },
+      {
+        "kz": "BE (CH)",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.947922,
+            7.444608
           ]
         }
       },
@@ -127,6 +147,16 @@
           "coordinates": [
             50.9451945,
             6.6555022
+          ]
+        }
+      },
+      {
+        "kz": "BN (AT)",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.002870,
+            16.265988
           ]
         }
       },
@@ -951,6 +981,16 @@
         }
       },
       {
+        "kz": "MI (AT)",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.5667,
+            16.5667
+          ]
+        }
+      },
+      {
         "kz": "MK",
         "geometry": {
           "type": "Point",
@@ -1047,6 +1087,16 @@
           "coordinates": [
             54.676022,
             8.933632
+          ]
+        }
+      },
+      {
+        "kz": "NL (Niederlande)",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.132633,
+            5.291266
           ]
         }
       },
@@ -1267,6 +1317,16 @@
           "coordinates": [
             52.5315702,
             14.3798314
+          ]
+        }
+      },
+      {
+        "kz": "SG (CH)",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.4244818,
+            9.3767173
           ]
         }
       },
