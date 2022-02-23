@@ -6,24 +6,32 @@ const Episodes = () => {
   return (
     <div>
       <Header />
-      {episodes.episodes.map((episode) => (
-        <table className="table" key={episode.id}>
+      <div className="table">
+        <table>
           <tr>
             <th>Episode</th>
             <th>Titel</th>
             <th>Link</th>
           </tr>
-          <tr>
-            <td>{episode.id}</td>
-            <td>{episode.title}</td>
-            <td>
-              <a href={episode.url} target="_blank" rel="noopener noreferrer">
-                {episode.url}
-              </a>
-            </td>
-          </tr>
+          {episodes.episodes.map((episode) => (
+            <tr key={episode.id}>
+              <td>{episode.id}</td>
+              <td>{episode.title}</td>
+              <td>
+                <button className="button">
+                  <a
+                    href={episode.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ansehen
+                  </a>
+                </button>
+              </td>
+            </tr>
+          ))}
         </table>
-      ))}
+      </div>
       <Footer />
     </div>
   );
