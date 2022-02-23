@@ -77,7 +77,7 @@ Maybe I can do a little online Map with Pins from where you are ...
 - I have to get all datas manual.
 
 > Thats not an excuse its just to let you something know.
-> (c)2022 T.OJE & ... help welcome
+> (c)2022 T.OJE
 
 ### Lebenseinstellung
 
