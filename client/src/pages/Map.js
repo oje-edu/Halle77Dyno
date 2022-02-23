@@ -26,7 +26,9 @@ const Map = () => {
             <Popup>
               <div>
                 <h2>Kennzeichen: {plate.kz}</h2>
-                <p>{plate.name}</p>
+                <p>
+                  {plate.name} ~{plate.distance}km zur Halle77
+                </p>
               </div>
             </Popup>
           </Marker>

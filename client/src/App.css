@@ -39,6 +39,11 @@
   height: 85vh;
 }
 
+.leaflet-popup-content-wrapper {
+  background-color: var(--h77base);
+  color: var(--h77bg);
+}
+
 table {
   border-collapse: collapse;
 }
