@@ -254,6 +254,17 @@
         }
       },
       {
+        "kz": "CAS",
+        "name": "Castrop-Rauxel",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.5632625,
+            7.3150145
+          ]
+        }
+      },
+      {
         "kz": "CE",
         "name": "Celle",
         "geometry": {
@@ -525,6 +536,17 @@
           "coordinates": [
             53.596679,
             7.90034
+          ]
+        }
+      },
+      {
+        "kz": "GAN",
+        "name": "Bad Gandersheim",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.8717977,
+            10.023903
           ]
         }
       },
@@ -943,6 +965,17 @@
           "coordinates": [
             48.9184118,
             11.886563
+          ]
+        }
+      },
+      {
+        "kz": "KK",
+        "name": "Kempen-Krefeld",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.3649942,
+            6.4205309
           ]
         }
       },
@@ -1464,6 +1497,17 @@
         }
       },
       {
+        "kz": "RO",
+        "name": "Rosenheim",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.8571272,
+            12.1181047
+          ]
+        }
+      },
+      {
         "kz": "ROD",
         "name": "Roding",
         "geometry": {
@@ -1867,6 +1911,17 @@
           "coordinates": [
             51.3264673,
             9.1710827
+          ]
+        }
+      },
+      {
+        "kz": "WT",
+        "name": "Waldshut-Tiengen",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.6327253,
+            8.2719155
           ]
         }
       },
