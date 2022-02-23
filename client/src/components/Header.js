@@ -13,8 +13,12 @@ const Header = () => {
       <div className="links">
         <a href="/">Karte</a>
         <a href="/episoden">Episoden</a>
-        <a href="https://hd-autos.de" target="_blank" rel="noopener noreferrer">
-          Webseite
+        <a
+          href="https://shop.halle-77.de/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Shop
         </a>
       </div>
     </div>
