@@ -1,13 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,900&display=swap");
+:root {
+  --h77base: #e4cc9c;
+  --h77bg: #6eb8b3;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Merriweather", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Firefox */
+* {
+  scrollbar-color: var(--h77base) var(--h77bg);
+  scrollbar-width: thin;
+}
+
+/* WebKit / Blink */
+::-webkit-scrollbar {
+  width: 0.5em !important;
+  height: 0.5em !important;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--h77bg) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.375em !important;
+  background: var(--h77base) !important;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--h77base) !important;
 }

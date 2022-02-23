@@ -8,28 +8,32 @@ const Episodes = () => {
       <Header />
       <div className="table">
         <table>
-          <tr>
-            <th>Episode</th>
-            <th>Titel</th>
-            <th>Link</th>
-          </tr>
-          {episodes.episodes.map((episode) => (
-            <tr key={episode.id}>
-              <td>{episode.id}</td>
-              <td>{episode.title}</td>
-              <td>
-                <button className="button">
-                  <a
-                    href={episode.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ansehen
-                  </a>
-                </button>
-              </td>
+          <thead>
+            <tr>
+              <th>Episode</th>
+              <th>Titel</th>
+              <th>Link</th>
             </tr>
-          ))}
+          </thead>
+          <tbody>
+            {episodes.episodes.map((episode) => (
+              <tr key={episode.id}>
+                <td>{episode.id}</td>
+                <td>{episode.title}</td>
+                <td>
+                  <button className="button">
+                    <a
+                      href={episode.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ansehen
+                    </a>
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
       <Footer />

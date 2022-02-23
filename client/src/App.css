@@ -38,6 +38,11 @@
   width: 100%;
   height: 90vh;
 }
+
+table {
+  border-collapse: collapse;
+}
+
 .table {
   min-height: 100vh;
   width: 100%;
@@ -58,14 +63,25 @@
 
 .button {
   border-radius: 16px;
+  border: 1px solid white;
   padding: 10px;
   margin: 10px;
-  background-color: aqua;
+  background-color: var(--h77base);
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: var(--h77bg);
+
+  transition: all 0.5s ease;
+}
+
 .button a {
+  color: var(--h77bg);
   text-decoration: none;
+}
+.button:hover a {
+  color: var(--h77base);
 }
 
 .footer {
