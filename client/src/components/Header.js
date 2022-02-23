@@ -14,6 +14,10 @@ const Header = () => {
           <img src={logo} alt="logo" />
         </a>
       </div>
+      <div className="links">
+        <a href="/">Start</a>
+        <a href="/episoden">Episoden</a>
+      </div>
     </div>
   );
 };

@@ -7,6 +7,18 @@
   height: 5vh;
   color: var(--h77base);
   background-color: var(--h77bg);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: var(--h77base);
+  border-radius: 16px;
 }
 
 .logo img {
