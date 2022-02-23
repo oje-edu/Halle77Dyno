@@ -122,7 +122,7 @@
       },
       {
         "kz": "B (Belgien)",
-        "name": "Keine Zuordnung mittels Kennzeichen",
+        "name": "Keine Zuordnung durch Kennzeichen möglich",
         "distance": "290",
         "geometry": {
           "type": "Point",
