@@ -15,7 +15,7 @@ const Header = () => {
         </a>
       </div>
       <div className="links">
-        <a href="/">Start</a>
+        <a href="/">Karte</a>
         <a href="/episoden">Episoden</a>
       </div>
     </div>

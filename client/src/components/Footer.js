@@ -4,15 +4,13 @@ import { AiFillGithub } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="footer">
-      Help{" "}
       <a
         href="https://github.com/oje-edu/Halle77Dyno"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <AiFillGithub />
-      </a>{" "}
-      welcome
+        <AiFillGithub className="github-icon" size="2em" color="white" />
+      </a>
     </div>
   );
 };
