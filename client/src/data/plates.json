@@ -1310,6 +1310,17 @@
         }
       },
       {
+        "kz": "NI",
+        "name": "Nienburg (Weser)",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.6380924,
+            9.2084155
+          ]
+        }
+      },
+      {
         "kz": "NL (Niederlande)",
         "name": "Keine Zuordnung durch Kennzeichen möglich",
         "geometry": {
@@ -1724,6 +1735,17 @@
           "coordinates": [
             52.036416,
             13.292044
+          ]
+        }
+      },
+      {
+        "kz": "UFF",
+        "name": "Uffenheim",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.5449973,
+            10.2338007
           ]
         }
       },
