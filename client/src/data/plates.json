@@ -45,6 +45,17 @@
         }
       },
       {
+        "kz": "AIB",
+        "name": "Bad Aibling",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.8640182,
+            12.0093171
+          ]
+        }
+      },
+      {
         "kz": "AK",
         "name": "Altenkirchen",
         "geometry": {
@@ -485,6 +496,17 @@
         }
       },
       {
+        "kz": "ERZ",
+        "name": "Erzgebirgskreis",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.731240,
+            12.891083
+          ]
+        }
+      },
+      {
         "kz": "EU",
         "name": "Euskirchen",
         "geometry": {
@@ -881,6 +903,17 @@
         }
       },
       {
+        "kz": "HOT",
+        "name": "Hohenstein-Ernstthal",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8009829,
+            12.7132681
+          ]
+        }
+      },
+      {
         "kz": "HP",
         "name": "Heppenheim",
         "geometry": {
@@ -1141,6 +1174,17 @@
           "coordinates": [
             49.47741,
             8.44518
+          ]
+        }
+      },
+      {
+        "kz": "LÜN",
+        "name": "Lünen",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.6104829,
+            7.5285074
           ]
         }
       },
@@ -1471,6 +1515,17 @@
           "coordinates": [
             48.8591174,
             8.2059096
+          ]
+        }
+      },
+      {
+        "kz": "RD",
+        "name": "Rendsburg",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.295275,
+            9.846645
           ]
         }
       },
@@ -1856,6 +1911,17 @@
           "coordinates": [
             48.208174,
             16.373819
+          ]
+        }
+      },
+      {
+        "kz": "WAF",
+        "name": "Warendorf",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.9538685,
+            7.9908987
           ]
         }
       },
