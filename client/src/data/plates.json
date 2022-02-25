@@ -229,6 +229,18 @@
         }
       },
       {
+        "kz": "BO",
+        "name": "Bochum",
+        "distance": "25",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.4818445,
+            7.2162363
+          ]
+        }
+      },
+      {
         "kz": "BOR",
         "name": "Borken",
         "distance": "75",
@@ -1101,6 +1113,30 @@
           "coordinates": [
             51.3649942,
             6.4205309
+          ]
+        }
+      },
+      {
+        "kz": "KO",
+        "name": "Koblenz",
+        "distance": "200",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.3569429,
+            7.5889959
+          ]
+        }
+      },
+      {
+        "kz": "KR",
+        "name": "Krefeld",
+        "distance": "90",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.3387609,
+            6.5853417
           ]
         }
       },
