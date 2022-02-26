@@ -445,6 +445,18 @@
         }
       },
       {
+        "kz": "DN",
+        "name": "Düren",
+        "distance": "130",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8029513,
+            6.481105
+          ]
+        }
+      },
+      {
         "kz": "DO",
         "name": "Dortmund",
         "distance": "0",
@@ -561,6 +573,18 @@
           "coordinates": [
             50.731240,
             12.891083
+          ]
+        }
+      },
+      {
+        "kz": "ESW",
+        "name": "Eschwege",
+        "distance": "213",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.1876662,
+            10.0397725
           ]
         }
       },
@@ -1213,6 +1237,18 @@
         }
       },
       {
+        "kz": "LG",
+        "name": "Lüneburg",
+        "distance": "330",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.2464214,
+            10.4115179
+          ]
+        }
+      },
+      {
         "kz": "LH",
         "name": "Lüdinghausen",
         "distance": "45",
@@ -1821,6 +1857,18 @@
           "coordinates": [
             48.7758459,
             9.1829321
+          ]
+        }
+      },
+      {
+        "kz": "SE",
+        "name": "Bad Segeberg",
+        "distance": "400",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.9390528,
+            10.3053651
           ]
         }
       },
