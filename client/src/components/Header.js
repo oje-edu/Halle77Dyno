@@ -12,6 +12,7 @@ const Header = () => {
       </div>
       <div className="links">
         <a href="/episoden">Episoden</a>
+        <a href="/autos">Autos</a>
         <a
           href="https://shop.halle-77.de/"
           target="_blank"
