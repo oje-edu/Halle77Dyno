@@ -18,10 +18,8 @@ const Cars = () => {
               <th>PS</th>
               <th>KM</th>
               <th>BJ</th>
-              <th>PS / Umin</th>
-              <th>Nmax / Umin</th>
-              <th>PS / Umin</th>
-              <th>Nmax / Umin</th>
+              <th>1. Messung</th>
+              <th>2. Messung</th>
               <th>Bemerkung</th>
             </tr>
           </thead>
@@ -37,16 +35,13 @@ const Cars = () => {
                 <td>{car.km}</td>
                 <td>{car.year}</td>
                 <td>
-                  {car.ps1} ({car.ps1umin})
+                  {car.messung1[0]}PS / ({car.messung1[1]}U/min) <br />
+                  {car.messung1[2]}Nm / ({car.messung1[3]}U/min)
                 </td>
                 <td>
-                  {car.nm1} ({car.nm1umin})
-                </td>
-                <td>
-                  {car.ps2} ( {car.ps2umin})
-                </td>
-                <td>
-                  {car.nm2} ( {car.nm2umin})
+                  {car.messung2[0]}PS / ({car.messung2[1]}U/min)
+                  <br />
+                  {car.messung2[2]}Nm / ({car.messung2[3]}U/min)
                 </td>
                 <td>{car.comment}</td>
               </tr>
