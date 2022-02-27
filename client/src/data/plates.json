@@ -457,6 +457,18 @@
         }
       },
       {
+        "kz": "DIZ",
+        "name": "Diez",
+        "distance": "200",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.3706368,
+            8.016054
+          ]
+        }
+      },
+      {
         "kz": "DN",
         "name": "Düren",
         "distance": "130",
@@ -1213,6 +1225,18 @@
         }
       },
       {
+        "kz": "L (Luxembourg)",
+        "name": "Keine Zuordnung durch Kennzeichen möglich",
+        "distance": "280",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.815273,
+            6.129583
+          ]
+        }
+      },
+      {
         "kz": "LDK",
         "name": "Lahn-Dill-Kreis",
         "distance": "180",
@@ -1849,6 +1873,18 @@
         }
       },
       {
+        "kz": "ROW",
+        "name": "Rotenburg (Wümme)",
+        "distance": "270",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.106944,
+            9.396944
+          ]
+        }
+      },
+      {
         "kz": "RS",
         "name": "Remscheid",
         "distance": "60",
@@ -1905,6 +1941,18 @@
           "coordinates": [
             52.5315702,
             14.3798314
+          ]
+        }
+      },
+      {
+        "kz": "SG",
+        "name": "Solingen",
+        "distance": "67",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.1702072,
+            7.0831408
           ]
         }
       },
@@ -2025,6 +2073,18 @@
           "coordinates": [
             47.9999615,
             11.3390089
+          ]
+        }
+      },
+      {
+        "kz": "STD",
+        "name": "Stade",
+        "distance": "340",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.5928618,
+            9.4709494
           ]
         }
       },
