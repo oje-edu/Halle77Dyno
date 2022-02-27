@@ -217,6 +217,18 @@
         }
       },
       {
+        "kz": "BN",
+        "name": "Bonn",
+        "distance": "120",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.73743,
+            7.0982068
+          ]
+        }
+      },
+      {
         "kz": "BN (AT)",
         "name": "Baden",
         "distance": "950",
@@ -1533,6 +1545,18 @@
           "coordinates": [
             50.355694,
             10.206667
+          ]
+        }
+      },
+      {
+        "kz": "NEW",
+        "name": "Neustadt an der Waldnaab",
+        "distance": "520",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.732096,
+            12.178127
           ]
         }
       },
