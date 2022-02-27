@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 31,
-      "episode": 4,
+      "id": 55,
+      "episode": 6,
       "name": "",
       "model": "",
       "ccm": "",
@@ -12,6 +12,513 @@
       "messung1": [],
       "messung2": [],
       "comment": ""
+    },
+    {
+      "id": 54,
+      "episode": 5,
+      "name": "Skoda",
+      "model": "Octavia 3 RS",
+      "ccm": "2.0",
+      "hp": "245",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        302.3,
+        6386,
+        424.8,
+        3147
+      ],
+      "comment": "Software"
+    },
+    {
+      "id": 53,
+      "episode": 5,
+      "name": "Audi",
+      "model": "TT TFSI",
+      "ccm": "2.0",
+      "hp": "200",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        226.2,
+        6399,
+        319.9,
+        3371
+      ],
+      "comment": "Software"
+    },
+    {
+      "id": 52,
+      "episode": 5,
+      "name": "VW",
+      "model": "Passat TDI",
+      "ccm": "2.0",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [
+        197.4,
+        4140,
+        445.5,
+        2125
+      ],
+      "messung2": [
+        197.4,
+        4141,
+        449.4,
+        2171
+      ],
+      "comment": ""
+    },
+    {
+      "id": 51,
+      "episode": 5,
+      "name": "BMW",
+      "model": "(E36) 320i",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        158.5,
+        6233,
+        188.2,
+        4832
+      ],
+      "messung2": [
+        158.3,
+        6308,
+        191.7,
+        4811
+      ],
+      "comment": ""
+    },
+    {
+      "id": 50,
+      "episode": 5,
+      "name": "VW",
+      "model": "Golf III VR6",
+      "ccm": "2.8",
+      "hp": "174",
+      "km": "320.000",
+      "year": "1983",
+      "messung1": [],
+      "messung2": [
+        186.8,
+        5977,
+        237.9,
+        4499
+      ],
+      "comment": ""
+    },
+    {
+      "id": 49,
+      "episode": 5,
+      "name": "Audi",
+      "model": "",
+      "ccm": "2.0",
+      "hp": "113",
+      "km": "137.872",
+      "year": "",
+      "messung1": [
+        97.0,
+        5372,
+        168.0,
+        3490
+      ],
+      "messung2": [
+        97.3,
+        5749,
+        147.9,
+        3325
+      ],
+      "comment": "Michas Auto"
+    },
+    {
+      "id": 48,
+      "episode": 5,
+      "name": "Opel",
+      "model": "Astra (H) OPC",
+      "ccm": "2.0",
+      "hp": "240",
+      "km": "",
+      "year": "",
+      "messung1": [
+        261.8,
+        8721,
+        406.3,
+        4044
+      ],
+      "messung2": [],
+      "comment": "Chiptuning"
+    },
+    {
+      "id": 47,
+      "episode": 5,
+      "name": "BMW",
+      "model": "330ci Coupe",
+      "ccm": "3.0",
+      "hp": "231",
+      "km": "377.473",
+      "year": "",
+      "messung1": [
+        199.6,
+        6123,
+        268.2,
+        3625
+      ],
+      "messung2": [
+        202.2,
+        6211,
+        269.6,
+        3618
+      ],
+      "comment": "LPG Anlage, 1. Messung auf Gas"
+    },
+    {
+      "id": 46,
+      "episode": 5,
+      "name": "VW",
+      "model": "Scirocco GT 2",
+      "ccm": "1.8",
+      "hp": "95",
+      "km": "",
+      "year": "",
+      "messung1": [
+        77.4,
+        6130,
+        89.8,
+        6020
+      ],
+      "messung2": [
+        78.7,
+        6094,
+        91.7,
+        5966
+      ],
+      "comment": ""
+    },
+    {
+      "id": 45,
+      "episode": 5,
+      "name": "Honda",
+      "model": "Civic Type R",
+      "ccm": "2.0",
+      "hp": "200",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        191.2,
+        8095,
+        184.0,
+        6394
+      ],
+      "comment": "Chiptuning"
+    },
+    {
+      "id": 44,
+      "episode": 4,
+      "name": "BMW",
+      "model": "(E46) 328i",
+      "ccm": "2.8",
+      "hp": "193",
+      "km": "335.000",
+      "year": "",
+      "messung1": [
+        193.1,
+        6562,
+        262.0,
+        195.3
+      ],
+      "messung2": [
+        195.3,
+        6605,
+        267.6,
+        0
+      ],
+      "comment": ""
+    },
+    {
+      "id": 43,
+      "episode": 4,
+      "name": "Audi",
+      "model": "",
+      "ccm": "1.9",
+      "hp": "131",
+      "km": "300.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        128.9,
+        4106,
+        317.2,
+        2094
+      ],
+      "comment": ""
+    },
+    {
+      "id": 42,
+      "episode": 4,
+      "name": "Jaguar",
+      "model": "(TD)",
+      "ccm": "3.2",
+      "hp": "145",
+      "km": "",
+      "year": "",
+      "messung1": [
+        145.6,
+        3370,
+        383.7,
+        2295
+      ],
+      "messung2": [
+        147.0,
+        3405,
+        386.1,
+        2295
+      ],
+      "comment": ""
+    },
+    {
+      "id": 41,
+      "episode": 4,
+      "name": "VW",
+      "model": "T3 (Carat)",
+      "ccm": "",
+      "hp": "136",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        125.1,
+        5351,
+        190.2,
+        4523
+      ],
+      "comment": "3.2 Subaru Motor"
+    },
+    {
+      "id": 40,
+      "episode": 4,
+      "name": "BWM",
+      "model": "(E30) 318i",
+      "ccm": "1.8",
+      "hp": "139",
+      "km": "",
+      "year": "",
+      "messung1": [
+        178.2,
+        6323,
+        213.5,
+        5093
+      ],
+      "messung2": [
+        179.5,
+        6252,
+        216.8,
+        5084
+      ],
+      "comment": ""
+    },
+    {
+      "id": 39,
+      "episode": 4,
+      "name": "Audi",
+      "model": "Cabriolet",
+      "ccm": "2.3",
+      "hp": "133",
+      "km": "",
+      "year": "",
+      "messung1": [
+        107.3,
+        5214,
+        163.0,
+        3028
+      ],
+      "messung2": [
+        113.6,
+        5412,
+        169.7,
+        3674
+      ],
+      "comment": "Benzinpumpenrelais"
+    },
+    {
+      "id": 38,
+      "episode": 4,
+      "name": "Ford",
+      "model": "Mercury",
+      "ccm": "5.8",
+      "hp": "",
+      "km": "",
+      "year": "1969",
+      "messung1": [
+        328.3,
+        4379,
+        552.8,
+        4015
+      ],
+      "messung2": [
+        339.5,
+        5125,
+        559.9,
+        3873
+      ],
+      "comment": "Leistung am Reifen, 2. Messung ohne Trichter"
+    },
+    {
+      "id": 37,
+      "episode": 4,
+      "name": "BMW",
+      "model": "(E46) 320d",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "200.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        148.3,
+        3922,
+        334.3,
+        2422
+      ],
+      "comment": ""
+    },
+    {
+      "id": 36,
+      "episode": 4,
+      "name": "Audi",
+      "model": "Cabriolet",
+      "ccm": "2.3",
+      "hp": "133",
+      "km": "",
+      "year": "",
+      "messung1": [
+        113.3,
+        6022,
+        163.7,
+        3992
+      ],
+      "messung2": [
+        117.4,
+        5951,
+        168.2,
+        3955
+      ],
+      "comment": ""
+    },
+    {
+      "id": 35,
+      "episode": 4,
+      "name": "Audi",
+      "model": "A3",
+      "ccm": "1.6",
+      "hp": "102",
+      "km": "550.881",
+      "year": "",
+      "messung1": [
+        90.8,
+        5587,
+        127.1,
+        4187
+      ],
+      "messung2": [
+        97.5,
+        5617,
+        137.2,
+        4055
+      ],
+      "comment": "1. Messung mit laufender Klima"
+    },
+    {
+      "id": 34,
+      "episode": 4,
+      "name": "VW",
+      "model": "UP! GTI",
+      "ccm": "1.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [
+        126.6,
+        5245,
+        225.8,
+        3364
+      ],
+      "messung2": [
+        138.8,
+        5784,
+        244.0,
+        3011
+      ],
+      "comment": "2. Messung mit Tuningbox"
+    },
+    {
+      "id": 33,
+      "episode": 4,
+      "name": "VW",
+      "model": "Golf TSI",
+      "ccm": "1.4",
+      "hp": "122",
+      "km": "197.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        123.1,
+        5319,
+        195.0,
+        3891
+      ],
+      "comment": "Nadine Vaters Auto"
+    },
+    {
+      "id": 32,
+      "episode": 4,
+      "name": "Opel",
+      "model": "Astra (H) OPC",
+      "ccm": "",
+      "hp": "241",
+      "km": "",
+      "year": "",
+      "messung1": [
+        227.4,
+        5706,
+        329.2,
+        3772
+      ],
+      "messung2": [
+        216.6,
+        5120,
+        327.4,
+        3780
+      ],
+      "comment": ""
+    },
+    {
+      "id": 31,
+      "episode": 4,
+      "name": "VW",
+      "model": "Passat (B7) TDI",
+      "ccm": "2.0",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [
+        154.6,
+        3915,
+        357.9,
+        2264
+      ],
+      "messung2": [
+        154.9,
+        3982,
+        368.3,
+        2346
+      ],
+      "comment": "Tuningbox"
     },
     {
       "id": 30,
