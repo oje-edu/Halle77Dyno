@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 70,
-      "episode": 7,
+      "id": 102,
+      "episode": 9,
       "name": "",
       "model": "",
       "ccm": "",
@@ -11,6 +11,562 @@
       "year": "",
       "messung1": [],
       "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 101,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 100,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 99,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 98,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 97,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 96,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 95,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 94,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 93,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 92,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 91,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 90,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 89,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 88,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 87,
+      "episode": 8,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 86,
+      "episode": 7,
+      "name": "Audi",
+      "model": "80",
+      "ccm": "2.0",
+      "hp": "116",
+      "km": "",
+      "year": "",
+      "messung1": [
+        104.7,
+        5285,
+        164.4,
+        3305
+      ],
+      "messung2": [
+        106.5,
+        5219,
+        167.5,
+        3223
+      ],
+      "comment": ""
+    },
+    {
+      "id": 85,
+      "episode": 7,
+      "name": "Volvo",
+      "model": "850 T5-R",
+      "ccm": "2.5",
+      "hp": "240",
+      "km": "",
+      "year": "",
+      "messung1": [
+        238.9,
+        5907,
+        370.3,
+        4512
+      ],
+      "messung2": [
+        249.1,
+        4570,
+        393.6,
+        4433
+      ],
+      "comment": ""
+    },
+    {
+      "id": 84,
+      "episode": 7,
+      "name": "BMW",
+      "model": "(E46) 330i",
+      "ccm": "3.0",
+      "hp": "231",
+      "km": "234.000",
+      "year": "",
+      "messung1": [
+        205.8,
+        6150,
+        256.9,
+        4021
+      ],
+      "messung2": [
+        212.3,
+        6103,
+        266.7,
+        5039
+      ],
+      "comment": ""
+    },
+    {
+      "id": 83,
+      "episode": 7,
+      "name": "VW",
+      "model": "Golf II VR6",
+      "ccm": "2.8",
+      "hp": "174",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        184.4,
+        6059,
+        247.5,
+        4445
+      ],
+      "comment": ""
+    },
+    {
+      "id": 82,
+      "episode": 7,
+      "name": "BMW",
+      "model": "323Ti",
+      "ccm": "2.3",
+      "hp": "170",
+      "km": "",
+      "year": "",
+      "messung1": [
+        173.9,
+        5780,
+        226.1,
+        4666
+      ],
+      "messung2": [
+        174.6,
+        5804,
+        228.6,
+        4669
+      ],
+      "comment": "Original 316i (Compact)"
+    },
+    {
+      "id": 81,
+      "episode": 7,
+      "name": "Saab",
+      "model": "95",
+      "ccm": "2.3",
+      "hp": "250",
+      "km": "",
+      "year": "",
+      "messung1": [
+        201.8,
+        5839,
+        307.0,
+        2772
+      ],
+      "messung2": [
+        227.5,
+        5702,
+        381.0,
+        3108
+      ],
+      "comment": "1. Messung self coded Cruisemode"
+    },
+    {
+      "id": 80,
+      "episode": 7,
+      "name": "VW",
+      "model": "Golf II GTI 16V",
+      "ccm": "1.8",
+      "hp": "139",
+      "km": "167.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        141.4,
+        6603,
+        164.2,
+        5340
+      ],
+      "comment": ""
+    },
+    {
+      "id": 79,
+      "episode": 7,
+      "name": "Audi",
+      "model": "Cabriolet",
+      "ccm": "",
+      "hp": "125",
+      "km": "",
+      "year": "",
+      "messung1": [
+        119.0,
+        5516,
+        169.3,
+        3794
+      ],
+      "messung2": [
+        117.8,
+        5647,
+        155.0,
+        5079
+      ],
+      "comment": ""
+    },
+    {
+      "id": 78,
+      "episode": 7,
+      "name": "VW",
+      "model": "T4 (Syncro) Turbo",
+      "ccm": "",
+      "hp": "180",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        151.9,
+        4596,
+        253.0,
+        3321
+      ],
+      "comment": "Öttinger"
+    },
+    {
+      "id": 77,
+      "episode": 7,
+      "name": "Mitsubishi",
+      "model": "Lancer",
+      "ccm": "1.5",
+      "hp": "90",
+      "km": "850.000",
+      "year": "",
+      "messung1": [
+        84.9,
+        5620,
+        127.0,
+        2176
+      ],
+      "messung2": [
+        80.9,
+        5530,
+        118.3,
+        2458
+      ],
+      "comment": "LPG Anlage, 2. Messung auf Gas"
+    },
+    {
+      "id": 76,
+      "episode": 7,
+      "name": "Toyota",
+      "model": "MR2",
+      "ccm": "2.0",
+      "hp": "156",
+      "km": "",
+      "year": "",
+      "messung1": [
+        161.4,
+        6432,
+        201.3,
+        4502
+      ],
+      "messung2": [],
+      "comment": "Fächerkrümmer"
+    },
+    {
+      "id": 75,
+      "episode": 7,
+      "name": "BMW",
+      "model": "M3",
+      "ccm": "",
+      "hp": "195",
+      "km": "",
+      "year": "",
+      "messung1": [
+        193.4,
+        7495,
+        222.1,
+        4933
+      ],
+      "messung2": [
+        191.2,
+        7157,
+        223.4,
+        4886
+      ],
+      "comment": ""
+    },
+    {
+      "id": 74,
+      "episode": 7,
+      "name": "Honda",
+      "model": "Civic VTEC",
+      "ccm": "1.8",
+      "hp": "190",
+      "km": "",
+      "year": "",
+      "messung1": [
+        185.0,
+        6689,
+        158.1,
+        7544
+      ],
+      "messung2": [
+        184.2,
+        8500,
+        161.3,
+        7376
+      ],
+      "comment": "1.Messung ohne Luftfilter, 2. Messung mit anderer Software"
+    },
+    {
+      "id": 73,
+      "episode": 7,
+      "name": "Opel",
+      "model": "Calibra",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        193.1,
+        6068,
+        237.4,
+        4703
+      ],
+      "comment": ""
+    },
+    {
+      "id": 72,
+      "episode": 7,
+      "name": "VW",
+      "model": "Käfer",
+      "ccm": "1.7",
+      "hp": "70",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        64.3,
+        4313,
+        123.7,
+        2182
+      ],
+      "comment": ""
+    },
+    {
+      "id": 71,
+      "episode": 7,
+      "name": "BMW",
+      "model": "(E30) 325i",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "",
+      "year": "",
+      "messung1": [
+        139.3,
+        5962,
+        187.8,
+        4474
+      ],
+      "messung2": [
+        140.8,
+        5991,
+        190.9,
+        4443
+      ],
+      "comment": ""
+    },
+    {
+      "id": 70,
+      "episode": 7,
+      "name": "Audi",
+      "model": "Coupe (B2) 2.3E",
+      "ccm": "2.3",
+      "hp": "136",
+      "km": "",
+      "year": "",
+      "messung1": [
+        123.0,
+        5022,
+        201.8,
+        3539
+      ],
+      "messung2": [
+        121.3,
+        4886,
+        198.9,
+        3255
+      ],
       "comment": ""
     },
     {
