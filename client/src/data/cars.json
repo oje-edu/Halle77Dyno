@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 255,
-      "episode": 18,
+      "id": 273,
+      "episode": 19,
       "name": "",
       "model": "",
       "ccm": "",
@@ -11,6 +11,383 @@
       "year": "",
       "messung1": [],
       "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 272,
+      "episode": 18,
+      "name": "Seat",
+      "model": "Leon Cupra",
+      "ccm": "2.0",
+      "hp": "300",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        353.4,
+        6432,
+        544.0,
+        3326
+      ],
+      "comment": ""
+    },
+    {
+      "id": 271,
+      "episode": 18,
+      "name": "Honda",
+      "model": "Civic R",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [
+        397.3,
+        8749,
+        345.3,
+        7762
+      ],
+      "messung2": [
+        664.8,
+        7576,
+        638.7,
+        7254
+      ],
+      "comment": "1. Messung Lowboost 0.6, 2. Messung Highboost 2.3"
+    },
+    {
+      "id": 270,
+      "episode": 18,
+      "name": "BMW",
+      "model": "(E46) 525i Cabrio",
+      "ccm": "2.5",
+      "hp": "192",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        187.2,
+        6266,
+        232.6,
+        4771
+      ],
+      "comment": ""
+    },
+    {
+      "id": 269,
+      "episode": 18,
+      "name": "BMW",
+      "model": "(E39) 540",
+      "ccm": "4.0",
+      "hp": "286",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        297.0,
+        5848,
+        422.9,
+        4021
+      ],
+      "comment": ""
+    },
+    {
+      "id": 270,
+      "episode": 18,
+      "name": "VW",
+      "model": "Golf I (Cabrio)",
+      "ccm": "1.8",
+      "hp": "98",
+      "km": "",
+      "year": "",
+      "messung1": [
+        94.3,
+        5596,
+        136.9,
+        3366
+      ],
+      "messung2": [
+        95.6,
+        5554,
+        139.8,
+        3235
+      ],
+      "comment": ""
+    },
+    {
+      "id": 268,
+      "episode": 18,
+      "name": "VW",
+      "model": "Golf II VR6",
+      "ccm": "2.9",
+      "hp": "190",
+      "km": "",
+      "year": "",
+      "messung1": [
+        177.2,
+        5829,
+        235.9,
+        4447
+      ],
+      "messung2": [
+        176.1,
+        5743,
+        229.2,
+        4459
+      ],
+      "comment": "2. Messung mit Seriensteuergerät"
+    },
+    {
+      "id": 267,
+      "episode": 18,
+      "name": "VW",
+      "model": "Golf I GTI 16V",
+      "ccm": "1.8",
+      "hp": "139",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        130.8,
+        6917,
+        145.6,
+        5933
+      ],
+      "comment": ""
+    },
+    {
+      "id": 266,
+      "episode": 18,
+      "name": "Volkswagen",
+      "model": "Käfer 1200",
+      "ccm": "1.2",
+      "hp": "34",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        32.8,
+        4301,
+        65.9,
+        1976
+      ],
+      "comment": ""
+    },
+    {
+      "id": 265,
+      "episode": 18,
+      "name": "Audi",
+      "model": "A3 FSI Sportback",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "307.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        142.1,
+        6275,
+        203.0,
+        3509
+      ],
+      "comment": ""
+    },
+    {
+      "id": 264,
+      "episode": 18,
+      "name": "Porsche",
+      "model": "997 S",
+      "ccm": "3.8",
+      "hp": "355",
+      "km": "135.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        339.0,
+        7000,
+        374.8,
+        4753
+      ],
+      "comment": ""
+    },
+    {
+      "id": 263,
+      "episode": 18,
+      "name": "Audi",
+      "model": "90",
+      "ccm": "2.3",
+      "hp": "133",
+      "km": "327.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        128.9,
+        5168,
+        191.3,
+        4102
+      ],
+      "comment": ""
+    },
+    {
+      "id": 262,
+      "episode": 18,
+      "name": "Ariel",
+      "model": "Atom",
+      "ccm": "2.0",
+      "hp": "250",
+      "km": "",
+      "year": "",
+      "messung1": [
+        326.3,
+        7681,
+        312.5,
+        6947
+      ],
+      "messung2": [
+        139.4,
+        6726,
+        176.4,
+        2775
+      ],
+      "comment": "Honda VTEC Motor Serienmässig (2. Lauf technischer Defekt)"
+    },
+    {
+      "id": 261,
+      "episode": 18,
+      "name": "Toyota",
+      "model": "GT 86",
+      "ccm": "2.0",
+      "hp": "205",
+      "km": "",
+      "year": "",
+      "messung1": [
+        196.7,
+        7337,
+        195.4,
+        5046
+      ],
+      "messung2": [
+        196.2,
+        7274,
+        198.0,
+        4999
+      ],
+      "comment": ""
+    },
+    {
+      "id": 260,
+      "episode": 18,
+      "name": "Nissan",
+      "model": "370 Z",
+      "ccm": "3.7",
+      "hp": "328",
+      "km": "",
+      "year": "",
+      "messung1": [
+        388.5,
+        7499,
+        345.9,
+        5449
+      ],
+      "messung2": [
+        339.0,
+        7499,
+        343.5,
+        5513
+      ],
+      "comment": ""
+    },
+    {
+      "id": 259,
+      "episode": 18,
+      "name": "BMW",
+      "model": "(E36) 320 Clubsport",
+      "ccm": "2.0",
+      "hp": "160",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        286.9,
+        7666,
+        320.4,
+        3585
+      ],
+      "comment": "3.2 M-Motor, Einzeldrosselklappen, 321PS"
+    },
+    {
+      "id": 258,
+      "episode": 18,
+      "name": "VW",
+      "model": "Golf V TDI",
+      "ccm": "2.0",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        148.7,
+        4115,
+        358.5,
+        2350
+      ],
+      "comment": "Ladeluftkühler"
+    },
+    {
+      "id": 257,
+      "episode": 18,
+      "name": "Seat",
+      "model": "Leon Turbo",
+      "ccm": "1.4",
+      "hp": "155",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        160.7,
+        4862,
+        294.1,
+        2939
+      ],
+      "comment": ""
+    },
+    {
+      "id": 256,
+      "episode": 18,
+      "name": "VW",
+      "model": "Golf I (Cabrio)",
+      "ccm": "",
+      "hp": "104",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        121.7,
+        5794,
+        160.4,
+        4767
+      ],
+      "comment": ""
+    },
+    {
+      "id": 255,
+      "episode": 18,
+      "name": "Ford",
+      "model": "Focus ST",
+      "ccm": "2.5",
+      "hp": "225",
+      "km": "",
+      "year": "",
+      "messung1": [
+        234.4,
+        5231,
+        376.6,
+        3186
+      ],
+      "messung2": [
+        233.2,
+        5457,
+        370.9,
+        3255
+      ],
       "comment": ""
     },
     {

@@ -73,6 +73,18 @@
         }
       },
       {
+        "kz": "APD",
+        "name": "Apolda",
+        "distance": "360",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.0260095,
+            11.5155495
+          ]
+        }
+      },
+      {
         "kz": "AUR",
         "name": "Aurich",
         "distance": "280",
@@ -201,6 +213,18 @@
           "coordinates": [
             49.9667396,
             7.904596
+          ]
+        }
+      },
+      {
+        "kz": "BK",
+        "name": "Backnang",
+        "distance": "420",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.9471455,
+            9.4341813
           ]
         }
       },
@@ -1069,6 +1093,18 @@
         }
       },
       {
+        "kz": "HR",
+        "name": "Homberg (Efze)",
+        "distance": "220",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.033056,
+            9.4
+          ]
+        }
+      },
+      {
         "kz": "HS",
         "name": "Heinsberg",
         "distance": "135",
@@ -1725,6 +1761,18 @@
           "coordinates": [
             51.7189205,
             8.7575093
+          ]
+        }
+      },
+      {
+        "kz": "PE",
+        "name": "Peine",
+        "distance": "260",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.3204095,
+            10.243267
           ]
         }
       },

@@ -6,7 +6,7 @@ const Cars = () => {
   return (
     <div>
       <Header />
-      <div className="table">
+      <div className="table" id="top">
         <table>
           <thead>
             <tr>
