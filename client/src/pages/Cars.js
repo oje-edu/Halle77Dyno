@@ -35,13 +35,36 @@ const Cars = () => {
                 <td>{car.km}</td>
                 <td>{car.year}</td>
                 <td>
-                  {car.messung1[0]}PS / ({car.messung1[1]}U/min) <br />
-                  {car.messung1[2]}Nm / ({car.messung1[3]}U/min)
+                  <div
+                    style={
+                      car?.hp < car?.messung1[0] || car?.hp == car?.messung1[0]
+                        ? { color: "green" }
+                        : { color: "crimson" }
+                    }
+                  >
+                    {car?.messung1[0] > 0 ? (
+                      <div>
+                        {car?.messung1[0]}PS / ({car?.messung1[1]}U/min) <br />
+                        {car?.messung1[2]}Nm / ({car?.messung1[3]}U/min)
+                      </div>
+                    ) : null}
+                  </div>
                 </td>
                 <td>
-                  {car.messung2[0]}PS / ({car.messung2[1]}U/min)
-                  <br />
-                  {car.messung2[2]}Nm / ({car.messung2[3]}U/min)
+                  <div
+                    style={
+                      car?.hp < car?.messung2[0] || car?.hp == car?.messung2[0]
+                        ? { color: "green" }
+                        : { color: "red" }
+                    }
+                  >
+                    {car?.messung2[0] > 0 ? (
+                      <div>
+                        {car?.messung2[0]}PS / ({car?.messung2[1]}U/min) <br />
+                        {car?.messung2[2]}Nm / ({car?.messung2[3]}U/min)
+                      </div>
+                    ) : null}
+                  </div>
                 </td>
                 <td>{car.comment}</td>
               </tr>

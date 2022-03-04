@@ -1,0 +1,3597 @@
+{
+  "cars": [
+    {
+      "id": 100192,
+      "episode": 50,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 100191,
+      "episode": 49,
+      "name": "Opel",
+      "model": "Omega (B) 16V Caravan",
+      "ccm": "136",
+      "hp": "122.229",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        129.7,
+        5894,
+        173.6,
+        4118
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100190,
+      "episode": 49,
+      "name": "BMW",
+      "model": "(E34) 520i 24V",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "137.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        150.6,
+        5922,
+        187.5,
+        4875
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100188,
+      "episode": 49,
+      "name": "Opel",
+      "model": "Omega (A) Caravan",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "299.118",
+      "year": "",
+      "messung1": [
+        198.8,
+        5838,
+        264.6,
+        4328
+      ],
+      "messung2": [
+        200.9,
+        5923,
+        270.5,
+        4324
+      ],
+      "comment": "3.0 24V Motor (204PS)"
+    },
+    {
+      "id": 100187,
+      "episode": 49,
+      "name": "BMW",
+      "model": "(E46) 325i Cabrio",
+      "ccm": "2.5",
+      "hp": "192",
+      "km": "148.832",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        196.4,
+        6233,
+        238.2,
+        4989
+      ],
+      "comment": "Software"
+    },
+    {
+      "id": 100186,
+      "episode": 49,
+      "name": "Opel",
+      "model": "Kadett (E) GSI 16V",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        179.0,
+        7636,
+        185.3,
+        5957
+      ],
+      "comment": "168 Nockenwelle (Schrick)"
+    },
+    {
+      "id": 100185,
+      "episode": 49,
+      "name": "Ford",
+      "model": "Fiesta (Gen 3)",
+      "ccm": "1.1",
+      "hp": "50",
+      "km": "165.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        53.5,
+        5150,
+        70.5,
+        2297
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100184,
+      "episode": 49,
+      "name": "VW",
+      "model": "Käfer 1303",
+      "ccm": "1.6",
+      "hp": "50",
+      "km": "",
+      "year": "1975",
+      "messung1": [],
+      "messung2": [
+        54.8,
+        4682,
+        96.5,
+        2738
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100183,
+      "episode": 48,
+      "name": "VW",
+      "model": "Golf IV TDI",
+      "ccm": "1.9",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        146.7,
+        3907,
+        340.7,
+        2533
+      ],
+      "comment": "Chiptuning, Ladelüftkühler"
+    },
+    {
+      "id": 100182,
+      "episode": 48,
+      "name": "VW",
+      "model": "Golf III Variant",
+      "ccm": "1.6",
+      "hp": "101",
+      "km": "138.000",
+      "year": "",
+      "messung1": [
+        99.0,
+        6362,
+        128.6,
+        4666
+      ],
+      "messung2": [
+        99.6,
+        6257,
+        129.7,
+        3552
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100181,
+      "episode": 48,
+      "name": "Opel",
+      "model": "Vectra (B) 16V Caravan",
+      "ccm": "1.6",
+      "hp": "101",
+      "km": "145.835",
+      "year": "1999",
+      "messung1": [],
+      "messung2": [
+        105.9,
+        6174,
+        146.6,
+        4202
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100180,
+      "episode": 48,
+      "name": "BMW",
+      "model": "(E46) 325i Cabrio",
+      "ccm": "2.5",
+      "hp": "193",
+      "km": "196.962",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        184.0,
+        6347,
+        226.0,
+        4860
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100179,
+      "episode": 48,
+      "name": "Audi",
+      "model": "80 (B4)",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "298.272",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        105.9,
+        5206,
+        158.4,
+        3444
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100178,
+      "episode": 48,
+      "name": "BMW",
+      "model": "(E39) 540i",
+      "ccm": "4.0",
+      "hp": "286",
+      "km": "163.067",
+      "year": "",
+      "messung1": [
+        284.6,
+        5589,
+        467.4,
+        1841
+      ],
+      "messung2": [
+        290.4,
+        5582,
+        495.7,
+        1694
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100177,
+      "episode": 48,
+      "name": "VW",
+      "model": "Passat (3B)",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "199.060",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        184.5,
+        5323,
+        261.7,
+        4568
+      ],
+      "comment": "Chiptuning"
+    },
+    {
+      "id": 100176,
+      "episode": 47,
+      "name": "Honda",
+      "model": "Civic VTEC",
+      "ccm": "2.0",
+      "hp": "",
+      "km": "102.890",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        168.4,
+        7916,
+        158.4,
+        6592
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100175,
+      "episode": 47,
+      "name": "VW",
+      "model": "Scirocco GTL",
+      "ccm": "1.8",
+      "hp": "112",
+      "km": "52.604",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        102.0,
+        5489,
+        147.8,
+        3270
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100174,
+      "episode": 47,
+      "name": "Mercedes",
+      "model": "(W126) 500SE",
+      "ccm": "5.0",
+      "hp": "231",
+      "km": "327.200",
+      "year": "1981",
+      "messung1": [],
+      "messung2": [
+        199.8,
+        5140,
+        324.6,
+        3668
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100173,
+      "episode": 47,
+      "name": "Opel",
+      "model": "Omega (B) Caravan",
+      "ccm": "2.2",
+      "hp": "144",
+      "km": "206.791",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        132.2,
+        5124,
+        190.9,
+        4451
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100172,
+      "episode": 47,
+      "name": "VW",
+      "model": "Golf IV TDI",
+      "ccm": "1.9",
+      "hp": "131",
+      "km": "441.697",
+      "year": "",
+      "messung1": [
+        181.3,
+        3981,
+        441.7,
+        2401
+      ],
+      "messung2": [
+        180.7,
+        4001,
+        448.8,
+        2422
+      ],
+      "comment": "2 Steuergeräte zum Testen"
+    },
+    {
+      "id": 100171,
+      "episode": 47,
+      "name": "Audi",
+      "model": "A4 (B5)",
+      "ccm": "1.8",
+      "hp": "125",
+      "km": "69.966",
+      "year": "",
+      "messung1": [
+        119.3,
+        5984,
+        154.0,
+        5007
+      ],
+      "messung2": [
+        113.2,
+        5300,
+        156.9,
+        4871
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100170,
+      "episode": 47,
+      "name": "VW",
+      "model": "Golf II",
+      "ccm": "1.6",
+      "hp": "69",
+      "km": "152.599",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        69.8,
+        5219,
+        110.3,
+        3703
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100169,
+      "episode": 47,
+      "name": "BMW",
+      "model": "(E36) 323ti Compact",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "221.932",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        175.1,
+        5928,
+        222.8,
+        5070
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100168,
+      "episode": 47,
+      "name": "VW",
+      "model": "Golf III GT",
+      "ccm": "1.8",
+      "hp": "90",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        95.0,
+        5963,
+        151.9,
+        2612
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100167,
+      "episode": 47,
+      "name": "Mercedes",
+      "model": "190E",
+      "ccm": "1.9",
+      "hp": "122",
+      "km": "192.910",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        73.0,
+        4666,
+        144.4,
+        2573
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100166,
+      "episode": 46,
+      "name": "VW",
+      "model": "Golf II GTI 16V",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        134.4,
+        6467,
+        159.4,
+        5494
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100165,
+      "episode": 46,
+      "name": "Audi",
+      "model": "80 (B3) S",
+      "ccm": "1.8",
+      "hp": "88",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        88.4,
+        5424,
+        147.2,
+        3090
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100164,
+      "episode": 46,
+      "name": "BMW",
+      "model": "(E30) 318is",
+      "ccm": "1.8",
+      "hp": "136",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        135.7,
+        6436,
+        165.1,
+        4820
+      ],
+      "comment": "Mehrventiler"
+    },
+    {
+      "id": 100163,
+      "episode": 46,
+      "name": "VW",
+      "model": "T4 (Multivan)",
+      "ccm": "2.5",
+      "hp": "88",
+      "km": "920.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        82.3,
+        3240,
+        205.9,
+        2470
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100162,
+      "episode": 46,
+      "name": "Ford",
+      "model": "Escort MK-III",
+      "ccm": "1.6",
+      "hp": "78",
+      "km": "",
+      "year": "1981",
+      "messung1": [],
+      "messung2": [
+        82.7,
+        5566,
+        121.4,
+        3177
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100161,
+      "episode": 46,
+      "name": "Opel",
+      "model": "Vectra (B)",
+      "ccm": "2.2",
+      "hp": "170",
+      "km": "217.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        146.2,
+        6050,
+        193.4,
+        4348
+      ],
+      "comment": "(Z22SE) Caravan Sport"
+    },
+    {
+      "id": 100160,
+      "episode": 46,
+      "name": "BMW",
+      "model": "(E39) 520i",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "170.000",
+      "year": "",
+      "messung1": [
+        137.2,
+        5710,
+        171.9,
+        4690
+      ],
+      "messung2": [
+        137.4,
+        5749,
+        174.4,
+        4677
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100159,
+      "episode": 45,
+      "name": "Pontiac",
+      "model": "Sunbird T",
+      "ccm": "2.0",
+      "hp": "165",
+      "km": "",
+      "year": "1988",
+      "messung1": [],
+      "messung2": [
+        181.6,
+        5783,
+        279.5,
+        3056
+      ],
+      "comment": "Cabrio, TOP TEIL"
+    },
+    {
+      "id": 100158,
+      "episode": 45,
+      "name": "Volvo",
+      "model": "850 (T5)",
+      "ccm": "",
+      "hp": "252",
+      "km": "",
+      "year": "",
+      "messung1": [
+        219.8,
+        5431,
+        288.1,
+        5411
+      ],
+      "messung2": [
+        196.2,
+        5360,
+        270.9,
+        3828
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100157,
+      "episode": 45,
+      "name": "Volvo",
+      "model": "C70 Coupe",
+      "ccm": "239",
+      "hp": "129.996",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        230.8,
+        5919,
+        312.7,
+        4717
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100156,
+      "episode": 45,
+      "name": "BMW",
+      "model": "(E39)528i",
+      "ccm": "2.8",
+      "hp": "193",
+      "km": "337.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        191.5,
+        5387,
+        277.6,
+        399
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100155,
+      "episode": 45,
+      "name": "VW",
+      "model": "Golf IV Turbo",
+      "ccm": "1.8",
+      "hp": "200",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        218.0,
+        5606,
+        357.4,
+        3383
+      ],
+      "comment": "K03 (1.0 Bar)"
+    },
+    {
+      "id": 100154,
+      "episode": 45,
+      "name": "VW",
+      "model": "Polo (6N1)",
+      "ccm": "1.4",
+      "hp": "60",
+      "km": "",
+      "year": "",
+      "messung1": [
+        73.2,
+        5448,
+        121.0,
+        3596
+      ],
+      "messung2": [
+        74.2,
+        5482,
+        124.6,
+        3597
+      ],
+      "comment": "Käfig, Fächerkrümmer"
+    },
+    {
+      "id": 100153,
+      "episode": 45,
+      "name": "Mini",
+      "model": "Cooper",
+      "ccm": "1.6",
+      "hp": "116",
+      "km": "156.246",
+      "year": "2002",
+      "messung1": [],
+      "messung2": [
+        126.2,
+        5742,
+        161.6,
+        4619
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100152,
+      "episode": 44,
+      "name": "VW",
+      "model": "Lupo",
+      "ccm": "1.0",
+      "hp": "50",
+      "km": "158.698",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        54.7,
+        4830,
+        85.0,
+        3438
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100151,
+      "episode": 44,
+      "name": "BMW",
+      "model": "(E39) 528 24V",
+      "ccm": "2.8",
+      "hp": "193",
+      "km": "307.241",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        189.0,
+        6210,
+        238.9,
+        4807
+      ],
+      "comment": "Scharfe Nockenwelle, Alpina Software"
+    },
+    {
+      "id": 100150,
+      "episode": 44,
+      "name": "VW",
+      "model": "Golf I (Cabrio)",
+      "ccm": "1.8",
+      "hp": "75",
+      "km": "105.009",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        120.1,
+        5264,
+        175.1,
+        3893
+      ],
+      "comment": "Motor, Nockenwelle usw. Custom"
+    },
+    {
+      "id": 100149,
+      "episode": 44,
+      "name": "Seat",
+      "model": "Toledo",
+      "ccm": "1.6",
+      "hp": "101",
+      "km": "83.000",
+      "year": "",
+      "messung1": [
+        101.3,
+        5897,
+        139.6,
+        3307
+      ],
+      "messung2": [
+        102.7,
+        5595,
+        142.6,
+        3382
+      ],
+      "comment": "Kaufpreis 1.700 bei 63.000km"
+    },
+    {
+      "id": 100148,
+      "episode": 43,
+      "name": "Lancia",
+      "model": "Kappa T Coupe",
+      "ccm": "2.0",
+      "hp": "220",
+      "km": "250.184",
+      "year": "1998",
+      "messung1": [],
+      "messung2": [
+        238.5,
+        6250,
+        342.3,
+        3342
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100147,
+      "episode": 43,
+      "name": "Audi",
+      "model": "80 (B3) 1.9S",
+      "ccm": "1.9",
+      "hp": "113",
+      "km": "36.120",
+      "year": "1989",
+      "messung1": [],
+      "messung2": [
+        104.1,
+        5192,
+        159.5,
+        3322
+      ],
+      "comment": "Gekauft für 6.000€  bei 26.000km"
+    },
+    {
+      "id": 100146,
+      "episode": 43,
+      "name": "Ford",
+      "model": "Sierra 2.0i LX",
+      "ccm": "2.0",
+      "hp": "120",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        117.1,
+        6016,
+        174.6,
+        2615
+      ],
+      "comment": "Gekauft 600€ (Kurbelwellensensor war defekt)"
+    },
+    {
+      "id": 100145,
+      "episode": 43,
+      "name": "Ford",
+      "model": "Fiesta",
+      "ccm": "1.1",
+      "hp": "50",
+      "km": "76.397",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        47.4,
+        4980,
+        83.0,
+        2870
+      ],
+      "comment": "Gekauft für 200€"
+    },
+    {
+      "id": 100144,
+      "episode": 43,
+      "name": "Mercedes",
+      "model": "500S",
+      "ccm": "5.0",
+      "hp": "306",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        298.2,
+        5982,
+        427.1,
+        3968
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100143,
+      "episode": 43,
+      "name": "Audi",
+      "model": "80 (B4) Avant",
+      "ccm": "2.8",
+      "hp": "174",
+      "km": "233.019",
+      "year": "",
+      "messung1": [
+        130.2,
+        4626,
+        232.3,
+        3185
+      ],
+      "messung2": [
+        153.1,
+        5485,
+        233.5,
+        3163
+      ],
+      "comment": "Tests mit Saugrohrumschaltung"
+    },
+    {
+      "id": 100142,
+      "episode": 43,
+      "name": "VW",
+      "model": "T4 2.4D",
+      "ccm": "2.4",
+      "hp": "78",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        61.6,
+        3907,
+        154.0,
+        1793
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100141,
+      "episode": 43,
+      "name": "Alfa Romeo",
+      "model": "156 16V",
+      "ccm": "",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        186.7,
+        5869,
+        280.8,
+        3712
+      ],
+      "comment": "Twin Spark, Turbo (Lowboost)"
+    },
+    {
+      "id": 100140,
+      "episode": 43,
+      "name": "VW",
+      "model": "Golf IV TDI",
+      "ccm": "1.9",
+      "hp": "90",
+      "km": "462.451",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        92.3,
+        3723,
+        225.5,
+        2517
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100139,
+      "episode": 43,
+      "name": "Mercedes",
+      "model": "(W124) 250D",
+      "ccm": "2.5",
+      "hp": "113",
+      "km": "469.811",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        96.1,
+        5018,
+        146.6,
+        4213
+      ],
+      "comment": "7 Sitzer"
+    },
+    {
+      "id": 100138,
+      "episode": 43,
+      "name": "VW",
+      "model": "Golf IV (Cabrio)",
+      "ccm": "1.6",
+      "hp": "101",
+      "km": "200.662",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        130.2,
+        5853,
+        140.3,
+        4580
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100137,
+      "episode": 42,
+      "name": "Opel",
+      "model": "Kadett (C) City",
+      "ccm": "2.5",
+      "hp": "403",
+      "km": "",
+      "year": "",
+      "messung1": [
+        409.8,
+        5789,
+        560.8,
+        4870
+      ],
+      "messung2": [
+        388.1,
+        5518,
+        533.3,
+        4964
+      ],
+      "comment": "Siehe (Episode 42) Nr 3 - 1.7 Bar Ladedruck (4. Lauf Schlauch abgeflogen)"
+    },
+    {
+      "id": 100136,
+      "episode": 42,
+      "name": "Mitsubishi",
+      "model": "Space Wagon",
+      "ccm": "",
+      "hp": "122",
+      "km": "277.000",
+      "year": "",
+      "messung1": [
+        122.0,
+        5912,
+        164.2,
+        4862
+      ],
+      "messung2": [
+        122.6,
+        5960,
+        164.9,
+        2800
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100135,
+      "episode": 42,
+      "name": "BMW",
+      "model": "(E36) 320i",
+      "ccm": "2.0",
+      "hp": "",
+      "km": "224.629",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        149.1,
+        5889,
+        188.9,
+        4801
+      ],
+      "comment": "Steuergerät"
+    },
+    {
+      "id": 100134,
+      "episode": 42,
+      "name": "BMW",
+      "model": "(E34) 525",
+      "ccm": "2.5",
+      "hp": "192",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        182.1,
+        6147,
+        224.1,
+        4869
+      ],
+      "comment": "M50"
+    },
+    {
+      "id": 100133,
+      "episode": 42,
+      "name": "Lexus",
+      "model": "IS 200",
+      "ccm": "2.0",
+      "hp": "155",
+      "km": "143.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        161.0,
+        6486,
+        195.5,
+        4676
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100132,
+      "episode": 42,
+      "name": "Nissan",
+      "model": "300 ZX",
+      "ccm": "",
+      "hp": "170",
+      "km": "",
+      "year": "2000",
+      "messung1": [],
+      "messung2": [
+        149.9,
+        5246,
+        230.1,
+        3519
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100131,
+      "episode": 42,
+      "name": "Audi",
+      "model": "100 CS (44)",
+      "ccm": "2.2",
+      "hp": "115",
+      "km": "204.928",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        94.1,
+        4696,
+        161.3,
+        2918
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100130,
+      "episode": 42,
+      "name": "BMW",
+      "model": "(E36) 325tds",
+      "ccm": "2.5",
+      "hp": "143",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        156.6,
+        3462,
+        366.7,
+        2608
+      ],
+      "comment": "1.5 Bar Ladedruck"
+    },
+    {
+      "id": 100129,
+      "episode": 42,
+      "name": "VW",
+      "model": "Passat GL",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "80.321",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        107.7,
+        5688,
+        161.0,
+        2620
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100128,
+      "episode": 42,
+      "name": "Opel",
+      "model": "Kadett (C) City",
+      "ccm": "2.5",
+      "hp": "403",
+      "km": "",
+      "year": "",
+      "messung1": [
+        217.8,
+        5924,
+        287.7,
+        4845
+      ],
+      "messung2": [
+        212.8,
+        5942,
+        282.1,
+        4886
+      ],
+      "comment": "CIH Motor - 18.500€ Kaufpreis in Dänemark (2. Lauf Schalter runter) 0.5 Lowboost Laderdruck"
+    },
+    {
+      "id": 100127,
+      "episode": 42,
+      "name": "Audi",
+      "model": "80 (B3) 2.0E",
+      "ccm": "2.0",
+      "hp": "113",
+      "km": "244.467",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        80.3,
+        5475,
+        119.9,
+        3665
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100126,
+      "episode": 42,
+      "name": "VW",
+      "model": "Golf III Yubi GTI 8V",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "352.701",
+      "year": "1996",
+      "messung1": [
+        115.5,
+        5702,
+        173.6,
+        3136
+      ],
+      "messung2": [
+        114.8,
+        5712,
+        172.9,
+        2754
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100125,
+      "episode": 41,
+      "name": "Porsche",
+      "model": "SuperCarerra 911",
+      "ccm": "",
+      "hp": "231",
+      "km": "206.292",
+      "year": "",
+      "messung1": [
+        229.0,
+        5701,
+        310.1,
+        4493
+      ],
+      "messung2": [
+        232.0,
+        5789,
+        308.4,
+        4555
+      ],
+      "comment": "3.4 Motor"
+    },
+    {
+      "id": 100124,
+      "episode": 41,
+      "name": "Opel",
+      "model": "Astra (G) T",
+      "ccm": "2.0",
+      "hp": "192",
+      "km": "190.985",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        259.0,
+        5556,
+        406.4,
+        3874
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100123,
+      "episode": 41,
+      "name": "Audi",
+      "model": "100 CC",
+      "ccm": "",
+      "hp": "75",
+      "km": "73.501",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        72.0,
+        6138,
+        98.5,
+        2645
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100122,
+      "episode": 41,
+      "name": "Audi",
+      "model": "80 (B4)",
+      "ccm": "",
+      "hp": "174",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        174.3,
+        5984,
+        230.8,
+        3593
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100121,
+      "episode": 41,
+      "name": "VW",
+      "model": "Golf II (Boston)",
+      "ccm": "",
+      "hp": "",
+      "km": "112.011",
+      "year": "",
+      "messung1": [
+        63.6,
+        5841,
+        96.4,
+        3670
+      ],
+      "messung2": [
+        63.8,
+        5856,
+        96.5,
+        3744
+      ],
+      "comment": "Kaufpreis 2.350 bei 107.000km"
+    },
+    {
+      "id": 100120,
+      "episode": 41,
+      "name": "BMW",
+      "model": "(E46) 328i",
+      "ccm": "2.8",
+      "hp": "193",
+      "km": "227.776",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        204.7,
+        6409,
+        275.5,
+        3481
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100119,
+      "episode": 41,
+      "name": "Toyota",
+      "model": "MR2 (W3)",
+      "ccm": "",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [
+        139.8,
+        6415,
+        169.4,
+        4230
+      ],
+      "messung2": [
+        139.8,
+        6503,
+        169.3,
+        4239
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100118,
+      "episode": 41,
+      "name": "Toyota",
+      "model": "MR2 (W3) 16V",
+      "ccm": "",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        139.0,
+        6754,
+        166.4,
+        4252
+      ],
+      "comment": "Fächerkrümmer, Auspuffanlage"
+    },
+    {
+      "id": 100117,
+      "episode": 40,
+      "name": "BMW",
+      "model": "(E39) 525tds",
+      "ccm": "2.5",
+      "hp": "143",
+      "km": "162.079",
+      "year": "",
+      "messung1": [
+        154.2,
+        4492,
+        344.0,
+        2610
+      ],
+      "messung2": [
+        123.5,
+        4898,
+        234.6,
+        2642
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100116,
+      "episode": 40,
+      "name": "Volvo",
+      "model": "S60 Turbo",
+      "ccm": "2.4",
+      "hp": "200",
+      "km": "108.739",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        221.6,
+        5240,
+        339.3,
+        3316
+      ],
+      "comment": "Rechtslenker (Kaufpreis 2.500€)"
+    },
+    {
+      "id": 100115,
+      "episode": 40,
+      "name": "VW",
+      "model": "Golf III",
+      "ccm": "2.8",
+      "hp": "174",
+      "km": "",
+      "year": "1992",
+      "messung1": [],
+      "messung2": [
+        244.5,
+        5914,
+        368.1,
+        3985
+      ],
+      "comment": "VR6 Turbo (0.7 Bar)"
+    },
+    {
+      "id": 100114,
+      "episode": 40,
+      "name": "Renault",
+      "model": "Megane",
+      "ccm": "1.4",
+      "hp": "95",
+      "km": "204.357",
+      "year": "2001",
+      "messung1": [
+        96.9,
+        5834,
+        126.1,
+        3887
+      ],
+      "messung2": [
+        96.7,
+        5745,
+        126.6,
+        3933
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100113,
+      "episode": 40,
+      "name": "BMW",
+      "model": "(E9) 3.5csi",
+      "ccm": "3.5",
+      "hp": "180",
+      "km": "17.719",
+      "year": "1973",
+      "messung1": [],
+      "messung2": [
+        203.1,
+        5390,
+        284.4,
+        3679
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100112,
+      "episode": 40,
+      "name": "VW",
+      "model": "T4 (Multivan)",
+      "ccm": "2.5",
+      "hp": "115",
+      "km": "281.615",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        99.0,
+        4821,
+        185.4,
+        3305
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100111,
+      "episode": 40,
+      "name": "Opel",
+      "model": "Corsa (B)",
+      "ccm": "1.2",
+      "hp": "65",
+      "km": "176.915",
+      "year": "1998",
+      "messung1": [],
+      "messung2": [
+        69.7,
+        6224,
+        102.9,
+        4180
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100110,
+      "episode": 39,
+      "name": "Mazda",
+      "model": "626 GD",
+      "ccm": "2.0",
+      "hp": "90",
+      "km": "101.523",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        98.5,
+        5257,
+        151.8,
+        2516
+      ],
+      "comment": "8V (Kaufpreis 1.200€  bei 65.000km vor 6 1/2 Jahren)"
+    },
+    {
+      "id": 100109,
+      "episode": 39,
+      "name": "BMW",
+      "model": "(E36) 323i",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "226.740",
+      "year": "",
+      "messung1": [
+        178.3,
+        5586,
+        247.1,
+        4587
+      ],
+      "messung2": [
+        181.2,
+        5633,
+        250.5,
+        4616
+      ],
+      "comment": "Kaufpreis 800€"
+    },
+    {
+      "id": 100108,
+      "episode": 39,
+      "name": "BMW",
+      "model": "(E39) 523i",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "147.121",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        175.8,
+        6203,
+        241.8,
+        1879
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100107,
+      "episode": 39,
+      "name": "BMW",
+      "model": "(E46) 320d",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "275.135",
+      "year": "2005",
+      "messung1": [],
+      "messung2": [
+        188.0,
+        3929,
+        422.8,
+        2445
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100106,
+      "episode": 39,
+      "name": "Opel",
+      "model": "Astra (F) Caravan",
+      "ccm": "1.6",
+      "hp": "204",
+      "km": "188.182",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        245.7,
+        6017,
+        361.0,
+        4923
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100105,
+      "episode": 39,
+      "name": "BMW",
+      "model": "(E34) 520i",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        144.2,
+        6188,
+        176.5,
+        4397
+      ],
+      "messung2": [
+        144.7,
+        6002,
+        178.8,
+        4402
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100104,
+      "episode": 39,
+      "name": "VW",
+      "model": "Passat (3B) VR5",
+      "ccm": "",
+      "hp": "150",
+      "km": "390.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        149.6,
+        6117,
+        193.4,
+        4875
+      ],
+      "comment": "10V (Kaufpreis 250€)"
+    },
+    {
+      "id": 100103,
+      "episode": 39,
+      "name": "VW",
+      "model": "T4",
+      "ccm": "2.8",
+      "hp": "140",
+      "km": "401.227",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        132.5,
+        4673,
+        237.0,
+        3185
+      ],
+      "comment": "VR6"
+    },
+    {
+      "id": 100102,
+      "episode": 39,
+      "name": "Opel",
+      "model": "Kadett (C) Caravan",
+      "ccm": "2.0",
+      "hp": "110",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        126.0,
+        5369,
+        179.1,
+        3949
+      ],
+      "comment": "Einfach ein Brett von Auto!"
+    },
+    {
+      "id": 100101,
+      "episode": 39,
+      "name": "VW",
+      "model": "Golf II",
+      "ccm": "1.6",
+      "hp": "69",
+      "km": "",
+      "year": "1976",
+      "messung1": [],
+      "messung2": [
+        54.4,
+        5502,
+        96.3,
+        2626
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100100,
+      "episode": 39,
+      "name": "Mini",
+      "model": "R58 Turbo Coupe (JCW)",
+      "ccm": "1.6",
+      "hp": "211",
+      "km": "130.630",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        250.0,
+        5473,
+        395.4,
+        3139
+      ],
+      "comment": "Software,Downpipe,Turbolader, Krümmer …."
+    },
+    {
+      "id": 100099,
+      "episode": 39,
+      "name": "VW",
+      "model": "Golf I Turbo",
+      "ccm": "1.8",
+      "hp": "160",
+      "km": "",
+      "year": "",
+      "messung1": [
+        184.5,
+        5476,
+        272.8,
+        4002
+      ],
+      "messung2": [
+        187.6,
+        5557,
+        269.1,
+        4373
+      ],
+      "comment": "1.2 Bar"
+    },
+    {
+      "id": 100098,
+      "episode": 38,
+      "name": "VW",
+      "model": "Passat VR5",
+      "ccm": "",
+      "hp": "170",
+      "km": "250.599",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        167.1,
+        6519,
+        215.6,
+        3409
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100097,
+      "episode": 38,
+      "name": "Volvo",
+      "model": "850 (T5)",
+      "ccm": "",
+      "hp": "225",
+      "km": "332.413",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        226.0,
+        5838,
+        277.3,
+        5675
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100096,
+      "episode": 38,
+      "name": "Suzuki",
+      "model": "Wagon R",
+      "ccm": "1.2",
+      "hp": "69",
+      "km": "192.821",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        77.3,
+        6485,
+        94.9,
+        4216
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100095,
+      "episode": 38,
+      "name": "BMW",
+      "model": "740i",
+      "ccm": "4.0",
+      "hp": "286",
+      "km": "204.851",
+      "year": "1993",
+      "messung1": [],
+      "messung2": [
+        271.7,
+        5940,
+        367.0,
+        3851
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100094,
+      "episode": 38,
+      "name": "Opel",
+      "model": "Kadett",
+      "ccm": "1.3",
+      "hp": "60",
+      "km": "93.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": "Keine Messung (Kaufpreis 950€ -2019 - 2. Hand Scheckheft)"
+    },
+    {
+      "id": 100093,
+      "episode": 38,
+      "name": "Opel",
+      "model": "Kadett (E) GSI",
+      "ccm": "",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": "Keine Messung"
+    },
+    {
+      "id": 100092,
+      "episode": 38,
+      "name": "VW",
+      "model": "Passat (32B) Coupe",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "53.533",
+      "year": "1982",
+      "messung1": [],
+      "messung2": [
+        127.8,
+        5796,
+        177.9,
+        4503
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100091,
+      "episode": 38,
+      "name": "VW",
+      "model": "Scirocco TSI",
+      "ccm": "1.4",
+      "hp": "160",
+      "km": "100.000",
+      "year": "2010",
+      "messung1": [],
+      "messung2": [
+        202.9,
+        5645,
+        303.5,
+        2488
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100090,
+      "episode": 38,
+      "name": "Audi",
+      "model": "80 (B4)",
+      "ccm": "2.0",
+      "hp": "90",
+      "km": "203.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        89.1,
+        5565,
+        147.2,
+        3056
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100089,
+      "episode": 38,
+      "name": "Mazda",
+      "model": "626 LX",
+      "ccm": "1.6",
+      "hp": "80",
+      "km": "70.296",
+      "year": "1984",
+      "messung1": [],
+      "messung2": [
+        87.5,
+        6048,
+        119.0,
+        4117
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100088,
+      "episode": 38,
+      "name": "VW",
+      "model": "Golf II GT (Spezial)",
+      "ccm": "",
+      "hp": "90",
+      "km": "369.947",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        89.0,
+        5790,
+        144.5,
+        3161
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100087,
+      "episode": 38,
+      "name": "KitCar",
+      "model": "",
+      "ccm": "1.8",
+      "hp": "82",
+      "km": "",
+      "year": "1997",
+      "messung1": [],
+      "messung2": [
+        54.1,
+        4396,
+        131.2,
+        2311
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100086,
+      "episode": 38,
+      "name": "Opel",
+      "model": "Astra GSI 16V",
+      "ccm": "",
+      "hp": "150",
+      "km": "",
+      "year": "1991",
+      "messung1": [],
+      "messung2": [
+        149.4,
+        5916,
+        199.7,
+        4965
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100085,
+      "episode": 38,
+      "name": "VW",
+      "model": "Corrado",
+      "ccm": "2.9",
+      "hp": "210",
+      "km": "80.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        234.3,
+        5856,
+        289.6,
+        5636
+      ],
+      "comment": "VR6 Kompressor (0.6 Bar)"
+    },
+    {
+      "id": 100084,
+      "episode": 38,
+      "name": "Volvo",
+      "model": "V70 TDI",
+      "ccm": "2.5",
+      "hp": "140",
+      "km": "387.482",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        146.3,
+        3912,
+        278.3,
+        3233
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100083,
+      "episode": 38,
+      "name": "Audi",
+      "model": "A4 (B5)",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "185.868",
+      "year": "",
+      "messung1": [
+        128.6,
+        5969,
+        182.5,
+        3297
+      ],
+      "messung2": [
+        126.6,
+        5889,
+        186.9,
+        3224
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100082,
+      "episode": 37,
+      "name": "VW",
+      "model": "Polo (Harlekin)",
+      "ccm": "1.4",
+      "hp": "60",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        56.5,
+        5661,
+        91.1,
+        2920
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100081,
+      "episode": 37,
+      "name": "Opel",
+      "model": "Ascona (A)",
+      "ccm": "2.4",
+      "hp": "161",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        164.3,
+        5464,
+        238.4,
+        4417
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100080,
+      "episode": 37,
+      "name": "BMW",
+      "model": "Z3 i Coupe",
+      "ccm": "3.0",
+      "hp": "231",
+      "km": "",
+      "year": "2000",
+      "messung1": [],
+      "messung2": [
+        181.1,
+        5773,
+        252.1,
+        3230
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100079,
+      "episode": 37,
+      "name": "Opel",
+      "model": "Corsa (B)",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "319.175",
+      "year": "1993",
+      "messung1": [],
+      "messung2": [
+        81.2,
+        5784,
+        118.8,
+        4161
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100078,
+      "episode": 37,
+      "name": "BMW",
+      "model": "(E36) 320i",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        131.9,
+        6101,
+        174.5,
+        4833
+      ],
+      "messung2": [
+        138.5,
+        5991,
+        175.7,
+        4759
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100077,
+      "episode": 37,
+      "name": "Ford",
+      "model": "Probe 16V",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "125.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        115.0,
+        5687,
+        164.5,
+        4485
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100076,
+      "episode": 37,
+      "name": "Audi",
+      "model": "A4 Coupe",
+      "ccm": "",
+      "hp": "136",
+      "km": "",
+      "year": "1998",
+      "messung1": [],
+      "messung2": [
+        128.8,
+        5641,
+        180.3,
+        4273
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100075,
+      "episode": 37,
+      "name": "BMW",
+      "model": "(E39) 525i",
+      "ccm": "2.5",
+      "hp": "192",
+      "km": "230.457",
+      "year": "2001",
+      "messung1": [],
+      "messung2": [
+        184.9,
+        6357,
+        224.2,
+        5031
+      ],
+      "comment": "Alpina Software"
+    },
+    {
+      "id": 100074,
+      "episode": 37,
+      "name": "Audi",
+      "model": "A4 Avant",
+      "ccm": "2.4",
+      "hp": "193",
+      "km": "157.902",
+      "year": "1997",
+      "messung1": [],
+      "messung2": [
+        199.8,
+        6139,
+        246.8,
+        3317
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100073,
+      "episode": 36,
+      "name": "Toyota",
+      "model": "Celica",
+      "ccm": "1.8",
+      "hp": "143",
+      "km": "",
+      "year": "2000",
+      "messung1": [
+        131.9,
+        6716,
+        147.3,
+        6716
+      ],
+      "messung2": [
+        137.8,
+        6652,
+        151.8,
+        6288
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100072,
+      "episode": 36,
+      "name": "Renault",
+      "model": "R5 (Campus)",
+      "ccm": "1.1",
+      "hp": "45",
+      "km": "183.400",
+      "year": "1993",
+      "messung1": [],
+      "messung2": [
+        48.8,
+        5884,
+        66.0,
+        4232
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100071,
+      "episode": 36,
+      "name": "VW",
+      "model": "Golf II (Fire & Ice)",
+      "ccm": "1.8",
+      "hp": "90",
+      "km": "31.700",
+      "year": "1990",
+      "messung1": [
+        97.2,
+        5787,
+        138.5,
+        3356
+      ],
+      "messung2": [
+        97.9,
+        5816,
+        138.6,
+        3307
+      ],
+      "comment": "Nockenwelle, Fächerkrümmer"
+    },
+    {
+      "id": 100070,
+      "episode": 36,
+      "name": "BMW",
+      "model": "(E12) 525",
+      "ccm": "2.5",
+      "hp": "150",
+      "km": "181.786",
+      "year": "1980",
+      "messung1": [],
+      "messung2": [
+        135.0,
+        5997,
+        179.9,
+        2927
+      ],
+      "comment": "Drehzahlbegrenzer regelt bei 6000 u/min ab .. / Bosch bzw. BEGU (Serie) bei 6.600"
+    },
+    {
+      "id": 100069,
+      "episode": 36,
+      "name": "BMW",
+      "model": "(E38) 7er",
+      "ccm": "",
+      "hp": "286",
+      "km": "195.370",
+      "year": "1998",
+      "messung1": [],
+      "messung2": [
+        297.3,
+        5736,
+        437.7,
+        3929
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100068,
+      "episode": 36,
+      "name": "Renault",
+      "model": "Twingo RS",
+      "ccm": "",
+      "hp": "133",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        135.0,
+        6889,
+        159.6,
+        4454
+      ],
+      "comment": "Ansaugung"
+    },
+    {
+      "id": 100067,
+      "episode": 36,
+      "name": "VW",
+      "model": "Polo (16.1) GTI 16V",
+      "ccm": "",
+      "hp": "120",
+      "km": "195.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        122.5,
+        6436,
+        157.8,
+        3056
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100066,
+      "episode": 36,
+      "name": "Opel",
+      "model": "Ascona (B)",
+      "ccm": "",
+      "hp": "150",
+      "km": "78.455",
+      "year": "1975",
+      "messung1": [],
+      "messung2": [
+        158.3,
+        6237,
+        203.5,
+        4854
+      ],
+      "comment": "Astra (F) 16V Motor, Nockenwellen"
+    },
+    {
+      "id": 100065,
+      "episode": 36,
+      "name": "BMW",
+      "model": "(E36) 318is 16V Coupe",
+      "ccm": "1.8",
+      "hp": "140",
+      "km": "253.556",
+      "year": "1996",
+      "messung1": [],
+      "messung2": [
+        142.1,
+        6309,
+        178.4,
+        4439
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100064,
+      "episode": 36,
+      "name": "Opel",
+      "model": "Corsa (D)",
+      "ccm": "1.7",
+      "hp": "125",
+      "km": "",
+      "year": "2009",
+      "messung1": [],
+      "messung2": [
+        151.2,
+        4367,
+        342.6,
+        2835
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100063,
+      "episode": 36,
+      "name": "Audi",
+      "model": "80",
+      "ccm": "1.9",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        100.5,
+        5698,
+        142.9,
+        3869
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100062,
+      "episode": 36,
+      "name": "Audi",
+      "model": "A3",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "139.573",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        149.0,
+        5964,
+        222.9,
+        2712
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100061,
+      "episode": 36,
+      "name": "Mazda",
+      "model": "MX5",
+      "ccm": "",
+      "hp": "115",
+      "km": "161.880",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        114.0,
+        6690,
+        135.8,
+        5566
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100060,
+      "episode": 35,
+      "name": "Audi",
+      "model": "",
+      "ccm": "2.3",
+      "hp": "136",
+      "km": "222.676",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        101.0,
+        5461,
+        160.9,
+        2964
+      ],
+      "comment": "Michas Auto"
+    },
+    {
+      "id": 100059,
+      "episode": 35,
+      "name": "Peugeot",
+      "model": "207 RC",
+      "ccm": "1.6",
+      "hp": "174",
+      "km": "129.364",
+      "year": "2008",
+      "messung1": [],
+      "messung2": [
+        198.2,
+        5768,
+        285.2,
+        4096
+      ],
+      "comment": "Downpipe"
+    },
+    {
+      "id": 100058,
+      "episode": 35,
+      "name": "Opel",
+      "model": "Calibra 16V Ecotec",
+      "ccm": "2.0",
+      "hp": "136",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        132.6,
+        5876,
+        180.2,
+        4757
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100057,
+      "episode": 35,
+      "name": "Honda",
+      "model": "Civic ERD",
+      "ccm": "1.4",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        98.1,
+        6635,
+        122.3,
+        4976
+      ],
+      "comment": "Dichtung entfernt somit 90PS Serie"
+    },
+    {
+      "id": 100056,
+      "episode": 35,
+      "name": "NSU",
+      "model": "TTS",
+      "ccm": "",
+      "hp": "75",
+      "km": "27.760",
+      "year": "",
+      "messung1": [
+        83.2,
+        6745,
+        97.4,
+        5389
+      ],
+      "messung2": [
+        88.5,
+        6758,
+        101.0,
+        5483
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100055,
+      "episode": 35,
+      "name": "BMW",
+      "model": "(E39) 520i",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        152.3,
+        6397,
+        180.9,
+        5006
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100054,
+      "episode": 35,
+      "name": "VW",
+      "model": "Golf II G60",
+      "ccm": "",
+      "hp": "160",
+      "km": "191.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        161.6,
+        5894,
+        215.6,
+        4082
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100053,
+      "episode": 35,
+      "name": "VW",
+      "model": "T3",
+      "ccm": "",
+      "hp": "75",
+      "km": "",
+      "year": "1990",
+      "messung1": [],
+      "messung2": [
+        71.7,
+        3850,
+        145.0,
+        3340
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100052,
+      "episode": 35,
+      "name": "VW",
+      "model": "Derby GT",
+      "ccm": "1.8",
+      "hp": "200",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        197.7,
+        5671,
+        273.7,
+        5033
+      ],
+      "comment": "Skoda Fabia (1U) Motor"
+    },
+    {
+      "id": 100051,
+      "episode": 35,
+      "name": "Mercedes",
+      "model": "GLA",
+      "ccm": "1.6",
+      "hp": "122",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": "Messung nicht möglich (ESP)"
+    },
+    {
+      "id": 100050,
+      "episode": 35,
+      "name": "BMW",
+      "model": "(E39) 525i",
+      "ccm": "2.5",
+      "hp": "192",
+      "km": "",
+      "year": "",
+      "messung1": [
+        182.5,
+        6399,
+        222.6,
+        4766
+      ],
+      "messung2": [
+        134.1,
+        6421,
+        196.8,
+        3455
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100049,
+      "episode": 35,
+      "name": "BMW",
+      "model": "1502",
+      "ccm": "1.8",
+      "hp": "115",
+      "km": "89.820",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        124.6,
+        6424,
+        151.9,
+        4820
+      ],
+      "comment": "Motor vom E30"
+    },
+    {
+      "id": 100048,
+      "episode": 35,
+      "name": "BMW",
+      "model": "1602 (Cabrio)",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "1969",
+      "messung1": [],
+      "messung2": [
+        144.5,
+        6129,
+        185.6,
+        4432
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100047,
+      "episode": 35,
+      "name": "Lancia",
+      "model": "Detra",
+      "ccm": "1.8",
+      "hp": "101",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        95.4,
+        6222,
+        135.5,
+        2637
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100046,
+      "episode": 35,
+      "name": "Mini",
+      "model": "Cooper",
+      "ccm": "",
+      "hp": "124",
+      "km": "",
+      "year": "1989",
+      "messung1": [
+        125.4,
+        7012,
+        134.6,
+        6084
+      ],
+      "messung2": [
+        124.0,
+        7028,
+        133.5,
+        6136
+      ],
+      "comment": "Honda CRX ED9 16Z5"
+    },
+    {
+      "id": 100045,
+      "episode": 35,
+      "name": "VW",
+      "model": "Käfer (Cabrio)",
+      "ccm": "1.6",
+      "hp": "50",
+      "km": "34.805",
+      "year": "1976",
+      "messung1": [],
+      "messung2": [
+        67.4,
+        4413,
+        122.3,
+        2690
+      ],
+      "comment": "Ami Version, Nockenwellen,Hubraumerweiterung"
+    },
+    {
+      "id": 100044,
+      "episode": 35,
+      "name": "Volvo",
+      "model": "740GL",
+      "ccm": "2.3",
+      "hp": "113",
+      "km": "424.795",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        107.1,
+        5799,
+        182.0,
+        2651
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100043,
+      "episode": 34,
+      "name": "VW",
+      "model": "T4 TD",
+      "ccm": "2.0",
+      "hp": "102",
+      "km": "395.432",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        152.8,
+        4132,
+        312.3,
+        2967
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100042,
+      "episode": 34,
+      "name": "BMW",
+      "model": "Z3 i Coupe",
+      "ccm": "2.8",
+      "hp": "193",
+      "km": "275.342",
+      "year": "199",
+      "messung1": [],
+      "messung2": [
+        217.4,
+        6862,
+        262.2,
+        3693
+      ],
+      "comment": "Nockenwelle, Auspuffanlage"
+    },
+    {
+      "id": 100041,
+      "episode": 34,
+      "name": "Toyota",
+      "model": "GT86",
+      "ccm": "2.0",
+      "hp": "200",
+      "km": "",
+      "year": "",
+      "messung1": [
+        187.5,
+        7191,
+        197.4,
+        5031
+      ],
+      "messung2": [
+        194.0,
+        7513,
+        196.0,
+        6484
+      ],
+      "comment": "Boxer"
+    },
+    {
+      "id": 100040,
+      "episode": 34,
+      "name": "Audi",
+      "model": "90 (B3) Coupe 20V",
+      "ccm": "",
+      "hp": "170",
+      "km": "46.133",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        158.7,
+        6187,
+        205.3,
+        4712
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100039,
+      "episode": 34,
+      "name": "Mercedes",
+      "model": "(R107) SL560 Cabrio",
+      "ccm": "",
+      "hp": "230",
+      "km": "111.023",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        218.4,
+        5862,
+        304.4,
+        4091
+      ],
+      "comment": "US Import"
+    },
+    {
+      "id": 100038,
+      "episode": 34,
+      "name": "Ford",
+      "model": "Focus TDCI",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        215.3,
+        3708,
+        450.8,
+        2120
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100037,
+      "episode": 34,
+      "name": "BMW",
+      "model": "(E39) 520i",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "141.785",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        153.7,
+        6417,
+        185.0,
+        3887
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100036,
+      "episode": 34,
+      "name": "Seat",
+      "model": "Exeo ST D",
+      "ccm": "2.0",
+      "hp": "143",
+      "km": "162.910",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        150.1,
+        4178,
+        348.6,
+        2142
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100035,
+      "episode": 34,
+      "name": "VW",
+      "model": "Lupo 1.4 16V",
+      "ccm": "1.4",
+      "hp": "101",
+      "km": "211.427",
+      "year": "1999",
+      "messung1": [],
+      "messung2": [
+        95.6,
+        5829,
+        124.6,
+        4466
+      ],
+      "comment": "Fächerkrümmer, Nockenwelle"
+    },
+    {
+      "id": 100034,
+      "episode": 34,
+      "name": "BMW",
+      "model": "(E36) 323i",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "",
+      "year": "",
+      "messung1": [
+        175.1,
+        5630,
+        239.6,
+        4562
+      ],
+      "messung2": [
+        177.1,
+        5471,
+        243.3,
+        4596
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100033,
+      "episode": 34,
+      "name": "Ford",
+      "model": "Maverick 12V",
+      "ccm": "2.4",
+      "hp": "124",
+      "km": "190.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        125.6,
+        5153,
+        202.7,
+        3464
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100032,
+      "episode": 34,
+      "name": "VW",
+      "model": "Käfer 1200",
+      "ccm": "1.6",
+      "hp": "60",
+      "km": "",
+      "year": "1970",
+      "messung1": [],
+      "messung2": [
+        60.5,
+        4449,
+        110.5,
+        3045
+      ],
+      "comment": "Aufgebort, stehender Doppelvergaser"
+    },
+    {
+      "id": 100031,
+      "episode": 34,
+      "name": "Toyota",
+      "model": "Corolla (E11)",
+      "ccm": "1.6",
+      "hp": "110",
+      "km": "225.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        107.7,
+        6177,
+        144.2,
+        4639
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100030,
+      "episode": 33,
+      "name": "BMW",
+      "model": "(E34) 540i Touring",
+      "ccm": "4.0",
+      "hp": "286",
+      "km": "224.154",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        273.2,
+        6181,
+        370.5,
+        4272
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100029,
+      "episode": 33,
+      "name": "Porsche",
+      "model": "964 (C2) Cabrio",
+      "ccm": "3.6",
+      "hp": "250",
+      "km": "191.769",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        237.5,
+        6201,
+        294.2,
+        5051
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100028,
+      "episode": 33,
+      "name": "Fiat",
+      "model": "130",
+      "ccm": "3.5",
+      "hp": "165",
+      "km": "47.138",
+      "year": "1971",
+      "messung1": [],
+      "messung2": [
+        157.9,
+        5981,
+        228.3,
+        3493
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100027,
+      "episode": 33,
+      "name": "Dodge",
+      "model": "Viper SRT",
+      "ccm": "8.0",
+      "hp": "400",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        393.3,
+        5870,
+        534.7,
+        4648
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100026,
+      "episode": 33,
+      "name": "Opel",
+      "model": "Astra (F) Cabrio",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        118.6,
+        5516,
+        170.0,
+        4691
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100025,
+      "episode": 33,
+      "name": "Opel",
+      "model": "Rekord (C) 1900 Coupe",
+      "ccm": "2.0",
+      "hp": "110",
+      "km": "95.991",
+      "year": "1968",
+      "messung1": [],
+      "messung2": [
+        98.3,
+        4831,
+        153.9,
+        2962
+      ],
+      "comment": "2.0E Motor"
+    },
+    {
+      "id": 100024,
+      "episode": 33,
+      "name": "Fiat",
+      "model": "Coupe Turbo 20V",
+      "ccm": "2.0",
+      "hp": "220",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        256.4,
+        5976,
+        344.2,
+        3592
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100023,
+      "episode": 33,
+      "name": "VW",
+      "model": "Golf II GTI",
+      "ccm": "",
+      "hp": "112",
+      "km": "195.095",
+      "year": "1986",
+      "messung1": [],
+      "messung2": [
+        102.1,
+        5600,
+        152.9,
+        3262
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100022,
+      "episode": 33,
+      "name": "VW",
+      "model": "Käfer",
+      "ccm": "1.8",
+      "hp": "",
+      "km": "49.878",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        106.9,
+        5845,
+        142.6,
+        4809
+      ],
+      "comment": "Udo Becker Motor"
+    },
+    {
+      "id": 100021,
+      "episode": 33,
+      "name": "Nissan",
+      "model": "Primera STW",
+      "ccm": "2.0",
+      "hp": "180",
+      "km": "167.098",
+      "year": "1998",
+      "messung1": [
+        146.9,
+        6470,
+        169.6,
+        5320
+      ],
+      "messung2": [
+        146.5,
+        6576,
+        167.3,
+        5246
+      ],
+      "comment": "Fächerkrümmer, Ansaugung"
+    },
+    {
+      "id": 100020,
+      "episode": 33,
+      "name": "VW",
+      "model": "T4 (Caravelle)",
+      "ccm": "2.8",
+      "hp": "204",
+      "km": "143.867",
+      "year": "",
+      "messung1": [
+        153.7,
+        5871,
+        228.0,
+        3531
+      ],
+      "messung2": [
+        153.7,
+        5871,
+        228.0,
+        3531
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100019,
+      "episode": 33,
+      "name": "Audi",
+      "model": "(Cabrio)",
+      "ccm": "",
+      "hp": "133",
+      "km": "165.259",
+      "year": "1992",
+      "messung1": [],
+      "messung2": [
+        128.3,
+        5682,
+        180.9,
+        3918
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100018,
+      "episode": 33,
+      "name": "Opel",
+      "model": "Omega (B)",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "102.379",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        175.3,
+        6258,
+        227.2,
+        3560
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100017,
+      "episode": 33,
+      "name": "Mini",
+      "model": "Cooper",
+      "ccm": "1.3",
+      "hp": "63",
+      "km": "",
+      "year": "1992",
+      "messung1": [],
+      "messung2": [
+        58.4,
+        5085,
+        90.1,
+        3378
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100016,
+      "episode": 33,
+      "name": "Peugeot",
+      "model": "306 (Cabrio)",
+      "ccm": "",
+      "hp": "110",
+      "km": "203.227",
+      "year": "2000",
+      "messung1": [],
+      "messung2": [
+        118.9,
+        5613,
+        166.5,
+        3564
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100015,
+      "episode": 33,
+      "name": "Mercedes",
+      "model": "(C123) 230SE",
+      "ccm": "2.3",
+      "hp": "136",
+      "km": "202.667",
+      "year": "1981",
+      "messung1": [],
+      "messung2": [
+        121.5,
+        5644,
+        172.2,
+        3870
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100014,
+      "episode": 32,
+      "name": "Honda",
+      "model": "CRX",
+      "ccm": "1.6",
+      "hp": "124",
+      "km": "174.221",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        132.4,
+        7221,
+        140.6,
+        6051
+      ],
+      "comment": "Facherkrümmer"
+    },
+    {
+      "id": 100013,
+      "episode": 32,
+      "name": "BMW",
+      "model": "(E46) 330 Cabrio",
+      "ccm": "3.0",
+      "hp": "230",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        215.8,
+        6273,
+        282.8,
+        3651
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100012,
+      "episode": 32,
+      "name": "VW",
+      "model": "Passat (Carat)",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        100.2,
+        5836,
+        142.9,
+        3297
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100011,
+      "episode": 32,
+      "name": "Volvo",
+      "model": "C70 Coupe",
+      "ccm": "",
+      "hp": "193",
+      "km": "210.000",
+      "year": "1999",
+      "messung1": [],
+      "messung2": [
+        210.4,
+        5364,
+        354.2,
+        3358
+      ],
+      "comment": "Chiptuning"
+    },
+    {
+      "id": 100010,
+      "episode": 32,
+      "name": "Audi",
+      "model": "Cabrio",
+      "ccm": "2.6",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        127.2,
+        5310,
+        179.5,
+        4910
+      ],
+      "messung2": [
+        126.7,
+        5343,
+        195.6,
+        3897
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100009,
+      "episode": 32,
+      "name": "Opel",
+      "model": "Kadett (E)",
+      "ccm": "2.0",
+      "hp": "174",
+      "km": "",
+      "year": "",
+      "messung1": [
+        158.7,
+        6975,
+        173.9,
+        6001
+      ],
+      "messung2": [
+        158.5,
+        6836,
+        172.4,
+        5964
+      ],
+      "comment": "XE Motor 16V"
+    },
+    {
+      "id": 100008,
+      "episode": 32,
+      "name": "Ford",
+      "model": "Sierra 2.9i Ghia",
+      "ccm": "2.8",
+      "hp": "145",
+      "km": "",
+      "year": "1991",
+      "messung1": [],
+      "messung2": [
+        146.3,
+        5729,
+        220.7,
+        3360
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100007,
+      "episode": 32,
+      "name": "Mazda",
+      "model": "Xedos 6",
+      "ccm": "2.0",
+      "hp": "120",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        125.8,
+        6851,
+        155.8,
+        4015
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100006,
+      "episode": 32,
+      "name": "VW",
+      "model": "Golf I (Cabrio)",
+      "ccm": "1.8",
+      "hp": "98",
+      "km": "",
+      "year": "1991",
+      "messung1": [],
+      "messung2": [
+        113.0,
+        4931,
+        176.5,
+        3461
+      ],
+      "comment": "Fächerkrümmer, GTI Steuergerät"
+    },
+    {
+      "id": 100005,
+      "episode": 32,
+      "name": "VW",
+      "model": "Golf III (Cabrio)",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        108.4,
+        4986,
+        174.8,
+        2668
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100004,
+      "episode": 32,
+      "name": "VW",
+      "model": "Vento",
+      "ccm": "1.8",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        85.1,
+        5378,
+        138.6,
+        2684
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100003,
+      "episode": 32,
+      "name": "Ford",
+      "model": "Sierra Cosworth Turbo",
+      "ccm": "2.0",
+      "hp": "204",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        186.4,
+        5896,
+        246.7,
+        3937
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100002,
+      "episode": 32,
+      "name": "Alfa Romeo",
+      "model": "Alfasud",
+      "ccm": "1.2",
+      "hp": "63",
+      "km": "44.000",
+      "year": "1976",
+      "messung1": [],
+      "messung2": [
+        59.3,
+        6069,
+        95.5,
+        3420
+      ],
+      "comment": ""
+    },
+    {
+      "id": 100001,
+      "episode": 32,
+      "name": "Alfa Romeo",
+      "model": "Aletta",
+      "ccm": "1.8",
+      "hp": "115",
+      "km": "",
+      "year": "1976",
+      "messung1": [],
+      "messung2": [
+        95.4,
+        5294,
+        143.3,
+        2806
+      ],
+      "comment": ""
+    }
+  ]
+}

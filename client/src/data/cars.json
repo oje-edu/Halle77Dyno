@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 205,
-      "episode": 15,
+      "id": 255,
+      "episode": 18,
       "name": "",
       "model": "",
       "ccm": "",
@@ -11,6 +11,991 @@
       "year": "",
       "messung1": [],
       "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 254,
+      "episode": 17,
+      "name": "Renault",
+      "model": "Clio Sport 16V",
+      "ccm": "2.0",
+      "hp": "168",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        182.3,
+        7531,
+        189.0,
+        6293
+      ],
+      "comment": "Megane Motor"
+    },
+    {
+      "id": 253,
+      "episode": 17,
+      "name": "Renault",
+      "model": "Clio Sport 16V",
+      "ccm": "2.0",
+      "hp": "169",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        164.3,
+        6540,
+        195.0,
+        5516
+      ],
+      "comment": ""
+    },
+    {
+      "id": 252,
+      "episode": 17,
+      "name": "Renault",
+      "model": "Clio 16V",
+      "ccm": "1.8",
+      "hp": "135",
+      "km": "",
+      "year": "",
+      "messung1": [
+        134.1,
+        6880,
+        145.4,
+        4788
+      ],
+      "messung2": [
+        134.7,
+        7030,
+        148.7,
+        4770
+      ],
+      "comment": "2. Messung mit original Steuergerät"
+    },
+    {
+      "id": 251,
+      "episode": 17,
+      "name": "VW",
+      "model": "Golf III VR6",
+      "ccm": "2.8",
+      "hp": "174",
+      "km": "",
+      "year": "",
+      "messung1": [
+        173.1,
+        6234,
+        219.3,
+        4771
+      ],
+      "messung2": [
+        176.2,
+        6094,
+        225.7,
+        4608
+      ],
+      "comment": "2. Messung mit offener Motorhaube"
+    },
+    {
+      "id": 250,
+      "episode": 17,
+      "name": "Seat",
+      "model": "Leon Cupra",
+      "ccm": "2.0",
+      "hp": "280",
+      "km": "133.000",
+      "year": "",
+      "messung1": [
+        291.0,
+        5912,
+        366.7,
+        3035
+      ],
+      "messung2": [
+        295.9,
+        5894,
+        380.6,
+        3079
+      ],
+      "comment": ""
+    },
+    {
+      "id": 249,
+      "episode": 17,
+      "name": "Seat",
+      "model": "Leon Cupra",
+      "ccm": "2.0",
+      "hp": "280",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        350.1,
+        6405,
+        486.0,
+        3366
+      ],
+      "comment": "Software"
+    },
+    {
+      "id": 248,
+      "episode": 17,
+      "name": "Ford",
+      "model": "Fiesta ST 200",
+      "ccm": "1.6",
+      "hp": "200",
+      "km": "",
+      "year": "",
+      "messung1": [
+        200.7,
+        5174,
+        307.6,
+        3179
+      ],
+      "messung2": [
+        209.6,
+        5636,
+        299.5,
+        3283
+      ],
+      "comment": ""
+    },
+    {
+      "id": 247,
+      "episode": 17,
+      "name": "VW",
+      "model": "Käfer 1302",
+      "ccm": "1.3",
+      "hp": "44",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        53.2,
+        4337,
+        99.1,
+        2960
+      ],
+      "comment": "Wahrscheinlich 1.6er"
+    },
+    {
+      "id": 246,
+      "episode": 17,
+      "name": "Audi",
+      "model": "A4 (B5)",
+      "ccm": "2.4",
+      "hp": "165",
+      "km": "",
+      "year": "",
+      "messung1": [
+        177.3,
+        6325,
+        208.0,
+        5594
+      ],
+      "messung2": [
+        177.2,
+        6338,
+        209.5,
+        5668
+      ],
+      "comment": ""
+    },
+    {
+      "id": 245,
+      "episode": 17,
+      "name": "Audi",
+      "model": "A4",
+      "ccm": "1.8",
+      "hp": "190",
+      "km": "",
+      "year": "",
+      "messung1": [
+        180.3,
+        5188,
+        288.8,
+        3832
+      ],
+      "messung2": [
+        182.8,
+        5243,
+        290.7,
+        3815
+      ],
+      "comment": "Software"
+    },
+    {
+      "id": 244,
+      "episode": 17,
+      "name": "Opel",
+      "model": "Vectra I500",
+      "ccm": "2.5",
+      "hp": "194",
+      "km": "",
+      "year": "",
+      "messung1": [
+        178.2,
+        6334,
+        239.7,
+        3589
+      ],
+      "messung2": [
+        179.4,
+        6305,
+        245.6,
+        3586
+      ],
+      "comment": ""
+    },
+    {
+      "id": 243,
+      "episode": 17,
+      "name": "VW",
+      "model": "Golf VI GTD",
+      "ccm": "2.0",
+      "hp": "170",
+      "km": "",
+      "year": "",
+      "messung1": [
+        196.6,
+        4201,
+        441.0,
+        2274
+      ],
+      "messung2": [
+        198.0,
+        4268,
+        441.1,
+        2283
+      ],
+      "comment": ""
+    },
+    {
+      "id": 242,
+      "episode": 17,
+      "name": "Ford",
+      "model": "Focus ST (Kombi)",
+      "ccm": "2.0",
+      "hp": "250",
+      "km": "",
+      "year": "",
+      "messung1": [
+        239.4,
+        4469,
+        418.7,
+        2408
+      ],
+      "messung2": [
+        262.7,
+        5259,
+        427.7,
+        2402
+      ],
+      "comment": ""
+    },
+    {
+      "id": 241,
+      "episode": 17,
+      "name": "Ford",
+      "model": "Fiesta ST",
+      "ccm": "1.6",
+      "hp": "182",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        196.9,
+        6115,
+        292.2,
+        3433
+      ],
+      "comment": ""
+    },
+    {
+      "id": 240,
+      "episode": 17,
+      "name": "Ford",
+      "model": "Focus ST (Gen3)",
+      "ccm": "2.0",
+      "hp": "250",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        250.0,
+        5213,
+        425.5,
+        2444
+      ],
+      "comment": ""
+    },
+    {
+      "id": 239,
+      "episode": 17,
+      "name": "VW",
+      "model": "Passat TDI",
+      "ccm": "1.9",
+      "hp": "110",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        144.9,
+        3731,
+        347.9,
+        2488
+      ],
+      "comment": "AFN Motor"
+    },
+    {
+      "id": 238,
+      "episode": 17,
+      "name": "Volvo",
+      "model": "244 GLT",
+      "ccm": "2.3",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        132.4,
+        5870,
+        177.7,
+        4770
+      ],
+      "comment": "100 Stück gebaut"
+    },
+    {
+      "id": 237,
+      "episode": 17,
+      "name": "Audi",
+      "model": "A3 TDI Sportback",
+      "ccm": "2.0",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [
+        172.7,
+        3785,
+        383.9,
+        2333
+      ],
+      "messung2": [
+        171.5,
+        3928,
+        383.5,
+        2325
+      ],
+      "comment": "Software"
+    },
+    {
+      "id": 236,
+      "episode": 16,
+      "name": "VW",
+      "model": "Jetta TDI",
+      "ccm": "1.9",
+      "hp": "105",
+      "km": "349.000",
+      "year": "",
+      "messung1": [
+        106.4,
+        3769,
+        261.3,
+        2147
+      ],
+      "messung2": [
+        107.4,
+        3784,
+        264.1,
+        2126
+      ],
+      "comment": ""
+    },
+    {
+      "id": 235,
+      "episode": 16,
+      "name": "Audi",
+      "model": "Coupe",
+      "ccm": "2.3",
+      "hp": "136",
+      "km": "232.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        124.5,
+        6451,
+        157.3,
+        4567
+      ],
+      "comment": ""
+    },
+    {
+      "id": 234,
+      "episode": 16,
+      "name": "BMW",
+      "model": "330d",
+      "ccm": "3.0",
+      "hp": "204",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        312.1,
+        3847,
+        623.0,
+        3117
+      ],
+      "comment": ""
+    },
+    {
+      "id": 233,
+      "episode": 16,
+      "name": "VW",
+      "model": "Lupo GTI",
+      "ccm": "1.6",
+      "hp": "125",
+      "km": "",
+      "year": "",
+      "messung1": [
+        128.1,
+        6701,
+        147.9,
+        3050
+      ],
+      "messung2": [
+        132.9,
+        6691,
+        154.6,
+        3063
+      ],
+      "comment": ""
+    },
+    {
+      "id": 232,
+      "episode": 16,
+      "name": "BMW",
+      "model": "(E46) 320i",
+      "ccm": "2.0",
+      "hp": "170",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        174.9,
+        6404,
+        205.0,
+        4968
+      ],
+      "comment": ""
+    },
+    {
+      "id": 231,
+      "episode": 16,
+      "name": "Mini",
+      "model": "Cooper S",
+      "ccm": "1.6",
+      "hp": "163",
+      "km": "204.506",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        179.0,
+        6903,
+        214.5,
+        4151
+      ],
+      "comment": ""
+    },
+    {
+      "id": 230,
+      "episode": 16,
+      "name": "Toyota",
+      "model": "Crown VVTI",
+      "ccm": "2.5",
+      "hp": "280",
+      "km": "",
+      "year": "",
+      "messung1": [
+        282.9,
+        5100,
+        429.2,
+        4283
+      ],
+      "messung2": [
+        268.1,
+        5558,
+        465.2,
+        3541
+      ],
+      "comment": "Radleistung, Rechtslenker"
+    },
+    {
+      "id": 229,
+      "episode": 16,
+      "name": "Volvo",
+      "model": "C70",
+      "ccm": "2.4",
+      "hp": "235",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        280.0,
+        4461,
+        458.0,
+        4223
+      ],
+      "comment": ""
+    },
+    {
+      "id": 228,
+      "episode": 16,
+      "name": "VW",
+      "model": "T3",
+      "ccm": "2.1",
+      "hp": "112",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        97.3,
+        4794,
+        166.6,
+        2896
+      ],
+      "comment": ""
+    },
+    {
+      "id": 227,
+      "episode": 16,
+      "name": "Ford",
+      "model": "Focus ST",
+      "ccm": "2.5",
+      "hp": "225",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        242.4,
+        5440,
+        349.8,
+        3410
+      ],
+      "comment": ""
+    },
+    {
+      "id": 226,
+      "episode": 16,
+      "name": "Audi",
+      "model": "A3 TDI",
+      "ccm": "1.9",
+      "hp": "131",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        164.5,
+        4014,
+        375.6,
+        2565
+      ],
+      "comment": "Dieselpartikelfilter"
+    },
+    {
+      "id": 225,
+      "episode": 16,
+      "name": "VW",
+      "model": "Golf V GTI (Edition 30)",
+      "ccm": "2.0",
+      "hp": "230",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        291.0,
+        6736,
+        374.6,
+        3726
+      ],
+      "comment": ""
+    },
+    {
+      "id": 224,
+      "episode": 16,
+      "name": "Mazda",
+      "model": "RX 8",
+      "ccm": "1.3",
+      "hp": "193",
+      "km": "",
+      "year": "",
+      "messung1": [
+        164.6,
+        7679,
+        181.5,
+        5628
+      ],
+      "messung2": [
+        165.5,
+        7827,
+        182.2,
+        5644
+      ],
+      "comment": "Wankelmotor"
+    },
+    {
+      "id": 223,
+      "episode": 16,
+      "name": "Mazda",
+      "model": "MX 5 (Cabrio)",
+      "ccm": "1.8",
+      "hp": "130",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        124.9,
+        6879,
+        144.1,
+        5353
+      ],
+      "comment": ""
+    },
+    {
+      "id": 222,
+      "episode": 16,
+      "name": "VW",
+      "model": "Golf VII GTI",
+      "ccm": "2.0",
+      "hp": "245",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        343.0,
+        5533,
+        554.0,
+        3978
+      ],
+      "comment": ""
+    },
+    {
+      "id": 221,
+      "episode": 15,
+      "name": "BMW",
+      "model": "Alpina B10",
+      "ccm": "3.2",
+      "hp": "260",
+      "km": "180.000",
+      "year": "1998",
+      "messung1": [],
+      "messung2": [
+        248.5,
+        6139,
+        307.8,
+        4743
+      ],
+      "comment": ""
+    },
+    {
+      "id": 220,
+      "episode": 15,
+      "name": "BMW",
+      "model": "M5",
+      "ccm": "5.0",
+      "hp": "400",
+      "km": "63.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        366.1,
+        6482,
+        466.8,
+        4599
+      ],
+      "comment": ""
+    },
+    {
+      "id": 219,
+      "episode": 15,
+      "name": "BMW",
+      "model": "135i",
+      "ccm": "3.5",
+      "hp": "306",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        418.8,
+        5321,
+        629.2,
+        4009
+      ],
+      "comment": "Biturbo, Software Krass!!"
+    },
+    {
+      "id": 218,
+      "episode": 15,
+      "name": "BMW",
+      "model": "(E36) 318ti",
+      "ccm": "1.8",
+      "hp": "140",
+      "km": "353.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        121.9,
+        6478,
+        148.3,
+        4877
+      ],
+      "comment": ""
+    },
+    {
+      "id": 217,
+      "episode": 15,
+      "name": "BMW",
+      "model": "(E39) M5",
+      "ccm": "5.0",
+      "hp": "400",
+      "km": "240.000",
+      "year": "",
+      "messung1": [
+        349.1,
+        6868,
+        439.0,
+        3684
+      ],
+      "messung2": [
+        356.5,
+        6911,
+        451.9,
+        4719
+      ],
+      "comment": ""
+    },
+    {
+      "id": 216,
+      "episode": 15,
+      "name": "BMW",
+      "model": "(E30) 325i Cabrio",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        165.1,
+        6296,
+        201.1,
+        4600
+      ],
+      "comment": ""
+    },
+    {
+      "id": 215,
+      "episode": 15,
+      "name": "Audi",
+      "model": "100 (Typ 44) Avant",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        89.6,
+        4826,
+        141.2,
+        3840
+      ],
+      "comment": ""
+    },
+    {
+      "id": 214,
+      "episode": 15,
+      "name": "Opel",
+      "model": "Ampera",
+      "ccm": "",
+      "hp": "151",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        167.9,
+        1728,
+        690.1,
+        1728
+      ],
+      "comment": "Marcos Auto (Radleistung)"
+    },
+    {
+      "id": 213,
+      "episode": 15,
+      "name": "Jaguar",
+      "model": "XJ Sovereign",
+      "ccm": "4.2",
+      "hp": "204",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        144.1,
+        4670,
+        255.5,
+        2955
+      ],
+      "comment": "Rechtslenker"
+    },
+    {
+      "id": 212,
+      "episode": 15,
+      "name": "BMW",
+      "model": "M5",
+      "ccm": "5.0",
+      "hp": "400",
+      "km": "353.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        369.8,
+        6827,
+        462.2,
+        4661
+      ],
+      "comment": ""
+    },
+    {
+      "id": 211,
+      "episode": 15,
+      "name": "VW",
+      "model": "Golf I (Cabrio)",
+      "ccm": "1.8",
+      "hp": "98",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        107.4,
+        5708,
+        150.5,
+        3833
+      ],
+      "comment": ""
+    },
+    {
+      "id": 210,
+      "episode": 15,
+      "name": "Volvo",
+      "model": "V70",
+      "ccm": "2.4",
+      "hp": "185",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        205.2,
+        3141,
+        517.0,
+        2253
+      ],
+      "comment": ""
+    },
+    {
+      "id": 209,
+      "episode": 15,
+      "name": "Honda",
+      "model": "Accort VTEC",
+      "ccm": "2.4",
+      "hp": "190",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        195.6,
+        7168,
+        216.7,
+        3510
+      ],
+      "comment": ""
+    },
+    {
+      "id": 208,
+      "episode": 15,
+      "name": "Audi",
+      "model": "Coupe",
+      "ccm": "2.2",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [
+        130.2,
+        6279,
+        155.6,
+        4493
+      ],
+      "messung2": [
+        127.1,
+        6153,
+        153.1,
+        4674
+      ],
+      "comment": "Nockenwelle"
+    },
+    {
+      "id": 207,
+      "episode": 15,
+      "name": "Audi",
+      "model": "A3 Sportback",
+      "ccm": "1.9",
+      "hp": "105",
+      "km": "177.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        109.2,
+        4018,
+        269.5,
+        2144
+      ],
+      "comment": ""
+    },
+    {
+      "id": 206,
+      "episode": 15,
+      "name": "Mitsubishi",
+      "model": "Eclipse",
+      "ccm": "2.0",
+      "hp": "214",
+      "km": "",
+      "year": "1996",
+      "messung1": [
+        469.7,
+        5606,
+        623.4,
+        5024
+      ],
+      "messung2": [
+        478.7,
+        5871,
+        632.7,
+        5022
+      ],
+      "comment": "Turbo Umbau, ALTAA!!!"
+    },
+    {
+      "id": 205,
+      "episode": 15,
+      "name": "Toyota",
+      "model": "Corolla TS",
+      "ccm": "",
+      "hp": "",
+      "km": "192",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        180.0,
+        8096,
+        177.8,
+        6878
+      ],
       "comment": ""
     },
     {
@@ -121,7 +1106,7 @@
         185.3,
         3475
       ],
-      "comment": "1. Messung Lufmassenmesser defekt"
+      "comment": "1. Messung Luftmassenmesser defekt"
     },
     {
       "id": 199,
