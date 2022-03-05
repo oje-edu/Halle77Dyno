@@ -73,6 +73,18 @@
         }
       },
       {
+        "kz": "AP",
+        "name": "Apolda",
+        "distance": "360",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.0260095,
+            11.5155495
+          ]
+        }
+      },
+      {
         "kz": "APD",
         "name": "Apolda",
         "distance": "360",
@@ -709,6 +721,18 @@
         }
       },
       {
+        "kz": "FR (AT)",
+        "name": "Freistadt",
+        "distance": "820",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.502170,
+            14.502010
+          ]
+        }
+      },
+      {
         "kz": "FRI",
         "name": "Friesland",
         "distance": "280",
@@ -1081,6 +1105,18 @@
         }
       },
       {
+        "kz": "HN",
+        "name": "Heilbronn",
+        "distance": "380",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.1426929,
+            9.210879
+          ]
+        }
+      },
+      {
         "kz": "HOL",
         "name": "Holzminden",
         "distance": "170",
@@ -1317,6 +1353,18 @@
           "coordinates": [
             49.815273,
             6.129583
+          ]
+        }
+      },
+      {
+        "kz": "LB",
+        "name": "Ludwigsburg",
+        "distance": "420",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.8940624,
+            9.195464
           ]
         }
       },
@@ -1737,6 +1785,18 @@
           "coordinates": [
             52.132633,
             5.291266
+          ]
+        }
+      },
+      {
+        "kz": "NOR",
+        "name": "Norden",
+        "distance": "300",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.576853,
+            7.164472
           ]
         }
       },
