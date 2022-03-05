@@ -1237,6 +1237,18 @@
         }
       },
       {
+        "kz": "KLE",
+        "name": "Kleve",
+        "distance": "130",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.786726,
+            6.12954
+          ]
+        }
+      },
+      {
         "kz": "KO",
         "name": "Koblenz",
         "distance": "200",
