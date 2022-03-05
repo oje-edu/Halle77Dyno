@@ -1417,6 +1417,18 @@
         }
       },
       {
+        "kz": "LR",
+        "name": "Lahr",
+        "distance": "460",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.333333,
+            7.866667
+          ]
+        }
+      },
+      {
         "kz": "LU",
         "name": "Ludwigshafen am Rhein",
         "distance": "320",
@@ -1461,6 +1473,18 @@
           "coordinates": [
             51.2506663,
             6.9740265
+          ]
+        }
+      },
+      {
+        "kz": "MG",
+        "name": "Mönchengladbach",
+        "distance": "95",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.1804572,
+            6.4428041
           ]
         }
       },

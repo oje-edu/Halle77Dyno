@@ -1,7 +1,7 @@
 {
   "cars": [
     {
-      "id": 273,
+      "id": 283,
       "episode": 19,
       "name": "",
       "model": "",
@@ -12,6 +12,196 @@
       "messung1": [],
       "messung2": [],
       "comment": ""
+    },
+    {
+      "id": 282,
+      "episode": 19,
+      "name": "BMW",
+      "model": "(E30) 325i Cabrio",
+      "ccm": "2.8",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [
+        176.1,
+        5752,
+        223.5,
+        4459
+      ],
+      "messung2": [
+        181.0,
+        5908,
+        238.8,
+        4739
+      ],
+      "comment": "2.8 aus E36, Original Einspritzung, Software"
+    },
+    {
+      "id": 281,
+      "episode": 19,
+      "name": "BMW",
+      "model": "750i",
+      "ccm": "5.0",
+      "hp": "299",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        263.8,
+        5990,
+        412.6,
+        4192
+      ],
+      "comment": "V12, Automatik"
+    },
+    {
+      "id": 280,
+      "episode": 19,
+      "name": "Opel",
+      "model": "Tigra",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": "Nicht Messbar (Kein abschaltbares ESP)"
+    },
+    {
+      "id": 279,
+      "episode": 19,
+      "name": "Caterham",
+      "model": "",
+      "ccm": "1.6",
+      "hp": "",
+      "km": "",
+      "year": "1986",
+      "messung1": [
+        108.9,
+        5687,
+        154.7,
+        4436
+      ],
+      "messung2": [
+        107.8,
+        5744,
+        155.9,
+        4437
+      ],
+      "comment": "Kent-Motor"
+    },
+    {
+      "id": 278,
+      "episode": 19,
+      "name": "VW",
+      "model": "Passat (32B) GL",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "71.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        78.2,
+        5628,
+        126.0,
+        2759
+      ],
+      "comment": ""
+    },
+    {
+      "id": 277,
+      "episode": 19,
+      "name": "BMW",
+      "model": "(E39) 523i",
+      "ccm": "2.5",
+      "hp": "170",
+      "km": "227.000",
+      "year": "1999",
+      "messung1": [],
+      "messung2": [
+        183.3,
+        6450,
+        231.3,
+        4663
+      ],
+      "comment": ""
+    },
+    {
+      "id": 276,
+      "episode": 19,
+      "name": "VW",
+      "model": "Scirocco Turbo",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        159.1,
+        5441,
+        225.0,
+        4280
+      ],
+      "messung2": [
+        170.6,
+        5104,
+        266.0,
+        3925
+      ],
+      "comment": "1. Messung mit Seriensteuergerät"
+    },
+    {
+      "id": 275,
+      "episode": 19,
+      "name": "VW",
+      "model": "Polo (86C) Turbo",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "1989",
+      "messung1": [],
+      "messung2": [
+        146.4,
+        6218,
+        196.0,
+        4964
+      ],
+      "comment": "War mal ein G40"
+    },
+    {
+      "id": 274,
+      "episode": 19,
+      "name": "Oldsmobile",
+      "model": "Alero",
+      "ccm": "3.4",
+      "hp": "174",
+      "km": "",
+      "year": "1999",
+      "messung1": [],
+      "messung2": [
+        166.1,
+        5300,
+        242.8,
+        4249
+      ],
+      "comment": ""
+    },
+    {
+      "id": 273,
+      "episode": 19,
+      "name": "VW",
+      "model": "T5",
+      "ccm": "2.0",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        171.4,
+        3815,
+        362.0,
+        2412
+      ],
+      "comment": "Chiptuning"
     },
     {
       "id": 272,
@@ -1421,7 +1611,7 @@
       "episode": 14,
       "name": "BMW",
       "model": "(E46) 323i",
-      "ccm": "2.3",
+      "ccm": "2.5",
       "hp": "170",
       "km": "",
       "year": "",
@@ -1857,7 +2047,7 @@
       "episode": 13,
       "name": "BMW",
       "model": "(E46) 325i",
-      "ccm": "",
+      "ccm": "2.5",
       "hp": "193",
       "km": "300.000",
       "year": "",
@@ -1952,7 +2142,7 @@
       "episode": 13,
       "name": "BMW",
       "model": "Z3 M",
-      "ccm": "",
+      "ccm": "3.2",
       "hp": "321",
       "km": "32.454",
       "year": "",
@@ -2029,7 +2219,7 @@
       "episode": 13,
       "name": "BMW",
       "model": "(E21) 323i",
-      "ccm": "2.3",
+      "ccm": "2.5",
       "hp": "143",
       "km": "",
       "year": "",
@@ -3384,7 +3574,7 @@
       "episode": 8,
       "name": "BMW",
       "model": "(E36) 323",
-      "ccm": "2.3",
+      "ccm": "2.5",
       "hp": "170",
       "km": "",
       "year": "",
@@ -3738,7 +3928,7 @@
       "episode": 7,
       "name": "BMW",
       "model": "323Ti",
-      "ccm": "2.3",
+      "ccm": "2.5",
       "hp": "170",
       "km": "",
       "year": "",
@@ -3883,8 +4073,8 @@
       "id": 75,
       "episode": 7,
       "name": "BMW",
-      "model": "M3",
-      "ccm": "",
+      "model": "(E30) M3",
+      "ccm": "2.3",
       "hp": "195",
       "km": "",
       "year": "",
