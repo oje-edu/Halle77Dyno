@@ -421,6 +421,18 @@
         }
       },
       {
+        "kz": "DAU",
+        "name": "Daun",
+        "distance": "230",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.1952445,
+            6.8232859
+          ]
+        }
+      },
+      {
         "kz": "DEL",
         "name": "Delmenhorst",
         "distance": "220",
@@ -681,6 +693,18 @@
           "coordinates": [
             50.5558095,
             9.6808449
+          ]
+        }
+      },
+      {
+        "kz": "FKB",
+        "name": "Frankenberg (Eder)",
+        "distance": "150",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.058889,
+            8.796667
           ]
         }
       },
@@ -1153,6 +1177,18 @@
         }
       },
       {
+        "kz": "J",
+        "name": "Jena",
+        "distance": "360",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.927054,
+            11.5892372
+          ]
+        }
+      },
+      {
         "kz": "K",
         "name": "Köln",
         "distance": "100",
@@ -1485,6 +1521,18 @@
           "coordinates": [
             51.1804572,
             6.4428041
+          ]
+        }
+      },
+      {
+        "kz": "MI",
+        "name": "Minden-Lübbecke",
+        "distance": "160",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.335154,
+            8.762342
           ]
         }
       },
@@ -2325,6 +2373,18 @@
           "coordinates": [
             48.208174,
             16.373819
+          ]
+        }
+      },
+      {
+        "kz": "WA",
+        "name": "Waldeck-Frankenberg",
+        "distance": "140",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.222086,
+            8.854924
           ]
         }
       },
