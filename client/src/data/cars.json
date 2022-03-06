@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 319,
-      "episode": 23,
+      "id": 335,
+      "episode": 24,
       "name": "",
       "model": "",
       "ccm": "",
@@ -11,6 +11,291 @@
       "year": "",
       "messung1": [],
       "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 334,
+      "episode": 23,
+      "name": "VW",
+      "model": "Caddy",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        149.0,
+        6054,
+        207.0,
+        3978
+      ],
+      "comment": "Kompressor"
+    },
+    {
+      "id": 333,
+      "episode": 23,
+      "name": "Audi",
+      "model": "80 Cabrio",
+      "ccm": "2.3",
+      "hp": "133",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        123.1,
+        5613,
+        178.4,
+        4085
+      ],
+      "comment": ""
+    },
+    {
+      "id": 332,
+      "episode": 23,
+      "name": "Opel",
+      "model": "Speedster",
+      "ccm": "2.2",
+      "hp": "147",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        139.3,
+        5903,
+        198.8,
+        4072
+      ],
+      "comment": "Ansaugung"
+    },
+    {
+      "id": 331,
+      "episode": 23,
+      "name": "Opel",
+      "model": "Kadett (E) Caravan Club Spezial",
+      "ccm": "1.8",
+      "hp": "90",
+      "km": "76.000",
+      "year": "1991",
+      "messung1": [],
+      "messung2": [
+        89.3,
+        5573,
+        141.5,
+        2881
+      ],
+      "comment": ""
+    },
+    {
+      "id": 330,
+      "episode": 23,
+      "name": "VW",
+      "model": "T4 D",
+      "ccm": "2.4",
+      "hp": "78",
+      "km": "314.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        51.6,
+        4061,
+        126.6,
+        2248
+      ],
+      "comment": ""
+    },
+    {
+      "id": 329,
+      "episode": 23,
+      "name": "Honda",
+      "model": "Civic VTEC",
+      "ccm": "1.5",
+      "hp": "114",
+      "km": "",
+      "year": "",
+      "messung1": [
+        112.2,
+        6963,
+        128.3,
+        5891
+      ],
+      "messung2": [
+        112.6,
+        8977,
+        128.7,
+        5841
+      ],
+      "comment": "2. Messung mit offenem Luftfiltergehäuse"
+    },
+    {
+      "id": 328,
+      "episode": 23,
+      "name": "Opel",
+      "model": "Astra ( G ) OPC (Kombi)",
+      "ccm": "2.0",
+      "hp": "200",
+      "km": "",
+      "year": "2003",
+      "messung1": [],
+      "messung2": [
+        222.2,
+        5768,
+        358.6,
+        3519
+      ],
+      "comment": ""
+    },
+    {
+      "id": 327,
+      "episode": 23,
+      "name": "Audi",
+      "model": "Coupe",
+      "ccm": "2.3",
+      "hp": "136",
+      "km": "274.000",
+      "year": "1992",
+      "messung1": [],
+      "messung2": [
+        126.7,
+        5437,
+        181.9,
+        3753
+      ],
+      "comment": ""
+    },
+    {
+      "id": 326,
+      "episode": 23,
+      "name": "Audi",
+      "model": "Coupe",
+      "ccm": "2.3",
+      "hp": "136",
+      "km": "342.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        118.4,
+        5650,
+        169.2,
+        3855
+      ],
+      "comment": ""
+    },
+    {
+      "id": 325,
+      "episode": 23,
+      "name": "Audi",
+      "model": "80 Avant",
+      "ccm": "2.3",
+      "hp": "136",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        125.7,
+        5533,
+        184.0,
+        3987
+      ],
+      "comment": ""
+    },
+    {
+      "id": 324,
+      "episode": 23,
+      "name": "Audi",
+      "model": "100 (C4)",
+      "ccm": "2.3",
+      "hp": "133",
+      "km": "490.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        122.2,
+        5731,
+        164.9,
+        3834
+      ],
+      "comment": ""
+    },
+    {
+      "id": 323,
+      "episode": 23,
+      "name": "Audi",
+      "model": "A4 Avant",
+      "ccm": "2.0",
+      "hp": "133",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        122.7,
+        5674,
+        169.8,
+        4263
+      ],
+      "comment": ""
+    },
+    {
+      "id": 322,
+      "episode": 23,
+      "name": "VW",
+      "model": "Golf VI GTI",
+      "ccm": "2.0",
+      "hp": "211",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        244.3,
+        6125,
+        414.1,
+        3138
+      ],
+      "comment": ""
+    },
+    {
+      "id": 320,
+      "episode": 23,
+      "name": "VW",
+      "model": "Golf VI GTI",
+      "ccm": "2.0",
+      "hp": "211",
+      "km": "",
+      "year": "",
+      "messung1": [
+        234.6,
+        5812,
+        336.8,
+        4222
+      ],
+      "messung2": [
+        236.6,
+        6060,
+        341.8,
+        4877
+      ],
+      "comment": ""
+    },
+    {
+      "id": 319,
+      "episode": 23,
+      "name": "Volvo",
+      "model": "850 T5",
+      "ccm": "2.3",
+      "hp": "225",
+      "km": "",
+      "year": "",
+      "messung1": [
+        243.3,
+        6184,
+        308.1,
+        4605
+      ],
+      "messung2": [
+        241.8,
+        6516,
+        315.1,
+        5169
+      ],
       "comment": ""
     },
     {
