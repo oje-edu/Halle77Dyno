@@ -73,6 +73,18 @@
         }
       },
       {
+        "kz": "AM",
+        "name": "Amberg",
+        "distance": "500",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.4403198,
+            11.8633445
+          ]
+        }
+      },
+      {
         "kz": "AP",
         "name": "Apolda",
         "distance": "360",
@@ -453,6 +465,18 @@
           "coordinates": [
             49.8728253,
             8.6511929
+          ]
+        }
+      },
+      {
+        "kz": "DAH",
+        "name": "Dachau",
+        "distance": "620",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.2629984,
+            11.4339022
           ]
         }
       },
@@ -1813,6 +1837,18 @@
         }
       },
       {
+        "kz": "NOH",
+        "name": "Nordhorn",
+        "distance": "150",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.4295801,
+            7.0685708
+          ]
+        }
+      },
+      {
         "kz": "NOR",
         "name": "Norden",
         "distance": "300",
@@ -2529,6 +2565,18 @@
           "coordinates": [
             50.4859255,
             8.2722569
+          ]
+        }
+      },
+      {
+        "kz": "WES",
+        "name": "Wesel",
+        "distance": "80",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.6643079,
+            6.6295679
           ]
         }
       },
