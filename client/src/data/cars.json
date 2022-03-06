@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 366,
-      "episode": 26,
+      "id": 381,
+      "episode": 27,
       "name": "",
       "model": "",
       "ccm": "",
@@ -11,6 +11,281 @@
       "year": "",
       "messung1": [],
       "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 380,
+      "episode": 27,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 379,
+      "episode": 26,
+      "name": "Mercedes",
+      "model": "(W123) 300 TD",
+      "ccm": "3.0",
+      "hp": "125",
+      "km": "",
+      "year": "1982",
+      "messung1": [
+        99.2,
+        3944,
+        231.7,
+        2337
+      ],
+      "messung2": [
+        100.6,
+        4202,
+        230.1,
+        2362
+      ],
+      "comment": ""
+    },
+    {
+      "id": 378,
+      "episode": 26,
+      "name": "Mercedes",
+      "model": "(W124) 230 E",
+      "ccm": "2.3",
+      "hp": "132",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        124.2,
+        5985,
+        170.4,
+        3439
+      ],
+      "comment": ""
+    },
+    {
+      "id": 377,
+      "episode": 26,
+      "name": "BMW",
+      "model": "(E30) 318is",
+      "ccm": "1.8",
+      "hp": "136",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        128.7,
+        6030,
+        159.1,
+        5161
+      ],
+      "comment": ""
+    },
+    {
+      "id": 376,
+      "episode": 26,
+      "name": "Mercedes",
+      "model": "( / 8 ) 220 D",
+      "ccm": "2.2",
+      "hp": "60",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        55.3,
+        2863,
+        157.9,
+        1868
+      ],
+      "comment": ""
+    },
+    {
+      "id": 375,
+      "episode": 26,
+      "name": "VW",
+      "model": "T3",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        142.1,
+        5457,
+        222.3,
+        3904
+      ],
+      "comment": "2.8 VR6 174PS"
+    },
+    {
+      "id": 374,
+      "episode": 26,
+      "name": "Audi",
+      "model": "80 (Typ B4)",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "272.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        102.6,
+        5453,
+        153.0,
+        3217
+      ],
+      "comment": ""
+    },
+    {
+      "id": 373,
+      "episode": 26,
+      "name": "Audi",
+      "model": "80 (Typ 89) 2.0E",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "130.000",
+      "year": "",
+      "messung1": [
+        97.4,
+        5229,
+        145.6,
+        3472
+      ],
+      "messung2": [
+        96.1,
+        5543,
+        148.4,
+        3115
+      ],
+      "comment": ""
+    },
+    {
+      "id": 372,
+      "episode": 26,
+      "name": "Audi",
+      "model": "100 (Typ 44) CC",
+      "ccm": "1.9",
+      "hp": "100",
+      "km": "144.811",
+      "year": "1984",
+      "messung1": [],
+      "messung2": [
+        87.2,
+        5789,
+        129.9,
+        3876
+      ],
+      "comment": ""
+    },
+    {
+      "id": 371,
+      "episode": 26,
+      "name": "Mercedes",
+      "model": "( /8 ) 200 D",
+      "ccm": "2.0",
+      "hp": "54",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        47.7,
+        4245,
+        100.4,
+        2292
+      ],
+      "comment": ""
+    },
+    {
+      "id": 370,
+      "episode": 26,
+      "name": "Opel",
+      "model": "Astra (F) GSI 16V",
+      "ccm": "",
+      "hp": "150",
+      "km": "",
+      "year": "88.000",
+      "messung1": [],
+      "messung2": [
+        154.7,
+        5915,
+        203.0,
+        4742
+      ],
+      "comment": ""
+    },
+    {
+      "id": 369,
+      "episode": 26,
+      "name": "Audi",
+      "model": "Coupe GT",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "99.199",
+      "year": "",
+      "messung1": [
+        115.1,
+        5540,
+        165.7,
+        3081
+      ],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 368,
+      "episode": 26,
+      "name": "Honda",
+      "model": "CRX",
+      "ccm": "1.6",
+      "hp": "125",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        132.6,
+        7061,
+        143.1,
+        5958
+      ],
+      "comment": "Auspuffanlage 130PS eingetragen"
+    },
+    {
+      "id": 367,
+      "episode": 26,
+      "name": "Audi",
+      "model": "A4",
+      "ccm": "1.6",
+      "hp": "101",
+      "km": "192.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        101.0,
+        5488,
+        139.1,
+        3860
+      ],
+      "comment": ""
+    },
+    {
+      "id": 366,
+      "episode": 26,
+      "name": "Barkas",
+      "model": "B 1000",
+      "ccm": "1.0",
+      "hp": "42",
+      "km": "",
+      "year": "1989",
+      "messung1": [],
+      "messung2": [
+        43.6,
+        3432,
+        99.9,
+        2522
+      ],
       "comment": ""
     },
     {

@@ -265,6 +265,18 @@
         }
       },
       {
+        "kz": "BLB",
+        "name": "Bad Berleburg",
+        "distance": "130",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.0515666,
+            8.3926278
+          ]
+        }
+      },
+      {
         "kz": "BM",
         "name": "Bergheim",
         "distance": "120",
@@ -637,6 +649,18 @@
         }
       },
       {
+        "kz": "EBE",
+        "name": "Ebersberg",
+        "distance": "660",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.0780006,
+            11.9669667
+          ]
+        }
+      },
+      {
         "kz": "EL",
         "name": "Lingen",
         "distance": "150",
@@ -693,6 +717,18 @@
           "coordinates": [
             50.731240,
             12.891083
+          ]
+        }
+      },
+      {
+        "kz": "ES",
+        "name": "Esslingen",
+        "distance": "440",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.7433425,
+            9.3201122
           ]
         }
       },
@@ -1257,6 +1293,18 @@
           "coordinates": [
             50.1264123,
             8.9283105
+          ]
+        }
+      },
+      {
+        "kz": "HVL",
+        "name": "Havelland",
+        "distance": "425",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.597902,
+            12.520413
           ]
         }
       },
@@ -1993,6 +2041,18 @@
         }
       },
       {
+        "kz": "OH",
+        "name": "Ostholstein",
+        "distance": "430",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.164203,
+            10.850424
+          ]
+        }
+      },
+      {
         "kz": "OL",
         "name": "Oldenburg",
         "distance": "240",
@@ -2145,6 +2205,18 @@
           "coordinates": [
             52.2020461,
             9.0759703
+          ]
+        }
+      },
+      {
+        "kz": "RN",
+        "name": "Rathenow",
+        "distance": "430",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.6048117,
+            12.337945
           ]
         }
       },
@@ -2697,6 +2769,18 @@
           "coordinates": [
             51.4438926,
             7.353197
+          ]
+        }
+      },
+      {
+        "kz": "WL",
+        "name": "Winsen (Luhe)",
+        "distance": "330",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            53.3574436,
+            10.2127204
           ]
         }
       },
