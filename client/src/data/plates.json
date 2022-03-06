@@ -253,6 +253,18 @@
         }
       },
       {
+        "kz": "BIR",
+        "name": "Birkenfeld",
+        "distance": "320",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.6488236,
+            7.1647477
+          ]
+        }
+      },
+      {
         "kz": "BK",
         "name": "Backnang",
         "distance": "420",
@@ -1713,6 +1725,18 @@
           "coordinates": [
             51.2506663,
             6.9740265
+          ]
+        }
+      },
+      {
+        "kz": "MEL",
+        "name": "Melle",
+        "distance": "140",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.2033222,
+            8.3372664
           ]
         }
       },
