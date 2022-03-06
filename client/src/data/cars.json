@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 352,
-      "episode": 25,
+      "id": 366,
+      "episode": 26,
       "name": "",
       "model": "",
       "ccm": "",
@@ -14,16 +14,293 @@
       "comment": ""
     },
     {
-      "id": 351,
+      "id": 365,
       "episode": 25,
-      "name": "",
-      "model": "",
-      "ccm": "",
-      "hp": "",
+      "name": "BMW",
+      "model": "(E36) 328",
+      "ccm": "2.8",
+      "hp": "193",
       "km": "",
       "year": "",
       "messung1": [],
-      "messung2": [],
+      "messung2": [
+        204.4,
+        6348,
+        248.9,
+        4065
+      ],
+      "comment": "Ansaugbrücke, Krümmer, 0815 Software"
+    },
+    {
+      "id": 364,
+      "episode": 25,
+      "name": "Audi",
+      "model": "Coupe 20V",
+      "ccm": "2.3",
+      "hp": "170",
+      "km": "246.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        152.2,
+        6377,
+        193.6,
+        4851
+      ],
+      "comment": ""
+    },
+    {
+      "id": 363,
+      "episode": 25,
+      "name": "Audi",
+      "model": "A4 (B5) T",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        130.5,
+        5561,
+        193.8,
+        2624
+      ],
+      "messung2": [
+        141.4,
+        5585,
+        204.6,
+        3446
+      ],
+      "comment": ""
+    },
+    {
+      "id": 362,
+      "episode": 25,
+      "name": "Audi",
+      "model": "A6 T",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "",
+      "year": "1997",
+      "messung1": [
+        156.0,
+        6154,
+        195.8,
+        5236
+      ],
+      "messung2": [
+        156.0,
+        6266,
+        196.3,
+        5239
+      ],
+      "comment": "2. Messung mit offener Motorhaube"
+    },
+    {
+      "id": 361,
+      "episode": 25,
+      "name": "Opel",
+      "model": "Vectra (A)",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        76.9,
+        5621,
+        126.8,
+        3154
+      ],
+      "comment": ""
+    },
+    {
+      "id": 360,
+      "episode": 25,
+      "name": "BMW",
+      "model": "(E32) 730",
+      "ccm": "3.0",
+      "hp": "218",
+      "km": "137.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        208.4,
+        6114,
+        273.3,
+        4860
+      ],
+      "comment": ""
+    },
+    {
+      "id": 359,
+      "episode": 25,
+      "name": "Opel",
+      "model": "Vectra (A)",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        111.8,
+        5606,
+        163.4,
+        4148
+      ],
+      "comment": ""
+    },
+    {
+      "id": 358,
+      "episode": 25,
+      "name": "Audi",
+      "model": "80 Cabrio",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "1996",
+      "messung1": [],
+      "messung2": [
+        112.9,
+        5393,
+        162.9,
+        3131
+      ],
+      "comment": ""
+    },
+    {
+      "id": 357,
+      "episode": 25,
+      "name": "VW",
+      "model": "T2 (B)",
+      "ccm": "2.0",
+      "hp": "70",
+      "km": "",
+      "year": "1977",
+      "messung1": [],
+      "messung2": [
+        56.8,
+        3375,
+        140.4,
+        1698
+      ],
+      "comment": ""
+    },
+    {
+      "id": 356,
+      "episode": 25,
+      "name": "VW",
+      "model": "Golf II GT Special",
+      "ccm": "1.8",
+      "hp": "90",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        140.2,
+        5415,
+        190.0,
+        4213
+      ],
+      "comment": "Golf III 2.0 16V 150PS"
+    },
+    {
+      "id": 355,
+      "episode": 25,
+      "name": "BMW",
+      "model": "(E34) 525i Touring",
+      "ccm": "2.5",
+      "hp": "192",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        187.6,
+        6009,
+        233.0,
+        5242
+      ],
+      "comment": ""
+    },
+    {
+      "id": 354,
+      "episode": 25,
+      "name": "Mercedes",
+      "model": "(W210) E 55 AMG",
+      "ccm": "5.5",
+      "hp": "354",
+      "km": "128.000",
+      "year": "",
+      "messung1": [
+        312.6,
+        5519,
+        442.0,
+        4417
+      ],
+      "messung2": [
+        315.3,
+        5771,
+        446.0,
+        4224
+      ],
+      "comment": ""
+    },
+    {
+      "id": 353,
+      "episode": 25,
+      "name": "BMW",
+      "model": "(E36) 318is Coupe",
+      "ccm": "1.8",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        139.6,
+        6730,
+        165.7,
+        4624
+      ],
+      "comment": ""
+    },
+    {
+      "id": 352,
+      "episode": 25,
+      "name": "Mercedes",
+      "model": "(W210) 300TD",
+      "ccm": "3.0",
+      "hp": "177",
+      "km": "250.000",
+      "year": "",
+      "messung1": [
+        171.5,
+        4331,
+        321.3,
+        3433
+      ],
+      "messung2": [
+        173.3,
+        4426,
+        327.5,
+        3462
+      ],
+      "comment": "2. Messung ohne Klimaanlage"
+    },
+    {
+      "id": 351,
+      "episode": 25,
+      "name": "Mercedes",
+      "model": "(W201) 190E Sportline",
+      "ccm": "2.3",
+      "hp": "132",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        130.3,
+        5407,
+        195.4,
+        3313
+      ],
       "comment": ""
     },
     {

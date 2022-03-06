@@ -961,6 +961,18 @@
         }
       },
       {
+        "kz": "GW",
+        "name": "Greifswald",
+        "distance": "600",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.0865463,
+            13.3923414
+          ]
+        }
+      },
+      {
         "kz": "GÖ",
         "name": "Göttingen",
         "distance": "210",
@@ -1381,6 +1393,18 @@
         }
       },
       {
+        "kz": "KÖN",
+        "name": "Rhön-Grabfeld",
+        "distance": "305",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.355694,
+            10.206667
+          ]
+        }
+      },
+      {
         "kz": "L",
         "name": "Leipzig",
         "distance": "430",
@@ -1389,6 +1413,18 @@
           "coordinates": [
             51.3396955,
             12.3730747
+          ]
+        }
+      },
+      {
+        "kz": "L (AT)",
+        "name": "Linz",
+        "distance": "800",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.30694,
+            14.28583
           ]
         }
       },
@@ -1597,6 +1633,18 @@
         }
       },
       {
+        "kz": "M",
+        "name": "München",
+        "distance": "630",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.135125,
+            11.581981
+          ]
+        }
+      },
+      {
         "kz": "MD",
         "name": "Magdeburg",
         "distance": "370",
@@ -1617,6 +1665,18 @@
           "coordinates": [
             51.2506663,
             6.9740265
+          ]
+        }
+      },
+      {
+        "kz": "MER",
+        "name": "Merseburg",
+        "distance": "370",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.3563278,
+            11.9917462
           ]
         }
       },
@@ -1701,6 +1761,18 @@
           "coordinates": [
             50.5563349,
             6.2426261
+          ]
+        }
+      },
+      {
+        "kz": "MQ",
+        "name": "Merseburg-Querfurt",
+        "distance": "340",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.3812676,
+            11.6041294
           ]
         }
       },
@@ -2601,6 +2673,18 @@
           "coordinates": [
             53.5323403,
             8.1068722
+          ]
+        }
+      },
+      {
+        "kz": "WI",
+        "name": "Wiesbaden",
+        "distance": "250",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.0782184,
+            8.2397608
           ]
         }
       },
