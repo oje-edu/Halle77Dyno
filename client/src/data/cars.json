@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 381,
-      "episode": 27,
+      "id": 409,
+      "episode": 29,
       "name": "",
       "model": "",
       "ccm": "",
@@ -14,17 +14,556 @@
       "comment": ""
     },
     {
-      "id": 380,
-      "episode": 27,
-      "name": "",
-      "model": "",
-      "ccm": "",
-      "hp": "",
+      "id": 408,
+      "episode": 28,
+      "name": "VW",
+      "model": "Passat (35i) VR6 Facelift",
+      "ccm": "2.8",
+      "hp": "174",
       "km": "",
       "year": "",
       "messung1": [],
+      "messung2": [
+        165.6,
+        5980,
+        221.2,
+        4547
+      ],
+      "comment": ""
+    },
+    {
+      "id": 407,
+      "episode": 28,
+      "name": "Saab",
+      "model": "900 Turbo",
+      "ccm": "2.0",
+      "hp": "160",
+      "km": "300.080",
+      "year": "1991",
+      "messung1": [],
+      "messung2": [
+        204.1,
+        6140,
+        331.1,
+        4016
+      ],
+      "comment": ""
+    },
+    {
+      "id": 406,
+      "episode": 28,
+      "name": "Opel",
+      "model": "Kadett (E) Cabrio",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        78.4,
+        5405,
+        123.9,
+        2816
+      ],
+      "comment": ""
+    },
+    {
+      "id": 405,
+      "episode": 28,
+      "name": "Volvo",
+      "model": "850 T5R",
+      "ccm": "2.3",
+      "hp": "226",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        239.6,
+        6092,
+        350.4,
+        3585
+      ],
+      "comment": ""
+    },
+    {
+      "id": 404,
+      "episode": 28,
+      "name": "VW",
+      "model": "Polo G40",
+      "ccm": "1.3",
+      "hp": "113",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        112.1,
+        6072,
+        141.3,
+        4601
+      ],
+      "comment": ""
+    },
+    {
+      "id": 403,
+      "episode": 28,
+      "name": "VW",
+      "model": "Golf IV GTI Jubi",
+      "ccm": "2.3",
+      "hp": "179",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        192.7,
+        6250,
+        265.0,
+        3673
+      ],
+      "comment": ""
+    },
+    {
+      "id": 402,
+      "episode": 28,
+      "name": "BMW",
+      "model": "(E39) 525d Touring",
+      "ccm": "2.5",
+      "hp": "163",
+      "km": "290.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        159.4,
+        4061,
+        315.8,
+        2342
+      ],
+      "comment": ""
+    },
+    {
+      "id": 401,
+      "episode": 28,
+      "name": "Opel",
+      "model": "Corsa (A) Facelift",
+      "ccm": "1.2",
+      "hp": "45",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        98.9,
+        5806,
+        129.8,
+        2993
+      ],
+      "comment": ""
+    },
+    {
+      "id": 400,
+      "episode": 28,
+      "name": "VW",
+      "model": "Golf III Cabrio",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        115.2,
+        5712,
+        154.0,
+        4189
+      ],
+      "comment": "Nockenwelle, Fächerkrümmer"
+    },
+    {
+      "id": 399,
+      "episode": 28,
+      "name": "VW",
+      "model": "Golf III",
+      "ccm": "1.4",
+      "hp": "60",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        152.8,
+        6302,
+        182.0,
+        4599
+      ],
+      "comment": "ABF 2.0 16V 150PS, Garlock-Chip"
+    },
+    {
+      "id": 398,
+      "episode": 28,
+      "name": "VW",
+      "model": "Scirocco",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        76.4,
+        5530,
+        125.6,
+        3672
+      ],
+      "comment": ""
+    },
+    {
+      "id": 397,
+      "episode": 28,
+      "name": "Ford",
+      "model": "Escort XR3i Cabrio",
+      "ccm": "1.8",
+      "hp": "105",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        92.0,
+        5486,
+        133.3,
+        2792
+      ],
+      "comment": ""
+    },
+    {
+      "id": 396,
+      "episode": 28,
+      "name": "VW",
+      "model": "Golf II GTI 20V Turbo",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "",
+      "year": "1991",
+      "messung1": [],
+      "messung2": [
+        211.9,
+        6174,
+        270.1,
+        3668
+      ],
+      "comment": ""
+    },
+    {
+      "id": 395,
+      "episode": 28,
+      "name": "VW",
+      "model": "Golf II Madison",
+      "ccm": "1.6",
+      "hp": "69",
+      "km": "78.290",
+      "year": "1990",
+      "messung1": [],
+      "messung2": [
+        65.2,
+        5805,
+        98.7,
+        1863
+      ],
+      "comment": ""
+    },
+    {
+      "id": 394,
+      "episode": 27,
+      "name": "Audi",
+      "model": "80 2.0E",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [
+        107.1,
+        5373,
+        160.8,
+        3236
+      ],
+      "messung2": [
+        108.6,
+        5292,
+        162.1,
+        3182
+      ],
+      "comment": ""
+    },
+    {
+      "id": 393,
+      "episode": 27,
+      "name": "Cadillac",
+      "model": "ElDorado Cabrio",
+      "ccm": "4.6",
+      "hp": "305",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        245.0,
+        0,
+        359.0,
+        0
+      ],
+      "comment": ""
+    },
+    {
+      "id": 392,
+      "episode": 27,
+      "name": "VW",
+      "model": "Käfer 1600",
+      "ccm": "1.6",
+      "hp": "46",
+      "km": "",
+      "year": "",
+      "messung1": [
+        53.2,
+        4078,
+        104.7,
+        2894
+      ],
+      "messung2": [
+        45.8,
+        4386,
+        94.1,
+        2868
+      ],
+      "comment": "2. Messung mit Seriensteuergerät"
+    },
+    {
+      "id": 391,
+      "episode": 27,
+      "name": "VW",
+      "model": "Passat (35i) Facelift",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        114.4,
+        5765,
+        163.5,
+        3239
+      ],
+      "comment": ""
+    },
+    {
+      "id": 390,
+      "episode": 27,
+      "name": "Volvo",
+      "model": "V70 T5",
+      "ccm": "2.3",
+      "hp": "250",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        210.6,
+        0,
+        292.0,
+        0
+      ],
+      "comment": ""
+    },
+    {
+      "id": 389,
+      "episode": 27,
+      "name": "BMW",
+      "model": "(E34) 525is",
+      "ccm": "2.5",
+      "hp": "192",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        175.7,
+        6104,
+        223.7,
+        4813
+      ],
+      "comment": ""
+    },
+    {
+      "id": 388,
+      "episode": 27,
+      "name": "Volvo",
+      "model": "940 Turbo",
+      "ccm": "2.3",
+      "hp": "165",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        145.0,
+        4978,
+        234.2,
+        3634
+      ],
+      "comment": ""
+    },
+    {
+      "id": 387,
+      "episode": 27,
+      "name": "Mercedes",
+      "model": "(W124) E 220 C",
+      "ccm": "2.2",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        149.4,
+        5976,
+        200.1,
+        4254
+      ],
+      "messung2": [
+        153.5,
+        5860,
+        202.3,
+        4249
+      ],
+      "comment": ""
+    },
+    {
+      "id": 386,
+      "episode": 27,
+      "name": "Mazda",
+      "model": "MX5",
+      "ccm": "1.6",
+      "hp": "118",
+      "km": "",
+      "year": "",
+      "messung1": [
+        115.1,
+        7332,
+        121.8,
+        5448
+      ],
+      "messung2": [
+        115.6,
+        7379,
+        123.2,
+        5293
+      ],
+      "comment": "US-Version"
+    },
+    {
+      "id": 385,
+      "episode": 27,
+      "name": "BMW",
+      "model": "(E28) 528i",
+      "ccm": "2.8",
+      "hp": "184",
+      "km": "",
+      "year": "",
+      "messung1": [
+        163.8,
+        6669,
+        210.3,
+        4312
+      ],
+      "messung2": [
+        162.6,
+        6488,
+        214.6,
+        4312
+      ],
+      "comment": ""
+    },
+    {
+      "id": 384,
+      "episode": 27,
+      "name": "VW",
+      "model": "Polo (86C) GT Steilheck",
+      "ccm": "1.3",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [
+        71.6,
+        5194,
+        110.7,
+        3778
+      ],
+      "messung2": [
+        73.3,
+        5549,
+        104.9,
+        4024
+      ],
+      "comment": ""
+    },
+    {
+      "id": 383,
+      "episode": 27,
+      "name": "Mercedes",
+      "model": "(C124) 300 CE",
+      "ccm": "3.0",
+      "hp": "180",
+      "km": "150.000",
+      "year": "",
+      "messung1": [
+        172.8,
+        5719,
+        224.3,
+        5355
+      ],
       "messung2": [],
       "comment": ""
+    },
+    {
+      "id": 382,
+      "episode": 27,
+      "name": "VW",
+      "model": "Golf IV",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "2002",
+      "messung1": [],
+      "messung2": [
+        104.4,
+        5694,
+        160.9,
+        3908
+      ],
+      "comment": ""
+    },
+    {
+      "id": 381,
+      "episode": 27,
+      "name": "VW",
+      "model": "Golf III VR6",
+      "ccm": "2.8",
+      "hp": "174",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        170.2,
+        6061,
+        216.9,
+        4624
+      ],
+      "comment": ""
+    },
+    {
+      "id": 380,
+      "episode": 27,
+      "name": "VW",
+      "model": "Corrado VSR",
+      "ccm": "2.9",
+      "hp": "190",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        183.9,
+        6878,
+        257.9,
+        3739
+      ],
+      "comment": "Ansaugbrücke"
     },
     {
       "id": 379,

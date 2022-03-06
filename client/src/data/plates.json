@@ -265,6 +265,18 @@
         }
       },
       {
+        "kz": "BIT",
+        "name": "Bitburg",
+        "distance": "240",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.9664145,
+            6.5298603
+          ]
+        }
+      },
+      {
         "kz": "BK",
         "name": "Backnang",
         "distance": "420",
@@ -861,6 +873,18 @@
           "coordinates": [
             51.517744,
             7.0857172
+          ]
+        }
+      },
+      {
+        "kz": "GEL",
+        "name": "Geldern",
+        "distance": "100",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.5204439,
+            6.3257902
           ]
         }
       },
@@ -1813,6 +1837,18 @@
         }
       },
       {
+        "kz": "MN",
+        "name": "Mindelheim",
+        "distance": "600",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.0461744,
+            10.4948841
+          ]
+        }
+      },
+      {
         "kz": "MO",
         "name": "Moers",
         "distance": "70",
@@ -2157,6 +2193,18 @@
           "coordinates": [
             54.1613302,
             10.4259498
+          ]
+        }
+      },
+      {
+        "kz": "PRÜ",
+        "name": "Prüm",
+        "distance": "200",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.208237,
+            6.4197005
           ]
         }
       },
