@@ -328,6 +328,7 @@ INSERT INTO plates (kz, name, distance, coords) VALUES
 ('W (AT)','Wien',950,'48.208174, 16.373819'),
 ('WA','Waldeck-Frankenberg',140,'51.222086, 8.854924'),
 ('WAF','Warendorf',80,'51.9538685, 7.9908987'),
+('WAK','Wartburgkreis',270,'50.956714, 10.497661'),
 ('WAN','Wanne-Eickel',30,'51.5368948, 7.2009147'),
 ('WEL','Limburg-Weilburg',180,'50.4859255, 8.2722569'),
 ('WES','Wesel',80,'51.6643079, 6.6295679'),

@@ -2785,6 +2785,18 @@
         }
       },
       {
+        "kz": "WAK",
+        "name": "Wartburgkreis",
+        "distance": "270",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.956714,
+            10.497661
+          ]
+        }
+      },
+      {
         "kz": "WAN",
         "name": "Wanne-Eickel",
         "distance": "30",
