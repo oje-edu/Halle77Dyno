@@ -6,40 +6,40 @@ const Cars = () => {
   return (
     <div>
       <Header />
-      <div className="table" id="top">
+      <div className="cars_table" id="top">
         <table>
           <thead>
             <tr>
-              <th>Episode</th>
-              <th>Auto-Nr.</th>
+              <th className="hide">Episode</th>
+              <th className="hide">AutoNr.</th>
               <th>Marke</th>
               <th>Modell</th>
-              <th>Hubraum</th>
-              <th>PS</th>
-              <th>KM</th>
-              <th>BJ</th>
-              <th>1. Messung</th>
+              <th className="hide">Hubraum</th>
+              <th className="hide">PS</th>
+              <th className="hide">KM</th>
+              <th className="hide">BJ</th>
+              <th className="hide">1. Messung</th>
               <th>2. Messung</th>
-              <th>Bemerkung</th>
+              <th className="hide">Bemerkung</th>
             </tr>
           </thead>
           <tbody>
             {cars.cars.map((car) => (
               <tr key={car.id}>
-                <td>{car.episode}</td>
-                <td>{car.id}</td>
+                <td className="hide">{car.episode}</td>
+                <td className="hide">{car.id}</td>
                 <td>{car.name}</td>
                 <td>{car.model}</td>
-                <td>{car.ccm}</td>
-                <td>{car.hp}</td>
-                <td>{car.km}</td>
-                <td>{car.year}</td>
-                <td>
+                <td className="hide">{car.ccm}</td>
+                <td className="hide">{car.hp}</td>
+                <td className="hide">{car.km}</td>
+                <td className="hide">{car.year}</td>
+                <td className="hide">
                   <div
                     style={
                       car?.hp < car?.messung1[0] || car?.hp == car?.messung1[0]
                         ? { color: "green" }
-                        : { color: "crimson" }
+                        : { color: "#de6e4a" }
                     }
                   >
                     {car?.messung1[0] > 0 ? (
@@ -55,7 +55,7 @@ const Cars = () => {
                     style={
                       car?.hp < car?.messung2[0] || car?.hp == car?.messung2[0]
                         ? { color: "green" }
-                        : { color: "red" }
+                        : { color: "#de6e4a" }
                     }
                   >
                     {car?.messung2[0] > 0 ? (
@@ -66,7 +66,7 @@ const Cars = () => {
                     ) : null}
                   </div>
                 </td>
-                <td>{car.comment}</td>
+                <td className="hide">{car.comment}</td>
               </tr>
             ))}
           </tbody>
