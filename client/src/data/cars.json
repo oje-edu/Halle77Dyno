@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 644,
-      "episode": 50,
+      "id": 655,
+      "episode": 51,
       "name": "",
       "model": "",
       "ccm": "",
@@ -14,13 +14,211 @@
       "comment": ""
     },
     {
+      "id": 654,
+      "episode": 51,
+      "name": "",
+      "model": "",
+      "ccm": "",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 653,
+      "episode": 50,
+      "name": "Ford",
+      "model": "Granada Ghia Kombi",
+      "ccm": "2.3",
+      "hp": "114",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        85.5,
+        4917,
+        162.5,
+        2097
+      ],
+      "comment": ""
+    },
+    {
+      "id": 652,
+      "episode": 50,
+      "name": "Porsche",
+      "model": "930 Turbo",
+      "ccm": "3.3",
+      "hp": "286",
+      "km": "",
+      "year": "1979",
+      "messung1": [],
+      "messung2": [
+        299.1,
+        5917,
+        394.1,
+        5156
+      ],
+      "comment": ""
+    },
+    {
+      "id": 651,
+      "episode": 50,
+      "name": "Audi",
+      "model": "A6 T",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        198.8,
+        5006,
+        316.8,
+        4134
+      ],
+      "comment": "Software"
+    },
+    {
+      "id": 650,
+      "episode": 50,
+      "name": "Nissan",
+      "model": "300 ZX",
+      "ccm": "3.0",
+      "hp": "283",
+      "km": "",
+      "year": "",
+      "messung1": [
+        312.0,
+        6233,
+        380.2,
+        4768
+      ],
+      "messung2": [
+        333.9,
+        6740,
+        399.3,
+        4786
+      ],
+      "comment": "2. Messung ohne DB-Eater"
+    },
+    {
+      "id": 649,
+      "episode": 50,
+      "name": "VW",
+      "model": "Golf III CL",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "102.459",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        74.4,
+        5231,
+        120.1,
+        2586
+      ],
+      "comment": ""
+    },
+    {
+      "id": 648,
+      "episode": 50,
+      "name": "VW",
+      "model": "Kübel (Typ 181)",
+      "ccm": "1.6",
+      "hp": "44",
+      "km": "",
+      "year": "1970",
+      "messung1": [],
+      "messung2": [
+        47.3,
+        4229,
+        92.5,
+        2514
+      ],
+      "comment": ""
+    },
+    {
+      "id": 647,
+      "episode": 50,
+      "name": "Nissan",
+      "model": "Skyline (R33) GTS25t",
+      "ccm": "2.5",
+      "hp": "245",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        233.2,
+        6823,
+        56.4,
+        5683
+      ],
+      "comment": "Japan Import"
+    },
+    {
+      "id": 646,
+      "episode": 50,
+      "name": "BMW",
+      "model": "(E34) 520i",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        202.6,
+        5854,
+        278.3,
+        4268
+      ],
+      "comment": "(E36) 2.8 193PS"
+    },
+    {
+      "id": 645,
+      "episode": 50,
+      "name": "Opel",
+      "model": "Omega (B) MV6",
+      "ccm": "3.0",
+      "hp": "211",
+      "km": "",
+      "year": "1996",
+      "messung1": [],
+      "messung2": [
+        167.0,
+        5751,
+        224.1,
+        4799
+      ],
+      "comment": "Steinmetz, Radleistung"
+    },
+    {
+      "id": 644,
+      "episode": 50,
+      "name": "BMW",
+      "model": "(E46) 330Ci Clubsport",
+      "ccm": "3.0",
+      "hp": "231",
+      "km": "134.160",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        225.3,
+        5925,
+        291.9,
+        3510
+      ],
+      "comment": ""
+    },
+    {
       "id": 643,
       "episode": 49,
       "name": "Opel",
       "model": "Omega (B) 16V Caravan",
-      "ccm": "136",
-      "hp": "122.229",
-      "km": "",
+      "ccm": "2.",
+      "hp": "136",
+      "km": "122.229",
       "year": "",
       "messung1": [],
       "messung2": [

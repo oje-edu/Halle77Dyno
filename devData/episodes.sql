@@ -24,6 +24,8 @@ PRIMARY KEY (episode_id),
 );
 
 INSERT INTO episodes (episode_id, title, episodeUrl) VALUES
+('50','300 KM/H im Porsche 911 (930 TURBO)!','https://www.youtube.com/watch?v=P-MOVMpB-PM'),
+('49','GÄNSEHAUT bei 7800 RPM!','https://www.youtube.com/watch?v=4ZZwdyqSjm0'),
 ('48','Mehr LEISTUNG ohne ENDSCHALLDÄMPFER?','https://www.youtube.com/watch?v=fx_mDSNQ17A'),
 ('47','Auto ZERLEGT SICH beim PRÜFSTANDSLAUF!','https://www.youtube.com/watch?v=-U2iLAAdLb0'),
 ('46','BUS mit 900.000 KM?!','https://www.youtube.com/watch?v=BP_DuLkvy5A'),

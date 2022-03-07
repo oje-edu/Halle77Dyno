@@ -4,7 +4,7 @@ import plates from "../data/plates.json";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const position = [51.5072, 7.49142];
+const position = [51.1657065, 10.452764000000002];
 
 const Map = () => {
   return (
