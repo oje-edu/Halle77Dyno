@@ -1,7 +1,7 @@
 {
   "cars": [
     {
-      "id": 441,
+      "id": 454,
       "episode": 31,
       "name": "",
       "model": "",
@@ -11,6 +11,260 @@
       "year": "",
       "messung1": [],
       "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 453,
+      "episode": 31,
+      "name": "Ford",
+      "model": "Sierra XR4i",
+      "ccm": "2.8",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        137.3,
+        5821,
+        197.9,
+        3469
+      ],
+      "comment": ""
+    },
+    {
+      "id": 452,
+      "episode": 31,
+      "name": "Opel",
+      "model": "Calibra Last Edition 16V",
+      "ccm": "2.0",
+      "hp": "136",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        133.5,
+        6765,
+        168.7,
+        4690
+      ],
+      "comment": ""
+    },
+    {
+      "id": 451,
+      "episode": 31,
+      "name": "Opel",
+      "model": "Record (D)",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [
+        115.7,
+        5405,
+        168.2,
+        3983
+      ],
+      "messung2": [
+        107.9,
+        5416,
+        152.4,
+        4091
+      ],
+      "comment": "2. Messung mit Gas"
+    },
+    {
+      "id": 450,
+      "episode": 31,
+      "name": "Nissan",
+      "model": "Primera (P10) 16V",
+      "ccm": "2.0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        160.5,
+        7023,
+        174.2,
+        4864
+      ],
+      "comment": ""
+    },
+    {
+      "id": 449,
+      "episode": 31,
+      "name": "Fiat",
+      "model": "Coupe Turbo 20V",
+      "ccm": "2.0",
+      "hp": "220",
+      "km": "",
+      "year": "",
+      "messung1": [
+        366.6,
+        5844,
+        516.1,
+        3668
+      ],
+      "messung2": [
+        359.1,
+        5649,
+        532.7,
+        3887
+      ],
+      "comment": ""
+    },
+    {
+      "id": 448,
+      "episode": 31,
+      "name": "Fiat",
+      "model": "Coupe Turbo 20V",
+      "ccm": "2.0",
+      "hp": "220",
+      "km": "",
+      "year": "",
+      "messung1": [
+        220.5,
+        6104,
+        300.9,
+        5052
+      ],
+      "messung2": [
+        224.4,
+        6053,
+        300.8,
+        5120
+      ],
+      "comment": ""
+    },
+    {
+      "id": 447,
+      "episode": 31,
+      "name": "Fiat",
+      "model": "Coupe Turbo 20V",
+      "ccm": "2.0",
+      "hp": "220",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        230.5,
+        5724,
+        338.3,
+        4382
+      ],
+      "comment": ""
+    },
+    {
+      "id": 446,
+      "episode": 31,
+      "name": "Fiat",
+      "model": "Coupe Turbo 20V",
+      "ccm": "2.0",
+      "hp": "220",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        253.1,
+        6567,
+        308.4,
+        4894
+      ],
+      "comment": ""
+    },
+    {
+      "id": 445,
+      "episode": 31,
+      "name": "Fiat",
+      "model": "Coupe Turbo 20V",
+      "ccm": "2.5",
+      "hp": "410",
+      "km": "",
+      "year": "",
+      "messung1": [
+        360.9,
+        6517,
+        453.7,
+        4986
+      ],
+      "messung2": [
+        467.1,
+        5855,
+        607.8,
+        5128
+      ],
+      "comment": "2. Messung mit High-Boost"
+    },
+    {
+      "id": 444,
+      "episode": 31,
+      "name": "VW",
+      "model": "Polo (2F) G40",
+      "ccm": "1.3",
+      "hp": "113",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        137.0,
+        6890,
+        184.0,
+        3701
+      ],
+      "comment": ""
+    },
+    {
+      "id": 443,
+      "episode": 31,
+      "name": "Nissan",
+      "model": "Bluebird (T72) Grand-Prix 16V",
+      "ccm": "1.8",
+      "hp": "129",
+      "km": "",
+      "year": "1989",
+      "messung1": [
+        119.9,
+        6877,
+        139.4,
+        5391
+      ],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 442,
+      "episode": 31,
+      "name": "Nissan",
+      "model": "Primera",
+      "ccm": "2.0",
+      "hp": "115",
+      "km": "",
+      "year": "",
+      "messung1": [
+        151.3,
+        6332,
+        182.1,
+        4934
+      ],
+      "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 441,
+      "episode": 31,
+      "name": "Toyota",
+      "model": "Starlet (P9)",
+      "ccm": "1.3",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        81.4,
+        5450,
+        121.8,
+        4348
+      ],
       "comment": ""
     },
     {
