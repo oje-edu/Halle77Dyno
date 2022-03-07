@@ -109,6 +109,18 @@
         }
       },
       {
+        "kz": "AS",
+        "name": "Amberg-Sulzbach",
+        "distance": "530",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.464264,
+            11.723378
+          ]
+        }
+      },
+      {
         "kz": "AUR",
         "name": "Aurich",
         "distance": "280",
@@ -2461,6 +2473,18 @@
         }
       },
       {
+        "kz": "SIG",
+        "name": "Sigmaringen",
+        "distance": "530",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.0912921,
+            9.2286121
+          ]
+        }
+      },
+      {
         "kz": "SIM",
         "name": "Simmern",
         "distance": "250",
@@ -2925,6 +2949,18 @@
           "coordinates": [
             50.687222,
             7.645556
+          ]
+        }
+      },
+      {
+        "kz": "ZI",
+        "name": "Zittau",
+        "distance": "630",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8999681,
+            14.8029971
           ]
         }
       }

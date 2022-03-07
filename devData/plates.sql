@@ -104,6 +104,7 @@ INSERT INTO plates (kz, name, distance, coords) VALUES
 ('AM','Amberg',500,'49.4403198, 11.8633445'),
 ('AP','Apolda',360,'51.0260095, 11.5155495'),
 ('APD','Apolda',360,'51.0260095, 11.5155495'),
+('AS','Amberg-Sulzbach',530,'49.464264, 11.723378'),
 ('AUR','Aurich',280, '53.4708393, 7.4848308'),
 ('AW','Ahrweiler',150,'50.541815, 7.1197177'),
 ('AZ','Alzey',300,'49.7462012, 8.1171135'),
@@ -301,6 +302,7 @@ INSERT INTO plates (kz, name, distance, coords) VALUES
 ('SG (CH)','St. Gallen',650,'47.4244818, 9.3767173'),
 ('SHG','Schaumburg',170,'52.190555555556, 9.0813888888889'),
 ('SI','Siegen',110,'50.8838492, 8.0209591'),
+('SIG','Sigmaringen',530,'48.0912921, 9.2286121'),
 ('SIM','Simmern',250,'49.983, 7.517'),
 ('SL','Schleswig-Flensburg',484,'54.629896, 9.534861'),
 ('SLS','Saarlouis',350,'49.3134606, 6.7522865'),
@@ -339,4 +341,5 @@ INSERT INTO plates (kz, name, distance, coords) VALUES
 ('WOH','Wolfhagen',150,'51.3264673, 9.1710827'),
 ('WT','Waldshut',570,'47.6327253, 8.2719155'),
 ('WUG','Weißenburg-Gunzenhausen',500,'49.052484, 10.906240'),
-('WW','Westerwald',180,'50.687222, 7.645556');
+('WW','Westerwald',180,'50.687222, 7.645556'),
+('ZI','Zittau',630,'50.8999681, 14.8029971');

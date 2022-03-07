@@ -1,8 +1,8 @@
 {
   "cars": [
     {
-      "id": 409,
-      "episode": 29,
+      "id": 428,
+      "episode": 30,
       "name": "",
       "model": "",
       "ccm": "",
@@ -11,6 +11,353 @@
       "year": "",
       "messung1": [],
       "messung2": [],
+      "comment": ""
+    },
+    {
+      "id": 427,
+      "episode": 29,
+      "name": "BMW",
+      "model": "(E30) 316",
+      "ccm": "(E30) 316",
+      "hp": "99",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        266.5,
+        5322,
+        409.7,
+        4245
+      ],
+      "comment": "V8 4.0L 286PS"
+    },
+    {
+      "id": 426,
+      "episode": 29,
+      "name": "Honda",
+      "model": "CRX (ED9)",
+      "ccm": "1.6",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [
+        168.4,
+        8429,
+        152.3,
+        7432
+      ],
+      "messung2": [
+        172.9,
+        8300,
+        153.6,
+        7495
+      ],
+      "comment": "2. Messung anderes Steuergerät"
+    },
+    {
+      "id": 425,
+      "episode": 29,
+      "name": "Mercedes",
+      "model": "(W201) 190E Sportline",
+      "ccm": "2.0",
+      "hp": "118",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        104.4,
+        5378,
+        158.9,
+        3550
+      ],
+      "comment": ""
+    },
+    {
+      "id": 424,
+      "episode": 29,
+      "name": "Volvo",
+      "model": "V70",
+      "ccm": "2.5",
+      "hp": "144",
+      "km": "375.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        138.1,
+        5424,
+        195.2,
+        3737
+      ],
+      "comment": ""
+    },
+    {
+      "id": 423,
+      "episode": 29,
+      "name": "Opel",
+      "model": "Kadett (D)",
+      "ccm": "1.4",
+      "hp": "60",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        99.7,
+        6442,
+        126.1,
+        3297
+      ],
+      "comment": ""
+    },
+    {
+      "id": 422,
+      "episode": 29,
+      "name": "VW",
+      "model": "Golf IV Turbo",
+      "ccm": "1.8",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        221.2,
+        5421,
+        365.0,
+        3635
+      ],
+      "comment": ""
+    },
+    {
+      "id": 421,
+      "episode": 29,
+      "name": "Opel",
+      "model": "Calibra 16V",
+      "ccm": "2,0",
+      "hp": "150",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        149.2,
+        6143,
+        184.6,
+        5222
+      ],
+      "comment": ""
+    },
+    {
+      "id": 420,
+      "episode": 29,
+      "name": "Volvo",
+      "model": "850",
+      "ccm": "2.5",
+      "hp": "144",
+      "km": "",
+      "year": "1996",
+      "messung1": [],
+      "messung2": [
+        104.6,
+        5072,
+        180.8,
+        2680
+      ],
+      "comment": ""
+    },
+    {
+      "id": 419,
+      "episode": 29,
+      "name": "Ferrari",
+      "model": "348",
+      "ccm": "3.4",
+      "hp": "300",
+      "km": "95.000",
+      "year": "1992",
+      "messung1": [],
+      "messung2": [
+        282.0,
+        0,
+        290.0,
+        0
+      ],
+      "comment": ""
+    },
+    {
+      "id": 418,
+      "episode": 29,
+      "name": "BMW",
+      "model": "(E36) 318is",
+      "ccm": "1.8",
+      "hp": "140",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        121.9,
+        6743,
+        141.5,
+        5227
+      ],
+      "comment": ""
+    },
+    {
+      "id": 417,
+      "episode": 29,
+      "name": "VW",
+      "model": "Golf II GT Special",
+      "ccm": "1.8",
+      "hp": "90",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        89.0,
+        5444,
+        146.1,
+        3031
+      ],
+      "comment": ""
+    },
+    {
+      "id": 416,
+      "episode": 29,
+      "name": "BMW",
+      "model": "(E36) 318i Cabrio",
+      "ccm": "1.8",
+      "hp": "115",
+      "km": "215.000",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        109.8,
+        5908,
+        152.4,
+        4079
+      ],
+      "comment": ""
+    },
+    {
+      "id": 415,
+      "episode": 29,
+      "name": "VW",
+      "model": "Corrado",
+      "ccm": "2.0",
+      "hp": "",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        255.8,
+        6060,
+        343.8,
+        4876
+      ],
+      "comment": ""
+    },
+    {
+      "id": 414,
+      "episode": 29,
+      "name": "Nissan",
+      "model": "Patrol TD",
+      "ccm": "2.8",
+      "hp": "116",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        109.4,
+        3998,
+        234.0,
+        2443
+      ],
+      "comment": ""
+    },
+    {
+      "id": 413,
+      "episode": 29,
+      "name": "Honda",
+      "model": "CRX",
+      "ccm": "1.6",
+      "hp": "125",
+      "km": "143.000",
+      "year": "1998",
+      "messung1": [],
+      "messung2": [
+        125.9,
+        6945,
+        142.6,
+        5693
+      ],
+      "comment": ""
+    },
+    {
+      "id": 412,
+      "episode": 29,
+      "name": "Toyota",
+      "model": "Corolla Royal Special",
+      "ccm": "1.3",
+      "hp": "75",
+      "km": "",
+      "year": "1996",
+      "messung1": [],
+      "messung2": [
+        81.0,
+        5515,
+        119.0,
+        4357
+      ],
+      "comment": ""
+    },
+    {
+      "id": 411,
+      "episode": 29,
+      "name": "VW",
+      "model": "Golf III",
+      "ccm": "1.6",
+      "hp": "75",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        88.4,
+        5874,
+        135.6,
+        2821
+      ],
+      "comment": ""
+    },
+    {
+      "id": 410,
+      "episode": 29,
+      "name": "Seat",
+      "model": "Cordoba Cupra Turbo",
+      "ccm": "1.8",
+      "hp": "165",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        144.9,
+        6107,
+        194.8,
+        4365
+      ],
+      "comment": ""
+    },
+    {
+      "id": 409,
+      "episode": 29,
+      "name": "Audi",
+      "model": "200 Turbo 10V",
+      "ccm": "2.2",
+      "hp": "165",
+      "km": "",
+      "year": "",
+      "messung1": [],
+      "messung2": [
+        202.0,
+        4344,
+        365,
+        7.3680
+      ],
       "comment": ""
     },
     {
