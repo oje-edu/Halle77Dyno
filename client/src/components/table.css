@@ -1,0 +1,29 @@
+:root {
+  --h77base: #e4cc9c;
+  --h77secbase: #de6e4a;
+  --h77bg: #6eb8b3;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--h77base);
+  color: var(--h77bg);
+}
+tr:nth-child(even) {
+  background-color: var(--h77bg);
+  color: var(--h77base);
+}
+
+.MuiToolbar-root {
+  background-color: var(--h77secbase);
+  color: var(--h77base);
+}
+
+.MuiGrid-root {
+  background-color: var(--h77secbase);
+  color: var(--h77base);
+}
+
+.MuiInputAdornment-root {
+  background-color: var(--h77secbase);
+  color: var(--h77base);
+}
