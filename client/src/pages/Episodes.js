@@ -1,8 +1,21 @@
-import episodes from "../data/episodes.json";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+const baseURL = "https://halle77.oje.guru/api/episodes";
+
 const Episodes = () => {
+  const [episodes, setEpisodes] = useState(null);
+  useEffect(() => {
+    axios.get(baseURL).then((response) => {
+      setEpisodes(response.data);
+      //console.log(response.data);
+    });
+  }, []);
+
+  if (!episodes) return null;
+
   return (
     <div>
       <Header />
@@ -16,14 +29,14 @@ const Episodes = () => {
             </tr>
           </thead>
           <tbody>
-            {episodes.episodes.map((episode) => (
+            {episodes.map((episode) => (
               <tr key={episode.id}>
                 <td>{episode.id}</td>
                 <td>{episode.title}</td>
                 <td>
                   <button className="button">
                     <a
-                      href={episode.url}
+                      href={episode.episodeUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
