@@ -1,18 +1,19 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const baseURL = "https://halle77.oje.guru/api/plates";
+import axios from "../api/axios";
+const PLATES_URL = "/plates";
+
 const position = [51.1657065, 10.452764000000002];
 const halle77 = [51.507372, 7.491431];
 
 const Map = () => {
   const [plates, setPlates] = useState(null);
   useEffect(() => {
-    axios.get(baseURL).then((response) => {
+    axios.get(PLATES_URL).then((response) => {
       setPlates(response.data);
       //console.log(response.data);
     });

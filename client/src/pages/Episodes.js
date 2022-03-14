@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const baseURL = "https://halle77.oje.guru/api/episodes";
+const EPISODES_URL = "/episodes";
 
 const Episodes = () => {
   const [episodes, setEpisodes] = useState(null);
   useEffect(() => {
-    axios.get(baseURL).then((response) => {
+    axios.get(EPISODES_URL).then((response) => {
       setEpisodes(response.data);
       //console.log(response.data);
     });
