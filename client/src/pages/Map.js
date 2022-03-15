@@ -63,7 +63,7 @@ const Map = () => {
                 <p>
                   {plate.name} -{" "}
                   {distance(halle77[0], halle77[1], plate.lat, plate.lng, "K")}
-                  km Luftlinie zur Halle77
+                  km Luftlinie
                 </p>
               </div>
             </Popup>

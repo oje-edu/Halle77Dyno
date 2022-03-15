@@ -27,3 +27,8 @@ tr:nth-child(even) {
   background-color: var(--h77secbase);
   color: var(--h77base);
 }
+
+.MuiPaper-root {
+  max-width: 1430px;
+  margin: 0 auto;
+}

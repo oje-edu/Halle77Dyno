@@ -59,7 +59,12 @@
   color: var(--h77bg);
 }
 
+.leaflet-popup-content p {
+  font-size: 20px;
+}
+
 table {
+  max-width: 1430px;
   width: 90%;
 
   margin: 0 auto;
@@ -77,7 +82,7 @@ th {
   position: sticky;
   top: 0;
 
-  background-color: var(--h77secbase);
+  background-color: var(--h77bg);
   color: var(--h77base);
 }
 
@@ -86,7 +91,16 @@ td {
   padding: 8px;
   text-align: center;
 }
-
+.table td {
+}
+.table td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.table td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .table tr:nth-child(odd) {
   background-color: var(--h77base);
   color: var(--h77bg);
@@ -133,6 +147,7 @@ td {
 }
 
 .map {
+  max-width: 1430px;
   height: 80vh;
 }
 
@@ -163,6 +178,33 @@ td {
   border-radius: 100%;
 
   transition: all 0.5s ease-in-out;
+}
+
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
 
 @media screen and (max-width: 768px) {

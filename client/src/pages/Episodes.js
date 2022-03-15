@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "../api/axios";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ScrollArrow from "../components/ScrollArrow";
 
 const EPISODES_URL = "/episodes";
 
@@ -50,6 +51,7 @@ const Episodes = () => {
         </table>
       </div>
       <Footer />
+      <ScrollArrow />
     </div>
   );
 };

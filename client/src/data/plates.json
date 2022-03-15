@@ -1,2980 +1,2236 @@
-  {
-    "plates": [
-      {
-        "kz": "AA",
-        "name": "Aalen",
-        "distance": "470",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.8366887,
-            10.0971163
-          ]
-        }
-      },
-      {
-        "kz": "AC",
-        "name": "Aachen",
-        "distance": "160",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.7753455,
-            6.0838868
-          ]
-        }
-      },
-      {
-        "kz": "AG (CH)",
-        "name": "Aargau",
-        "distance": "640",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.403182,
-            8.084340
-          ]
-        }
-      },
-      {
-        "kz": "AH",
-        "name": "Ahaus",
-        "distance": "110",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.0825322,
-            7.0150057
-          ]
-        }
-      },
-      {
-        "kz": "AIB",
-        "name": "Bad Aibling",
-        "distance": "700",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.8640182,
-            12.0093171
-          ]
-        }
-      },
-      {
-        "kz": "AK",
-        "name": "Altenkirchen",
-        "distance": "150",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.687222,
-            7.645556
-          ]
-        }
-      },
-      {
-        "kz": "AM",
-        "name": "Amberg",
-        "distance": "500",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.4403198,
-            11.8633445
-          ]
-        }
-      },
-      {
-        "kz": "AP",
-        "name": "Apolda",
-        "distance": "360",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0260095,
-            11.5155495
-          ]
-        }
-      },
-      {
-        "kz": "APD",
-        "name": "Apolda",
-        "distance": "360",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0260095,
-            11.5155495
-          ]
-        }
-      },
-      {
-        "kz": "AS",
-        "name": "Amberg-Sulzbach",
-        "distance": "530",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.464264,
-            11.723378
-          ]
-        }
-      },
-      {
-        "kz": "AUR",
-        "name": "Aurich",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.4708393,
-            7.4848308
-          ]
-        }
-      },
-      {
-        "kz": "AW",
-        "name": "Ahrweiler",
-        "distance": "150",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.541815,
-            7.1197177
-          ]
-        }
-      },
-      {
-        "kz": "AZ",
-        "name": "Alzey",
-        "distance": "300",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.7462012,
-            8.1171135
-          ]
-        }
-      },
-      {
-        "kz": "B",
-        "name": "Berlin",
-        "distance": "490",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.520007,
-            13.404954
-          ]
-        }
-      },
-      {
-        "kz": "B (Belgien)",
-        "name": "Keine Zuordnung durch Kennzeichen möglich",
-        "distance": "290",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.506213,
-            4.476049
-          ]
-        }
-      },
-      {
-        "kz": "BA",
-        "name": "Bamberg",
-        "distance": "420",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.8988135,
-            10.9027636
-          ]
-        }
-      },
-      {
-        "kz": "BAR",
-        "name": "Barnim",
-        "distance": "600",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.857445,
-            13.699830
-          ]
-        }
-      },
-      {
-        "kz": "BCH",
-        "name": "Buchen (ODW.)",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.521667,
-            9.323333
-          ]
-        }
-      },
-      {
-        "kz": "BE (CH)",
-        "name": "Bern",
-        "distance": "640",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            46.947922,
-            7.444608
-          ]
-        }
-      },
-      {
-        "kz": "BF",
-        "name": "Steinfurt",
-        "distance": "100",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.1445658,
-            7.3334636
-          ]
-        }
-      },
-      {
-        "kz": "BI",
-        "name": "Bielefeld",
-        "distance": "120",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.0302285,
-            8.5324708
-          ]
-        }
-      },
-      {
-        "kz": "BIN",
-        "name": "Bingen am Rhein",
-        "distance": "270",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.9667396,
-            7.904596
-          ]
-        }
-      },
-      {
-        "kz": "BIR",
-        "name": "Birkenfeld",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.6488236,
-            7.1647477
-          ]
-        }
-      },
-      {
-        "kz": "BIT",
-        "name": "Bitburg",
-        "distance": "240",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.9664145,
-            6.5298603
-          ]
-        }
-      },
-      {
-        "kz": "BK",
-        "name": "Backnang",
-        "distance": "420",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.9471455,
-            9.4341813
-          ]
-        }
-      },
-      {
-        "kz": "BLB",
-        "name": "Bad Berleburg",
-        "distance": "130",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0515666,
-            8.3926278
-          ]
-        }
-      },
-      {
-        "kz": "BM",
-        "name": "Bergheim",
-        "distance": "120",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.9451945,
-            6.6555022
-          ]
-        }
-      },
-      {
-        "kz": "BN",
-        "name": "Bonn",
-        "distance": "120",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.73743,
-            7.0982068
-          ]
-        }
-      },
-      {
-        "kz": "BN (AT)",
-        "name": "Baden",
-        "distance": "950",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.002870,
-            16.265988
-          ]
-        }
-      },
-      {
-        "kz": "BO",
-        "name": "Bochum",
-        "distance": "25",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.4818445,
-            7.2162363
-          ]
-        }
-      },
-      {
-        "kz": "BOR",
-        "name": "Borken",
-        "distance": "75",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.8482714,
-            6.8594477
-          ]
-        }
-      },
-      {
-        "kz": "BRA",
-        "name": "Brake",
-        "distance": "300",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.327237,
-            8.4775443
-          ]
-        }
-      },
-      {
-        "kz": "BS",
-        "name": "Braunschweig",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.2688736,
-            10.5267696
-          ]
-        }
-      },
-      {
-        "kz": "BÜD",
-        "name": "Büdingen",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.2862963,
-            9.1113838
-          ]
-        }
-      },
-      {
-        "kz": "BÜR",
-        "name": "Büren",
-        "distance": "85",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.55092,
-            8.5597678
-          ]
-        }
-      },
-      {
-        "kz": "CAS",
-        "name": "Castrop-Rauxel",
-        "distance": "22",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5632625,
-            7.3150145
-          ]
-        }
-      },
-      {
-        "kz": "CE",
-        "name": "Celle",
-        "distance": "252",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.6175963,
-            10.0628515
-          ]
-        }
-      },
-      {
-        "kz": "CLP",
-        "name": "Cloppenburg",
-        "distance": "200",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.844198,
-            8.0530158
-          ]
-        }
-      },
-      {
-        "kz": "COE",
-        "name": "Coesfeld",
-        "distance": "75",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.9382944,
-            7.1675831
-          ]
-        }
-      },
-      {
-        "kz": "CR",
-        "name": "Crailsheim",
-        "distance": "440",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.1337354,
-            10.0633573
-          ]
-        }
-      },
-      {
-        "kz": "CUX",
-        "name": "Cuxhaven",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.859336,
-            8.6879057
-          ]
-        }
-      },
-      {
-        "kz": "D",
-        "name": "Düsseldorf",
-        "distance": "75",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.2277411,
-            6.7734556
-          ]
-        }
-      },
-      {
-        "kz": "DA",
-        "name": "Darmstadt",
-        "distance": "300",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.8728253,
-            8.6511929
-          ]
-        }
-      },
-      {
-        "kz": "DAH",
-        "name": "Dachau",
-        "distance": "620",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.2629984,
-            11.4339022
-          ]
-        }
-      },
-      {
-        "kz": "DAU",
-        "name": "Daun",
-        "distance": "230",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.1952445,
-            6.8232859
-          ]
-        }
-      },
-      {
-        "kz": "DEL",
-        "name": "Delmenhorst",
-        "distance": "220",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.0521886,
-            8.6355932
-          ]
-        }
-      },
-      {
-        "kz": "DD",
-        "name": "Dresden",
-        "distance": "520",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0504088,
-            13.7372621
-          ]
-        }
-      },
-      {
-        "kz": "DH",
-        "name": "Diepholz",
-        "distance": "170",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.6056456,
-            8.3707878
-          ]
-        }
-      },
-      {
-        "kz": "DIL",
-        "name": "Lahn-Dill-Kreis",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.67097,
-            8.358588
-          ]
-        }
-      },
-      {
-        "kz": "DIN",
-        "name": "Dinslaken",
-        "distance": "70",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5674264,
-            6.747534
-          ]
-        }
-      },
-      {
-        "kz": "DIZ",
-        "name": "Diez",
-        "distance": "200",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.3706368,
-            8.016054
-          ]
-        }
-      },
-      {
-        "kz": "DN",
-        "name": "Düren",
-        "distance": "130",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.8029513,
-            6.481105
-          ]
-        }
-      },
-      {
-        "kz": "DO",
-        "name": "Dortmund",
-        "distance": "0",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5072,
-            7.49142
-          ]
-        }
-      },
-      {
-        "kz": "DON",
-        "name": "Donauwörth",
-        "distance": "520",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.7185826,
-            10.7778041
-          ]
-        }
-      },
-      {
-        "kz": "DT",
-        "name": "Detmold",
-        "distance": "130",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.9384783,
-            8.868638
-          ]
-        }
-      },
-      {
-        "kz": "DU",
-        "name": "Duisburg",
-        "distance": "60",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.4344079,
-            6.7623293
-          ]
-        }
-      },
-      {
-        "kz": "E",
-        "name": "Essen",
-        "distance": "45",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.4556432,
-            7.0115552
-          ]
-        }
-      },
-      {
-        "kz": "EBE",
-        "name": "Ebersberg",
-        "distance": "660",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.0780006,
-            11.9669667
-          ]
-        }
-      },
-      {
-        "kz": "EL",
-        "name": "Lingen",
-        "distance": "150",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.52306,
-            7.323279
-          ]
-        }
-      },
-      {
-        "kz": "EM",
-        "name": "Emmerdingen",
-        "distance": "474",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.1170918,
-            7.8539047
-          ]
-        }
-      },
-      {
-        "kz": "EMS",
-        "name": "Bad Ems",
-        "distance": "200",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.3340619,
-            7.71924
-          ]
-        }
-      },
-      {
-        "kz": "EN",
-        "name": "Ennepe-Ruhr-Kreis",
-        "distance": "37",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3001092,
-            7.3613429
-          ]
-        }
-      },
-      {
-        "kz": "ERZ",
-        "name": "Erzgebirgskreis",
-        "distance": "515",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.731240,
-            12.891083
-          ]
-        }
-      },
-      {
-        "kz": "ES",
-        "name": "Esslingen",
-        "distance": "440",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.7433425,
-            9.3201122
-          ]
-        }
-      },
-      {
-        "kz": "ESW",
-        "name": "Eschwege",
-        "distance": "213",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.1876662,
-            10.0397725
-          ]
-        }
-      },
-      {
-        "kz": "EU",
-        "name": "Euskirchen",
-        "distance": "140",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.6574392,
-            6.7899945
-          ]
-        }
-      },
-      {
-        "kz": "F",
-        "name": "Frankfurt am Main",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.1109221,
-            8.6821267
-          ]
-        }
-      },
-      {
-        "kz": "FB",
-        "name": "Friedberg / Ts.",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.333333,
-            8.75
-          ]
-        }
-      },
-      {
-        "kz": "FD",
-        "name": "Fulda",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.5558095,
-            9.6808449
-          ]
-        }
-      },
-      {
-        "kz": "FKB",
-        "name": "Frankenberg (Eder)",
-        "distance": "150",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.058889,
-            8.796667
-          ]
-        }
-      },
-      {
-        "kz": "FR (AT)",
-        "name": "Freistadt",
-        "distance": "820",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.502170,
-            14.502010
-          ]
-        }
-      },
-      {
-        "kz": "FRI",
-        "name": "Friesland",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.596679,
-            7.90034
-          ]
-        }
-      },
-      {
-        "kz": "GAN",
-        "name": "Bad Gandersheim",
-        "distance": "50",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.8717977,
-            10.023903
-          ]
-        }
-      },
-      {
-        "kz": "GE",
-        "name": "Gelsenkirchen",
-        "distance": "40",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.517744,
-            7.0857172
-          ]
-        }
-      },
-      {
-        "kz": "GEL",
-        "name": "Geldern",
-        "distance": "100",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5204439,
-            6.3257902
-          ]
-        }
-      },
-      {
-        "kz": "GER",
-        "name": "Germersheim",
-        "distance": "350",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.2140244,
-            8.3668146
-          ]
-        }
-      },
-      {
-        "kz": "GF",
-        "name": "Gifhorn",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.4809091,
-            10.5507829
-          ]
-        }
-      },
-      {
-        "kz": "GG",
-        "name": "Groß-Gerau",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.9203655,
-            8.4847038
-          ]
-        }
-      },
-      {
-        "kz": "GI",
-        "name": "Gießen",
-        "distance": "190",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.5840512,
-            8.6784031
-          ]
-        }
-      },
-      {
-        "kz": "GK",
-        "name": "Geilenkirchen",
-        "distance": "140",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.967168,
-            6.1174584
-          ]
-        }
-      },
-      {
-        "kz": "GL",
-        "name": "Bergisch Gladbach",
-        "distance": "85",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.9923091,
-            7.1286213
-          ]
-        }
-      },
-      {
-        "kz": "GLA",
-        "name": "Gladbeck",
-        "distance": "50",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5706624,
-            6.9853921
-          ]
-        }
-      },
-      {
-        "kz": "GM",
-        "name": "Gummersbach",
-        "distance": "77",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0266668,
-            7.569283
-          ]
-        }
-      },
-      {
-        "kz": "GOA",
-        "name": "Sankt Goar",
-        "distance": "230",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.1512782,
-            7.7131202
-          ]
-        }
-      },
-      {
-        "kz": "GP",
-        "name": "Göppingen",
-        "distance": "490",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.7054382,
-            9.6512491
-          ]
-        }
-      },
-      {
-        "kz": "GS",
-        "name": "Goslar",
-        "distance": "270",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.9059531,
-            10.4289963
-          ]
-        }
-      },
-      {
-        "kz": "GT",
-        "name": "Gütersloh",
-        "distance": "90",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.9032375,
-            8.3857535
-          ]
-        }
-      },
-      {
-        "kz": "GW",
-        "name": "Greifswald",
-        "distance": "600",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.0865463,
-            13.3923414
-          ]
-        }
-      },
-      {
-        "kz": "GÖ",
-        "name": "Göttingen",
-        "distance": "210",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5412804,
-            9.9158035
-          ]
-        }
-      },
-      {
-        "kz": "H",
-        "name": "Hannover",
-        "distance": "220",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.3758916,
-            9.7320104
-          ]
-        }
-      },
-      {
-        "kz": "HA",
-        "name": "Hagen",
-        "distance": "25",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3670777,
-            7.4632841
-          ]
-        }
-      },
-      {
-        "kz": "HAL",
-        "name": "Halle",
-        "distance": "400",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.4969802,
-            11.9688029
-          ]
-        }
-      },
-      {
-        "kz": "HAM",
-        "name": "Hamm",
-        "distance": "40",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.6738583,
-            7.8159816
-          ]
-        }
-      },
-      {
-        "kz": "HB",
-        "name": "Bremen",
-        "distance": "240",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.0792962,
-            8.8016937
-          ]
-        }
-      },
-      {
-        "kz": "HD",
-        "name": "Heidelberg",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.3987524,
-            8.6724335
-          ]
-        }
-      },
-      {
-        "kz": "HER",
-        "name": "Herne",
-        "distance": "30",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5368948,
-            7.2009147
-          ]
-        }
-      },
-      {
-        "kz": "HF",
-        "name": "Herford",
-        "distance": "125",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.1178305,
-            8.6793998
-          ]
-        }
-      },
-      {
-        "kz": "HG",
-        "name": "Bad Homburg v.d. Höhe",
-        "distance": "220",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.226831,
-            8.618162
-          ]
-        }
-      },
-      {
-        "kz": "HGN",
-        "name": "Hagenow",
-        "distance": "430",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.4265906,
-            11.1955099
-          ]
-        }
-      },
-      {
-        "kz": "HH",
-        "name": "Hamburg",
-        "distance": "350",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.551085,
-            9.993682
-          ]
-        }
-      },
-      {
-        "kz": "HK",
-        "name": "Heidekreis",
-        "distance": "300",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.066498,
-            9.882525
-          ]
-        }
-      },
-      {
-        "kz": "HL",
-        "name": "Lübeck",
-        "distance": "413",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.8654673,
-            10.6865593
-          ]
-        }
-      },
-      {
-        "kz": "HM",
-        "name": "Hameln",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.1082726,
-            9.362171
-          ]
-        }
-      },
-      {
-        "kz": "HMÜ",
-        "name": "Hannover-Münden",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.419285,
-            9.6557588
-          ]
-        }
-      },
-      {
-        "kz": "HN",
-        "name": "Heilbronn",
-        "distance": "380",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.1426929,
-            9.210879
-          ]
-        }
-      },
-      {
-        "kz": "HOL",
-        "name": "Holzminden",
-        "distance": "170",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.8238111,
-            9.4558926
-          ]
-        }
-      },
-      {
-        "kz": "HOT",
-        "name": "Hohenstein-Ernstthal",
-        "distance": "450",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.8009829,
-            12.7132681
-          ]
-        }
-      },
-      {
-        "kz": "HP",
-        "name": "Heppenheim",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.643056,
-            8.638889
-          ]
-        }
-      },
-      {
-        "kz": "HR",
-        "name": "Homberg (Efze)",
-        "distance": "220",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.033056,
-            9.4
-          ]
-        }
-      },
-      {
-        "kz": "HS",
-        "name": "Heinsberg",
-        "distance": "135",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0600381,
-            6.1183729
-          ]
-        }
-      },
-      {
-        "kz": "HSK",
-        "name": "Hochsauerlandkreis",
-        "distance": "70",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.2609835,
-            8.04754842902168
-          ]
-        }
-      },
-      {
-        "kz": "HU",
-        "name": "Hanau",
-        "distance": "240",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.1264123,
-            8.9283105
-          ]
-        }
-      },
-      {
-        "kz": "HVL",
-        "name": "Havelland",
-        "distance": "425",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.597902,
-            12.520413
-          ]
-        }
-      },
-      {
-        "kz": "HX",
-        "name": "Höxter",
-        "distance": "170",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.7774678,
-            9.3771214
-          ]
-        }
-      },
-      {
-        "kz": "J",
-        "name": "Jena",
-        "distance": "360",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.927054,
-            11.5892372
-          ]
-        }
-      },
-      {
-        "kz": "K",
-        "name": "Köln",
-        "distance": "100",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.937193,
-            6.961422
-          ]
-        }
-      },
-      {
-        "kz": "KA",
-        "name": "Karlsruhe",
-        "distance": "385",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.0068901,
-            8.4036527
-          ]
-        }
-      },
-      {
-        "kz": "KEH",
-        "name": "Kelheim",
-        "distance": "550",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.9184118,
-            11.886563
-          ]
-        }
-      },
-      {
-        "kz": "KK",
-        "name": "Kempen-Krefeld",
-        "distance": "100",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3649942,
-            6.4205309
-          ]
-        }
-      },
-      {
-        "kz": "KLE",
-        "name": "Kleve",
-        "distance": "130",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.786726,
-            6.12954
-          ]
-        }
-      },
-      {
-        "kz": "KO",
-        "name": "Koblenz",
-        "distance": "200",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.3569429,
-            7.5889959
-          ]
-        }
-      },
-      {
-        "kz": "KR",
-        "name": "Krefeld",
-        "distance": "90",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3387609,
-            6.5853417
-          ]
-        }
-      },
-      {
-        "kz": "KS",
-        "name": "Kassel",
-        "distance": "170",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3127114,
-            9.4797461
-          ]
-        }
-      },
-      {
-        "kz": "KW",
-        "name": "Königs Wusterhausen",
-        "distance": "500",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.2958906,
-            13.6228382
-          ]
-        }
-      },
-      {
-        "kz": "KÖN",
-        "name": "Rhön-Grabfeld",
-        "distance": "305",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.355694,
-            10.206667
-          ]
-        }
-      },
-      {
-        "kz": "L",
-        "name": "Leipzig",
-        "distance": "430",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3396955,
-            12.3730747
-          ]
-        }
-      },
-      {
-        "kz": "L (AT)",
-        "name": "Linz",
-        "distance": "800",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.30694,
-            14.28583
-          ]
-        }
-      },
-      {
-        "kz": "L (Luxembourg)",
-        "name": "Keine Zuordnung durch Kennzeichen möglich",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.815273,
-            6.129583
-          ]
-        }
-      },
-      {
-        "kz": "LB",
-        "name": "Ludwigsburg",
-        "distance": "420",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.8940624,
-            9.195464
-          ]
-        }
-      },
-      {
-        "kz": "LDK",
-        "name": "Lahn-Dill-Kreis",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.67097,
-            8.358588
-          ]
-        }
-      },
-      {
-        "kz": "LER",
-        "name": "Leer",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.235657,
-            7.4679018
-          ]
-        }
-      },
-      {
-        "kz": "LEV",
-        "name": "Leverkusen",
-        "distance": "80",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0459248,
-            7.0192196
-          ]
-        }
-      },
-      {
-        "kz": "LG",
-        "name": "Lüneburg",
-        "distance": "330",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.2464214,
-            10.4115179
-          ]
-        }
-      },
-      {
-        "kz": "LH",
-        "name": "Lüdinghausen",
-        "distance": "45",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.768214,
-            7.4465617
-          ]
-        }
-      },
-      {
-        "kz": "LIP",
-        "name": "Lippe",
-        "distance": "130",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.975903,
-            8.986528
-          ]
-        }
-      },
-      {
-        "kz": "LL",
-        "name": "Landsberg am Lech",
-        "distance": "630",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.050783,
-            10.8703515
-          ]
-        }
-      },
-      {
-        "kz": "LM",
-        "name": "Limburg an der Lahn",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.4859255,
-            8.2722569
-          ]
-        }
-      },
-      {
-        "kz": "LÖ",
-        "name": "Lörrach",
-        "distance": "550",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.6169191,
-            7.6709248
-          ]
-        }
-      },
-      {
-        "kz": "LÖB",
-        "name": "Löbau",
-        "distance": "550",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0962292,
-            14.6701781
-          ]
-        }
-      },
-      {
-        "kz": "LOS",
-        "name": "Oder-Spree",
-        "distance": "550",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.360438,
-            14.059511
-          ]
-        }
-      },
-      {
-        "kz": "LP",
-        "name": "Lippstadt",
-        "distance": "75",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.6712278,
-            8.3406481
-          ]
-        }
-      },
-      {
-        "kz": "LR",
-        "name": "Lahr",
-        "distance": "460",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.333333,
-            7.866667
-          ]
-        }
-      },
-      {
-        "kz": "LU",
-        "name": "Ludwigshafen am Rhein",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.47741,
-            8.44518
-          ]
-        }
-      },
-      {
-        "kz": "LÜN",
-        "name": "Lünen",
-        "distance": "15",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.6104829,
-            7.5285074
-          ]
-        }
-      },
-      {
-        "kz": "M",
-        "name": "München",
-        "distance": "630",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.135125,
-            11.581981
-          ]
-        }
-      },
-      {
-        "kz": "MD",
-        "name": "Magdeburg",
-        "distance": "370",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.1205333,
-            11.6276237
-          ]
-        }
-      },
-      {
-        "kz": "ME",
-        "name": "Mettmann",
-        "distance": "65",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.2506663,
-            6.9740265
-          ]
-        }
-      },
-      {
-        "kz": "MEL",
-        "name": "Melle",
-        "distance": "140",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.2033222,
-            8.3372664
-          ]
-        }
-      },
-      {
-        "kz": "MER",
-        "name": "Merseburg",
-        "distance": "370",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3563278,
-            11.9917462
-          ]
-        }
-      },
-      {
-        "kz": "MG",
-        "name": "Mönchengladbach",
-        "distance": "95",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.1804572,
-            6.4428041
-          ]
-        }
-      },
-      {
-        "kz": "MI",
-        "name": "Minden-Lübbecke",
-        "distance": "160",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.335154,
-            8.762342
-          ]
-        }
-      },
-      {
-        "kz": "MI (AT)",
-        "name": "Mistelbach",
-        "distance": "1250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.5667,
-            16.5667
-          ]
-        }
-      },
-      {
-        "kz": "MK",
-        "name": "Märkischer Kreis",
-        "distance": "45,",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.243977,
-            7.755536
-          ]
-        }
-      },
-      {
-        "kz": "ML",
-        "name": "Mansfeld-Südharz",
-        "distance": "350",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.550941,
-            11.407180
-          ]
-        }
-      },
-      {
-        "kz": "MN",
-        "name": "Mindelheim",
-        "distance": "600",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.0461744,
-            10.4948841
-          ]
-        }
-      },
-      {
-        "kz": "MO",
-        "name": "Moers",
-        "distance": "70",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.4516041,
-            6.6408148
-          ]
-        }
-      },
-      {
-        "kz": "MON",
-        "name": "Monschau",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.5563349,
-            6.2426261
-          ]
-        }
-      },
-      {
-        "kz": "MQ",
-        "name": "Merseburg-Querfurt",
-        "distance": "340",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3812676,
-            11.6041294
-          ]
-        }
-      },
-      {
-        "kz": "MR",
-        "name": "Marburg",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.8021728,
-            8.7667933
-          ]
-        }
-      },
-      {
-        "kz": "MS",
-        "name": "Münster",
-        "distance": "70",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.9606649,
-            7.6261347
-          ]
-        }
-      },
-      {
-        "kz": "MSH",
-        "name": "Mansfeld-Südharz",
-        "distance": "350",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.550941,
-            11.407180
-          ]
-        }
-      },
-      {
-        "kz": "MTK",
-        "name": "Main-Taunus-Kreis",
-        "distance": "230",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.133333,
-            8.533333
-          ]
-        }
-      },
-      {
-        "kz": "MZ",
-        "name": "Mainz",
-        "distance": "260",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.9928617,
-            8.2472526
-          ]
-        }
-      },
-      {
-        "kz": "MZG",
-        "name": "Merzig",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.457240,
-            6.686688
-          ]
-        }
-      },
-      {
-        "kz": "NES",
-        "name": "Rhön-Grabfeld",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.355694,
-            10.206667
-          ]
-        }
-      },
-      {
-        "kz": "NEW",
-        "name": "Neustadt an der Waldnaab",
-        "distance": "520",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.732096,
-            12.178127
-          ]
-        }
-      },
-      {
-        "kz": "NF",
-        "name": "Nordfriesland",
-        "distance": "480",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.676022,
-            8.933632
-          ]
-        }
-      },
-      {
-        "kz": "NI",
-        "name": "Nienburg (Weser)",
-        "distance": "220",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.6380924,
-            9.2084155
-          ]
-        }
-      },
-      {
-        "kz": "NL (Niederlande)",
-        "name": "Keine Zuordnung durch Kennzeichen möglich",
-        "distance": "200",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.132633,
-            5.291266
-          ]
-        }
-      },
-      {
-        "kz": "NOH",
-        "name": "Nordhorn",
-        "distance": "150",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.4295801,
-            7.0685708
-          ]
-        }
-      },
-      {
-        "kz": "NOR",
-        "name": "Norden",
-        "distance": "300",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.576853,
-            7.164472
-          ]
-        }
-      },
-      {
-        "kz": "NR",
-        "name": "Neuwied",
-        "distance": "165",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.4361866,
-            7.4664546
-          ]
-        }
-      },
-      {
-        "kz": "OA",
-        "name": "Oberallgäu",
-        "distance": "630",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.539197,
-            10.284402
-          ]
-        }
-      },
-      {
-        "kz": "OAL",
-        "name": "Ostallgäu",
-        "distance": "630",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.786013,
-            10.630515
-          ]
-        }
-      },
-      {
-        "kz": "OB",
-        "name": "Oberhausen",
-        "distance": "55",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.4963341,
-            6.8637765
-          ]
-        }
-      },
-      {
-        "kz": "OF",
-        "name": "Offenbach am Main",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.0956362,
-            8.7760843
-          ]
-        }
-      },
-      {
-        "kz": "OH",
-        "name": "Ostholstein",
-        "distance": "430",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.164203,
-            10.850424
-          ]
-        }
-      },
-      {
-        "kz": "OL",
-        "name": "Oldenburg",
-        "distance": "240",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.1434501,
-            8.2145521
-          ]
-        }
-      },
-      {
-        "kz": "OP",
-        "name": "Opladen",
-        "distance": "85",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.0459248,
-            7.0192196
-          ]
-        }
-      },
-      {
-        "kz": "OS",
-        "name": "Osnabrück",
-        "distance": "130",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.2799112,
-            8.0471788
-          ]
-        }
-      },
-      {
-        "kz": "PB",
-        "name": "Paderborn",
-        "distance": "100",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.7189205,
-            8.7575093
-          ]
-        }
-      },
-      {
-        "kz": "PE",
-        "name": "Peine",
-        "distance": "260",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.3204095,
-            10.243267
-          ]
-        }
-      },
-      {
-        "kz": "PI",
-        "name": "Pinneberg",
-        "distance": "370",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.6545225,
-            9.7938212
-          ]
-        }
-      },
-      {
-        "kz": "PLÖ",
-        "name": "Plön",
-        "distance": "445",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.1613302,
-            10.4259498
-          ]
-        }
-      },
-      {
-        "kz": "PRÜ",
-        "name": "Prüm",
-        "distance": "200",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.208237,
-            6.4197005
-          ]
-        }
-      },
-      {
-        "kz": "PS",
-        "name": "Pirmasens",
-        "distance": "390",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.201555,
-            7.6002161
-          ]
-        }
-      },
-      {
-        "kz": "RA",
-        "name": "Rastatt",
-        "distance": "380",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.8591174,
-            8.2059096
-          ]
-        }
-      },
-      {
-        "kz": "RD",
-        "name": "Rendsburg",
-        "distance": "440",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.295275,
-            9.846645
-          ]
-        }
-      },
-      {
-        "kz": "RE",
-        "name": "Recklinghausen",
-        "distance": "36",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.6140649,
-            7.1979453
-          ]
-        }
-      },
-      {
-        "kz": "RH",
-        "name": "Roth",
-        "distance": "490",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.252047,
-            11.091189
-          ]
-        }
-      },
-      {
-        "kz": "RI",
-        "name": "Rinteln",
-        "distance": "170",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.2020461,
-            9.0759703
-          ]
-        }
-      },
-      {
-        "kz": "RN",
-        "name": "Rathenow",
-        "distance": "430",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.6048117,
-            12.337945
-          ]
-        }
-      },
-      {
-        "kz": "RO",
-        "name": "Rosenheim",
-        "distance": "680",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.8571272,
-            12.1181047
-          ]
-        }
-      },
-      {
-        "kz": "ROD",
-        "name": "Roding",
-        "distance": "580",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.1941496,
-            12.5222943
-          ]
-        }
-      },
-      {
-        "kz": "ROF",
-        "name": "Hersfeld-Rotenburg",
-        "distance": "220",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.898552,
-            9.739876
-          ]
-        }
-      },
-      {
-        "kz": "ROK",
-        "name": "Rockenhausen",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.6311747,
-            7.8215535
-          ]
-        }
-      },
-      {
-        "kz": "ROW",
-        "name": "Rotenburg (Wümme)",
-        "distance": "270",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.106944,
-            9.396944
-          ]
-        }
-      },
-      {
-        "kz": "RS",
-        "name": "Remscheid",
-        "distance": "60",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.1787418,
-            7.1896962
-          ]
-        }
-      },
-      {
-        "kz": "RW",
-        "name": "Rottweil",
-        "distance": "570",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.1610687,
-            8.6316219
-          ]
-        }
-      },
-      {
-        "kz": "S",
-        "name": "Stuttgart",
-        "distance": "450",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.7758459,
-            9.1829321
-          ]
-        }
-      },
-      {
-        "kz": "SE",
-        "name": "Bad Segeberg",
-        "distance": "400",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.9390528,
-            10.3053651
-          ]
-        }
-      },
-      {
-        "kz": "SEE",
-        "name": "Seelow",
-        "distance": "560",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.5315702,
-            14.3798314
-          ]
-        }
-      },
-      {
-        "kz": "SG",
-        "name": "Solingen",
-        "distance": "67",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.1702072,
-            7.0831408
-          ]
-        }
-      },
-      {
-        "kz": "SG (CH)",
-        "name": "St. Gallen",
-        "distance": "650",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.4244818,
-            9.3767173
-          ]
-        }
-      },
-      {
-        "kz": "SHG",
-        "name": "Schaumburg",
-        "distance": "170",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.190555555556,
-            9.0813888888889
-          ]
-        }
-      },
-      {
-        "kz": "SI",
-        "name": "Siegen",
-        "distance": "110",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.8838492,
-            8.0209591
-          ]
-        }
-      },
-      {
-        "kz": "SIG",
-        "name": "Sigmaringen",
-        "distance": "530",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.0912921,
-            9.2286121
-          ]
-        }
-      },
-      {
-        "kz": "SIM",
-        "name": "Simmern",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.983,
-            7.517
-          ]
-        }
-      },
-      {
-        "kz": "SL",
-        "name": "Schleswig-Flensburg",
-        "distance": "484",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.629896,
-            9.534861
-          ]
-        }
-      },
-      {
-        "kz": "SLS",
-        "name": "Saarlouis",
-        "distance": "350",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.3134606,
-            6.7522865
-          ]
-        }
-      },
-      {
-        "kz": "SN",
-        "name": "Schwerin",
-        "distance": "450",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.6355022,
-            11.4012499
-          ]
-        }
-      },
-      {
-        "kz": "SO",
-        "name": "Soest",
-        "distance": "47",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5711476,
-            8.105754
-          ]
-        }
-      },
-      {
-        "kz": "SON",
-        "name": "Sonneberg",
-        "distance": "412",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.3601821,
-            11.1709899
-          ]
-        }
-      },
-      {
-        "kz": "SU",
-        "name": "Siegburg",
-        "distance": "120",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.7998473,
-            7.2074514
-          ]
-        }
-      },
-      {
-        "kz": "STA",
-        "name": "Starnberg",
-        "distance": "650",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.9999615,
-            11.3390089
-          ]
-        }
-      },
-      {
-        "kz": "STD",
-        "name": "Stade",
-        "distance": "340",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.5928618,
-            9.4709494
-          ]
-        }
-      },
-      {
-        "kz": "TDO",
-        "name": "Torgau",
-        "distance": "500",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.557934,
-            12.991583
-          ]
-        }
-      },
-      {
-        "kz": "TE",
-        "name": "Tecklenburg",
-        "distance": "105",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.2203039,
-            7.8123633
-          ]
-        }
-      },
-      {
-        "kz": "TF",
-        "name": "Teltow-Fläming",
-        "distance": "500",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.036416,
-            13.292044
-          ]
-        }
-      },
-      {
-        "kz": "UFF",
-        "name": "Uffenheim",
-        "distance": "370",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.5449973,
-            10.2338007
-          ]
-        }
-      },
-      {
-        "kz": "UH",
-        "name": "Unstrut-Hainich",
-        "distance": "260",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.19,
-            10.55
-          ]
-        }
-      },
-      {
-        "kz": "UN",
-        "name": "Unna",
-        "distance": "20",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5426349,
-            7.6853114
-          ]
-        }
-      },
-      {
-        "kz": "V",
-        "name": "Vogtland-Kreis",
-        "distance": "490",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.616667,
-            12.3
-          ]
-        }
-      },
-      {
-        "kz": "VAI",
-        "name": "Vaihingen an der Enz",
-        "distance": "400",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.9334357,
-            8.961208
-          ]
-        }
-      },
-      {
-        "kz": "VB",
-        "name": "Vogelsberg-Kreis",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.640763888889,
-            9.3997916666667
-          ]
-        }
-      },
-      {
-        "kz": "VEC",
-        "name": "Vechta",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.7292252,
-            8.2838761
-          ]
-        }
-      },
-      {
-        "kz": "VIE",
-        "name": "Viersen",
-        "distance": "100",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.2554987,
-            6.3965235
-          ]
-        }
-      },
-      {
-        "kz": "VIT",
-        "name": "Viechtach",
-        "distance": "600",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.0794562,
-            12.8831956
-          ]
-        }
-      },
-      {
-        "kz": "W",
-        "name": "Wuppertal",
-        "distance": "50",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.2562128,
-            7.1507636
-          ]
-        }
-      },
-      {
-        "kz": "W (AT)",
-        "name": "Wien",
-        "distance": "950",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.208174,
-            16.373819
-          ]
-        }
-      },
-      {
-        "kz": "WA",
-        "name": "Waldeck-Frankenberg",
-        "distance": "140",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.222086,
-            8.854924
-          ]
-        }
-      },
-      {
-        "kz": "WAF",
-        "name": "Warendorf",
-        "distance": "80",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.9538685,
-            7.9908987
-          ]
-        }
-      },
-      {
-        "kz": "WAK",
-        "name": "Wartburgkreis",
-        "distance": "270",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.956714,
-            10.497661
-          ]
-        }
-      },
-      {
-        "kz": "WAN",
-        "name": "Wanne-Eickel",
-        "distance": "30",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.5368948,
-            7.2009147
-          ]
-        }
-      },
-      {
-        "kz": "WEL",
-        "name": "Limburg-Weilburg",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.4859255,
-            8.2722569
-          ]
-        }
-      },
-      {
-        "kz": "WES",
-        "name": "Wesel",
-        "distance": "80",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.6643079,
-            6.6295679
-          ]
-        }
-      },
-      {
-        "kz": "WF",
-        "name": "Wolfenbüttel",
-        "distance": "280",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.1640413,
-            10.5408484
-          ]
-        }
-      },
-      {
-        "kz": "WHV",
-        "name": "Wilhelmshaven",
-        "distance": "300",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.5323403,
-            8.1068722
-          ]
-        }
-      },
-      {
-        "kz": "WI",
-        "name": "Wiesbaden",
-        "distance": "250",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.0782184,
-            8.2397608
-          ]
-        }
-      },
-      {
-        "kz": "WIT",
-        "name": "Witten",
-        "distance": "20",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.4438926,
-            7.353197
-          ]
-        }
-      },
-      {
-        "kz": "WL",
-        "name": "Winsen (Luhe)",
-        "distance": "330",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            53.3574436,
-            10.2127204
-          ]
-        }
-      },
-      {
-        "kz": "WND",
-        "name": "St. Wendel",
-        "distance": "320",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.4677707,
-            7.1690625
-          ]
-        }
-      },
-      {
-        "kz": "WOB",
-        "name": "Wolfsburg",
-        "distance": "300",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.4226503,
-            10.7865461
-          ]
-        }
-      },
-      {
-        "kz": "WOH",
-        "name": "Wolfhagen",
-        "distance": "150",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            51.3264673,
-            9.1710827
-          ]
-        }
-      },
-      {
-        "kz": "WT",
-        "name": "Waldshut-Tiengen",
-        "distance": "570",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.6327253,
-            8.2719155
-          ]
-        }
-      },
-      {
-        "kz": "WUG",
-        "name": "Weißenburg-Gunzenhausen",
-        "distance": "500",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.052484,
-            10.906240
-          ]
-        }
-      },
-      {
-        "kz": "WW",
-        "name": "Westerwaldkreis",
-        "distance": "180",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.687222,
-            7.645556
-          ]
-        }
-      },
-      {
-        "kz": "ZI",
-        "name": "Zittau",
-        "distance": "630",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.8999681,
-            14.8029971
-          ]
-        }
+{
+  "plates": [
+    {
+      "kz": "AA",
+      "name": "Aalen",
+      "distance": "470",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.8366887, 10.0971163]
       }
-    ]
-  }
+    },
+    {
+      "kz": "AC",
+      "name": "Aachen",
+      "distance": "160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.7753455, 6.0838868]
+      }
+    },
+    {
+      "kz": "AG (CH)",
+      "name": "Aargau",
+      "distance": "640",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.403182, 8.08434]
+      }
+    },
+    {
+      "kz": "AH",
+      "name": "Ahaus",
+      "distance": "110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.0825322, 7.0150057]
+      }
+    },
+    {
+      "kz": "AIB",
+      "name": "Bad Aibling",
+      "distance": "700",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.8640182, 12.0093171]
+      }
+    },
+    {
+      "kz": "AK",
+      "name": "Altenkirchen",
+      "distance": "150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.687222, 7.645556]
+      }
+    },
+    {
+      "kz": "AM",
+      "name": "Amberg",
+      "distance": "500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.4403198, 11.8633445]
+      }
+    },
+    {
+      "kz": "AP",
+      "name": "Apolda",
+      "distance": "360",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0260095, 11.5155495]
+      }
+    },
+    {
+      "kz": "APD",
+      "name": "Apolda",
+      "distance": "360",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0260095, 11.5155495]
+      }
+    },
+    {
+      "kz": "AS",
+      "name": "Amberg-Sulzbach",
+      "distance": "530",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.464264, 11.723378]
+      }
+    },
+    {
+      "kz": "AUR",
+      "name": "Aurich",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.4708393, 7.4848308]
+      }
+    },
+    {
+      "kz": "AW",
+      "name": "Ahrweiler",
+      "distance": "150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.541815, 7.1197177]
+      }
+    },
+    {
+      "kz": "AZ",
+      "name": "Alzey",
+      "distance": "300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.7462012, 8.1171135]
+      }
+    },
+    {
+      "kz": "B",
+      "name": "Berlin",
+      "distance": "490",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.520007, 13.404954]
+      }
+    },
+    {
+      "kz": "B (Belgien)",
+      "name": "Keine Zuordnung durch Kennzeichen möglich",
+      "distance": "290",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.506213, 4.476049]
+      }
+    },
+    {
+      "kz": "BA",
+      "name": "Bamberg",
+      "distance": "420",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.8988135, 10.9027636]
+      }
+    },
+    {
+      "kz": "BAR",
+      "name": "Barnim",
+      "distance": "600",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.857445, 13.69983]
+      }
+    },
+    {
+      "kz": "BCH",
+      "name": "Buchen (ODW.)",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.521667, 9.323333]
+      }
+    },
+    {
+      "kz": "BE (CH)",
+      "name": "Bern",
+      "distance": "640",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.947922, 7.444608]
+      }
+    },
+    {
+      "kz": "BF",
+      "name": "Steinfurt",
+      "distance": "100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.1445658, 7.3334636]
+      }
+    },
+    {
+      "kz": "BI",
+      "name": "Bielefeld",
+      "distance": "120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.0302285, 8.5324708]
+      }
+    },
+    {
+      "kz": "BIN",
+      "name": "Bingen am Rhein",
+      "distance": "270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.9667396, 7.904596]
+      }
+    },
+    {
+      "kz": "BIR",
+      "name": "Birkenfeld",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.6488236, 7.1647477]
+      }
+    },
+    {
+      "kz": "BIT",
+      "name": "Bitburg",
+      "distance": "240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.9664145, 6.5298603]
+      }
+    },
+    {
+      "kz": "BK",
+      "name": "Backnang",
+      "distance": "420",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.9471455, 9.4341813]
+      }
+    },
+    {
+      "kz": "BLB",
+      "name": "Bad Berleburg",
+      "distance": "130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0515666, 8.3926278]
+      }
+    },
+    {
+      "kz": "BM",
+      "name": "Bergheim",
+      "distance": "120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.9451945, 6.6555022]
+      }
+    },
+    {
+      "kz": "BN",
+      "name": "Bonn",
+      "distance": "120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.73743, 7.0982068]
+      }
+    },
+    {
+      "kz": "BN (AT)",
+      "name": "Baden",
+      "distance": "950",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.00287, 16.265988]
+      }
+    },
+    {
+      "kz": "BO",
+      "name": "Bochum",
+      "distance": "25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.4818445, 7.2162363]
+      }
+    },
+    {
+      "kz": "BOR",
+      "name": "Borken",
+      "distance": "75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.8482714, 6.8594477]
+      }
+    },
+    {
+      "kz": "BRA",
+      "name": "Brake",
+      "distance": "300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.327237, 8.4775443]
+      }
+    },
+    {
+      "kz": "BS",
+      "name": "Braunschweig",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.2688736, 10.5267696]
+      }
+    },
+    {
+      "kz": "BÜD",
+      "name": "Büdingen",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.2862963, 9.1113838]
+      }
+    },
+    {
+      "kz": "BÜR",
+      "name": "Büren",
+      "distance": "85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.55092, 8.5597678]
+      }
+    },
+    {
+      "kz": "CAS",
+      "name": "Castrop-Rauxel",
+      "distance": "22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5632625, 7.3150145]
+      }
+    },
+    {
+      "kz": "CE",
+      "name": "Celle",
+      "distance": "252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.6175963, 10.0628515]
+      }
+    },
+    {
+      "kz": "CLP",
+      "name": "Cloppenburg",
+      "distance": "200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.844198, 8.0530158]
+      }
+    },
+    {
+      "kz": "COE",
+      "name": "Coesfeld",
+      "distance": "75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9382944, 7.1675831]
+      }
+    },
+    {
+      "kz": "CR",
+      "name": "Crailsheim",
+      "distance": "440",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.1337354, 10.0633573]
+      }
+    },
+    {
+      "kz": "CUX",
+      "name": "Cuxhaven",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.859336, 8.6879057]
+      }
+    },
+    {
+      "kz": "D",
+      "name": "Düsseldorf",
+      "distance": "75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.2277411, 6.7734556]
+      }
+    },
+    {
+      "kz": "DA",
+      "name": "Darmstadt",
+      "distance": "300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.8728253, 8.6511929]
+      }
+    },
+    {
+      "kz": "DAH",
+      "name": "Dachau",
+      "distance": "620",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.2629984, 11.4339022]
+      }
+    },
+    {
+      "kz": "DAU",
+      "name": "Daun",
+      "distance": "230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.1952445, 6.8232859]
+      }
+    },
+    {
+      "kz": "DEL",
+      "name": "Delmenhorst",
+      "distance": "220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.0521886, 8.6355932]
+      }
+    },
+    {
+      "kz": "DD",
+      "name": "Dresden",
+      "distance": "520",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0504088, 13.7372621]
+      }
+    },
+    {
+      "kz": "DH",
+      "name": "Diepholz",
+      "distance": "170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.6056456, 8.3707878]
+      }
+    },
+    {
+      "kz": "DIL",
+      "name": "Lahn-Dill-Kreis",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.67097, 8.358588]
+      }
+    },
+    {
+      "kz": "DIN",
+      "name": "Dinslaken",
+      "distance": "70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5674264, 6.747534]
+      }
+    },
+    {
+      "kz": "DIZ",
+      "name": "Diez",
+      "distance": "200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.3706368, 8.016054]
+      }
+    },
+    {
+      "kz": "DN",
+      "name": "Düren",
+      "distance": "130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.8029513, 6.481105]
+      }
+    },
+    {
+      "kz": "DO",
+      "name": "Dortmund",
+      "distance": "0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5072, 7.49142]
+      }
+    },
+    {
+      "kz": "DON",
+      "name": "Donauwörth",
+      "distance": "520",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.7185826, 10.7778041]
+      }
+    },
+    {
+      "kz": "DT",
+      "name": "Detmold",
+      "distance": "130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9384783, 8.868638]
+      }
+    },
+    {
+      "kz": "DU",
+      "name": "Duisburg",
+      "distance": "60",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.4344079, 6.7623293]
+      }
+    },
+    {
+      "kz": "E",
+      "name": "Essen",
+      "distance": "45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.4556432, 7.0115552]
+      }
+    },
+    {
+      "kz": "EBE",
+      "name": "Ebersberg",
+      "distance": "660",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.0780006, 11.9669667]
+      }
+    },
+    {
+      "kz": "EL",
+      "name": "Lingen",
+      "distance": "150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.52306, 7.323279]
+      }
+    },
+    {
+      "kz": "EM",
+      "name": "Emmerdingen",
+      "distance": "474",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.1170918, 7.8539047]
+      }
+    },
+    {
+      "kz": "EMS",
+      "name": "Bad Ems",
+      "distance": "200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.3340619, 7.71924]
+      }
+    },
+    {
+      "kz": "EN",
+      "name": "Ennepe-Ruhr-Kreis",
+      "distance": "37",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3001092, 7.3613429]
+      }
+    },
+    {
+      "kz": "ERZ",
+      "name": "Erzgebirgskreis",
+      "distance": "515",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.73124, 12.891083]
+      }
+    },
+    {
+      "kz": "ES",
+      "name": "Esslingen",
+      "distance": "440",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.7433425, 9.3201122]
+      }
+    },
+    {
+      "kz": "ESW",
+      "name": "Eschwege",
+      "distance": "213",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.1876662, 10.0397725]
+      }
+    },
+    {
+      "kz": "EU",
+      "name": "Euskirchen",
+      "distance": "140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.6574392, 6.7899945]
+      }
+    },
+    {
+      "kz": "F",
+      "name": "Frankfurt am Main",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.1109221, 8.6821267]
+      }
+    },
+    {
+      "kz": "FB",
+      "name": "Friedberg / Ts.",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.333333, 8.75]
+      }
+    },
+    {
+      "kz": "FD",
+      "name": "Fulda",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.5558095, 9.6808449]
+      }
+    },
+    {
+      "kz": "FKB",
+      "name": "Frankenberg (Eder)",
+      "distance": "150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.058889, 8.796667]
+      }
+    },
+    {
+      "kz": "FR (AT)",
+      "name": "Freistadt",
+      "distance": "820",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.50217, 14.50201]
+      }
+    },
+    {
+      "kz": "FRI",
+      "name": "Friesland",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.596679, 7.90034]
+      }
+    },
+    {
+      "kz": "GAN",
+      "name": "Bad Gandersheim",
+      "distance": "50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.8717977, 10.023903]
+      }
+    },
+    {
+      "kz": "GE",
+      "name": "Gelsenkirchen",
+      "distance": "40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.517744, 7.0857172]
+      }
+    },
+    {
+      "kz": "GEL",
+      "name": "Geldern",
+      "distance": "100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5204439, 6.3257902]
+      }
+    },
+    {
+      "kz": "GER",
+      "name": "Germersheim",
+      "distance": "350",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.2140244, 8.3668146]
+      }
+    },
+    {
+      "kz": "GF",
+      "name": "Gifhorn",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.4809091, 10.5507829]
+      }
+    },
+    {
+      "kz": "GG",
+      "name": "Groß-Gerau",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.9203655, 8.4847038]
+      }
+    },
+    {
+      "kz": "GI",
+      "name": "Gießen",
+      "distance": "190",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.5840512, 8.6784031]
+      }
+    },
+    {
+      "kz": "GK",
+      "name": "Geilenkirchen",
+      "distance": "140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.967168, 6.1174584]
+      }
+    },
+    {
+      "kz": "GL",
+      "name": "Bergisch Gladbach",
+      "distance": "85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.9923091, 7.1286213]
+      }
+    },
+    {
+      "kz": "GLA",
+      "name": "Gladbeck",
+      "distance": "50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5706624, 6.9853921]
+      }
+    },
+    {
+      "kz": "GM",
+      "name": "Gummersbach",
+      "distance": "77",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0266668, 7.569283]
+      }
+    },
+    {
+      "kz": "GOA",
+      "name": "Sankt Goar",
+      "distance": "230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.1512782, 7.7131202]
+      }
+    },
+    {
+      "kz": "GP",
+      "name": "Göppingen",
+      "distance": "490",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.7054382, 9.6512491]
+      }
+    },
+    {
+      "kz": "GS",
+      "name": "Goslar",
+      "distance": "270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9059531, 10.4289963]
+      }
+    },
+    {
+      "kz": "GT",
+      "name": "Gütersloh",
+      "distance": "90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9032375, 8.3857535]
+      }
+    },
+    {
+      "kz": "GW",
+      "name": "Greifswald",
+      "distance": "600",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.0865463, 13.3923414]
+      }
+    },
+    {
+      "kz": "GÖ",
+      "name": "Göttingen",
+      "distance": "210",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5412804, 9.9158035]
+      }
+    },
+    {
+      "kz": "H",
+      "name": "Hannover",
+      "distance": "220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.3758916, 9.7320104]
+      }
+    },
+    {
+      "kz": "HA",
+      "name": "Hagen",
+      "distance": "25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3670777, 7.4632841]
+      }
+    },
+    {
+      "kz": "HAL",
+      "name": "Halle",
+      "distance": "400",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.4969802, 11.9688029]
+      }
+    },
+    {
+      "kz": "HAM",
+      "name": "Hamm",
+      "distance": "40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.6738583, 7.8159816]
+      }
+    },
+    {
+      "kz": "HB",
+      "name": "Bremen",
+      "distance": "240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.0792962, 8.8016937]
+      }
+    },
+    {
+      "kz": "HD",
+      "name": "Heidelberg",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.3987524, 8.6724335]
+      }
+    },
+    {
+      "kz": "HER",
+      "name": "Herne",
+      "distance": "30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5368948, 7.2009147]
+      }
+    },
+    {
+      "kz": "HF",
+      "name": "Herford",
+      "distance": "125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.1178305, 8.6793998]
+      }
+    },
+    {
+      "kz": "HG",
+      "name": "Bad Homburg v.d. Höhe",
+      "distance": "220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.226831, 8.618162]
+      }
+    },
+    {
+      "kz": "HGN",
+      "name": "Hagenow",
+      "distance": "430",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.4265906, 11.1955099]
+      }
+    },
+    {
+      "kz": "HH",
+      "name": "Hamburg",
+      "distance": "350",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.551085, 9.993682]
+      }
+    },
+    {
+      "kz": "HK",
+      "name": "Heidekreis",
+      "distance": "300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.066498, 9.882525]
+      }
+    },
+    {
+      "kz": "HL",
+      "name": "Lübeck",
+      "distance": "413",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.8654673, 10.6865593]
+      }
+    },
+    {
+      "kz": "HM",
+      "name": "Hameln",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.1082726, 9.362171]
+      }
+    },
+    {
+      "kz": "HMÜ",
+      "name": "Hannover-Münden",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.419285, 9.6557588]
+      }
+    },
+    {
+      "kz": "HN",
+      "name": "Heilbronn",
+      "distance": "380",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.1426929, 9.210879]
+      }
+    },
+    {
+      "kz": "HOL",
+      "name": "Holzminden",
+      "distance": "170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.8238111, 9.4558926]
+      }
+    },
+    {
+      "kz": "HOT",
+      "name": "Hohenstein-Ernstthal",
+      "distance": "450",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.8009829, 12.7132681]
+      }
+    },
+    {
+      "kz": "HP",
+      "name": "Heppenheim",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.643056, 8.638889]
+      }
+    },
+    {
+      "kz": "HR",
+      "name": "Homberg (Efze)",
+      "distance": "220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.033056, 9.4]
+      }
+    },
+    {
+      "kz": "HS",
+      "name": "Heinsberg",
+      "distance": "135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0600381, 6.1183729]
+      }
+    },
+    {
+      "kz": "HSK",
+      "name": "Hochsauerlandkreis",
+      "distance": "70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.2609835, 8.04754842902168]
+      }
+    },
+    {
+      "kz": "HU",
+      "name": "Hanau",
+      "distance": "240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.1264123, 8.9283105]
+      }
+    },
+    {
+      "kz": "HVL",
+      "name": "Havelland",
+      "distance": "425",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.597902, 12.520413]
+      }
+    },
+    {
+      "kz": "HX",
+      "name": "Höxter",
+      "distance": "170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.7774678, 9.3771214]
+      }
+    },
+    {
+      "kz": "J",
+      "name": "Jena",
+      "distance": "360",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.927054, 11.5892372]
+      }
+    },
+    {
+      "kz": "K",
+      "name": "Köln",
+      "distance": "100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.937193, 6.961422]
+      }
+    },
+    {
+      "kz": "KA",
+      "name": "Karlsruhe",
+      "distance": "385",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.0068901, 8.4036527]
+      }
+    },
+    {
+      "kz": "KEH",
+      "name": "Kelheim",
+      "distance": "550",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.9184118, 11.886563]
+      }
+    },
+    {
+      "kz": "KK",
+      "name": "Kempen-Krefeld",
+      "distance": "100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3649942, 6.4205309]
+      }
+    },
+    {
+      "kz": "KLE",
+      "name": "Kleve",
+      "distance": "130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.786726, 6.12954]
+      }
+    },
+    {
+      "kz": "KO",
+      "name": "Koblenz",
+      "distance": "200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.3569429, 7.5889959]
+      }
+    },
+    {
+      "kz": "KR",
+      "name": "Krefeld",
+      "distance": "90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3387609, 6.5853417]
+      }
+    },
+    {
+      "kz": "KS",
+      "name": "Kassel",
+      "distance": "170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3127114, 9.4797461]
+      }
+    },
+    {
+      "kz": "KW",
+      "name": "Königs Wusterhausen",
+      "distance": "500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.2958906, 13.6228382]
+      }
+    },
+    {
+      "kz": "KÖN",
+      "name": "Rhön-Grabfeld",
+      "distance": "305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.355694, 10.206667]
+      }
+    },
+    {
+      "kz": "L",
+      "name": "Leipzig",
+      "distance": "430",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3396955, 12.3730747]
+      }
+    },
+    {
+      "kz": "L (AT)",
+      "name": "Linz",
+      "distance": "800",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.30694, 14.28583]
+      }
+    },
+    {
+      "kz": "L (Luxembourg)",
+      "name": "Keine Zuordnung durch Kennzeichen möglich",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.815273, 6.129583]
+      }
+    },
+    {
+      "kz": "LB",
+      "name": "Ludwigsburg",
+      "distance": "420",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.8940624, 9.195464]
+      }
+    },
+    {
+      "kz": "LDK",
+      "name": "Lahn-Dill-Kreis",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.67097, 8.358588]
+      }
+    },
+    {
+      "kz": "LER",
+      "name": "Leer",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.235657, 7.4679018]
+      }
+    },
+    {
+      "kz": "LEV",
+      "name": "Leverkusen",
+      "distance": "80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0459248, 7.0192196]
+      }
+    },
+    {
+      "kz": "LG",
+      "name": "Lüneburg",
+      "distance": "330",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.2464214, 10.4115179]
+      }
+    },
+    {
+      "kz": "LH",
+      "name": "Lüdinghausen",
+      "distance": "45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.768214, 7.4465617]
+      }
+    },
+    {
+      "kz": "LIP",
+      "name": "Lippe",
+      "distance": "130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.975903, 8.986528]
+      }
+    },
+    {
+      "kz": "LL",
+      "name": "Landsberg am Lech",
+      "distance": "630",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.050783, 10.8703515]
+      }
+    },
+    {
+      "kz": "LM",
+      "name": "Limburg an der Lahn",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.4859255, 8.2722569]
+      }
+    },
+    {
+      "kz": "LÖ",
+      "name": "Lörrach",
+      "distance": "550",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.6169191, 7.6709248]
+      }
+    },
+    {
+      "kz": "LÖB",
+      "name": "Löbau",
+      "distance": "550",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0962292, 14.6701781]
+      }
+    },
+    {
+      "kz": "LOS",
+      "name": "Oder-Spree",
+      "distance": "550",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.360438, 14.059511]
+      }
+    },
+    {
+      "kz": "LP",
+      "name": "Lippstadt",
+      "distance": "75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.6712278, 8.3406481]
+      }
+    },
+    {
+      "kz": "LR",
+      "name": "Lahr",
+      "distance": "460",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.333333, 7.866667]
+      }
+    },
+    {
+      "kz": "LU",
+      "name": "Ludwigshafen am Rhein",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.47741, 8.44518]
+      }
+    },
+    {
+      "kz": "LÜN",
+      "name": "Lünen",
+      "distance": "15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.6104829, 7.5285074]
+      }
+    },
+    {
+      "kz": "M",
+      "name": "München",
+      "distance": "630",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.135125, 11.581981]
+      }
+    },
+    {
+      "kz": "MD",
+      "name": "Magdeburg",
+      "distance": "370",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.1205333, 11.6276237]
+      }
+    },
+    {
+      "kz": "ME",
+      "name": "Mettmann",
+      "distance": "65",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.2506663, 6.9740265]
+      }
+    },
+    {
+      "kz": "MEL",
+      "name": "Melle",
+      "distance": "140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.2033222, 8.3372664]
+      }
+    },
+    {
+      "kz": "MER",
+      "name": "Merseburg",
+      "distance": "370",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3563278, 11.9917462]
+      }
+    },
+    {
+      "kz": "MG",
+      "name": "Mönchengladbach",
+      "distance": "95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.1804572, 6.4428041]
+      }
+    },
+    {
+      "kz": "MI",
+      "name": "Minden-Lübbecke",
+      "distance": "160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.335154, 8.762342]
+      }
+    },
+    {
+      "kz": "MI (AT)",
+      "name": "Mistelbach",
+      "distance": "1250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.5667, 16.5667]
+      }
+    },
+    {
+      "kz": "MK",
+      "name": "Märkischer Kreis",
+      "distance": "45,",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.243977, 7.755536]
+      }
+    },
+    {
+      "kz": "ML",
+      "name": "Mansfeld-Südharz",
+      "distance": "350",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.550941, 11.40718]
+      }
+    },
+    {
+      "kz": "MN",
+      "name": "Mindelheim",
+      "distance": "600",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.0461744, 10.4948841]
+      }
+    },
+    {
+      "kz": "MO",
+      "name": "Moers",
+      "distance": "70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.4516041, 6.6408148]
+      }
+    },
+    {
+      "kz": "MON",
+      "name": "Monschau",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.5563349, 6.2426261]
+      }
+    },
+    {
+      "kz": "MQ",
+      "name": "Merseburg-Querfurt",
+      "distance": "340",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3812676, 11.6041294]
+      }
+    },
+    {
+      "kz": "MR",
+      "name": "Marburg",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.8021728, 8.7667933]
+      }
+    },
+    {
+      "kz": "MS",
+      "name": "Münster",
+      "distance": "70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9606649, 7.6261347]
+      }
+    },
+    {
+      "kz": "MSH",
+      "name": "Mansfeld-Südharz",
+      "distance": "350",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.550941, 11.40718]
+      }
+    },
+    {
+      "kz": "MTK",
+      "name": "Main-Taunus-Kreis",
+      "distance": "230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.133333, 8.533333]
+      }
+    },
+    {
+      "kz": "MZ",
+      "name": "Mainz",
+      "distance": "260",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.9928617, 8.2472526]
+      }
+    },
+    {
+      "kz": "MZG",
+      "name": "Merzig",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.45724, 6.686688]
+      }
+    },
+    {
+      "kz": "NES",
+      "name": "Rhön-Grabfeld",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.355694, 10.206667]
+      }
+    },
+    {
+      "kz": "NEW",
+      "name": "Neustadt an der Waldnaab",
+      "distance": "520",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.732096, 12.178127]
+      }
+    },
+    {
+      "kz": "NF",
+      "name": "Nordfriesland",
+      "distance": "480",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.676022, 8.933632]
+      }
+    },
+    {
+      "kz": "NI",
+      "name": "Nienburg (Weser)",
+      "distance": "220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.6380924, 9.2084155]
+      }
+    },
+    {
+      "kz": "NL (Niederlande)",
+      "name": "Keine Zuordnung durch Kennzeichen möglich",
+      "distance": "200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.132633, 5.291266]
+      }
+    },
+    {
+      "kz": "NOH",
+      "name": "Nordhorn",
+      "distance": "150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.4295801, 7.0685708]
+      }
+    },
+    {
+      "kz": "NOR",
+      "name": "Norden",
+      "distance": "300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.576853, 7.164472]
+      }
+    },
+    {
+      "kz": "NR",
+      "name": "Neuwied",
+      "distance": "165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.4361866, 7.4664546]
+      }
+    },
+    {
+      "kz": "OA",
+      "name": "Oberallgäu",
+      "distance": "630",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.539197, 10.284402]
+      }
+    },
+    {
+      "kz": "OAL",
+      "name": "Ostallgäu",
+      "distance": "630",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.786013, 10.630515]
+      }
+    },
+    {
+      "kz": "OB",
+      "name": "Oberhausen",
+      "distance": "55",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.4963341, 6.8637765]
+      }
+    },
+    {
+      "kz": "OF",
+      "name": "Offenbach am Main",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.0956362, 8.7760843]
+      }
+    },
+    {
+      "kz": "OH",
+      "name": "Ostholstein",
+      "distance": "430",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.164203, 10.850424]
+      }
+    },
+    {
+      "kz": "OL",
+      "name": "Oldenburg",
+      "distance": "240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.1434501, 8.2145521]
+      }
+    },
+    {
+      "kz": "OP",
+      "name": "Opladen",
+      "distance": "85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0459248, 7.0192196]
+      }
+    },
+    {
+      "kz": "OS",
+      "name": "Osnabrück",
+      "distance": "130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.2799112, 8.0471788]
+      }
+    },
+    {
+      "kz": "PB",
+      "name": "Paderborn",
+      "distance": "100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.7189205, 8.7575093]
+      }
+    },
+    {
+      "kz": "PE",
+      "name": "Peine",
+      "distance": "260",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.3204095, 10.243267]
+      }
+    },
+    {
+      "kz": "PI",
+      "name": "Pinneberg",
+      "distance": "370",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.6545225, 9.7938212]
+      }
+    },
+    {
+      "kz": "PLÖ",
+      "name": "Plön",
+      "distance": "445",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.1613302, 10.4259498]
+      }
+    },
+    {
+      "kz": "PRÜ",
+      "name": "Prüm",
+      "distance": "200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.208237, 6.4197005]
+      }
+    },
+    {
+      "kz": "PS",
+      "name": "Pirmasens",
+      "distance": "390",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.201555, 7.6002161]
+      }
+    },
+    {
+      "kz": "RA",
+      "name": "Rastatt",
+      "distance": "380",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.8591174, 8.2059096]
+      }
+    },
+    {
+      "kz": "RD",
+      "name": "Rendsburg",
+      "distance": "440",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.295275, 9.846645]
+      }
+    },
+    {
+      "kz": "RE",
+      "name": "Recklinghausen",
+      "distance": "36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.6140649, 7.1979453]
+      }
+    },
+    {
+      "kz": "RH",
+      "name": "Roth",
+      "distance": "490",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.252047, 11.091189]
+      }
+    },
+    {
+      "kz": "RI",
+      "name": "Rinteln",
+      "distance": "170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.2020461, 9.0759703]
+      }
+    },
+    {
+      "kz": "RN",
+      "name": "Rathenow",
+      "distance": "430",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.6048117, 12.337945]
+      }
+    },
+    {
+      "kz": "RO",
+      "name": "Rosenheim",
+      "distance": "680",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.8571272, 12.1181047]
+      }
+    },
+    {
+      "kz": "ROD",
+      "name": "Roding",
+      "distance": "580",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.1941496, 12.5222943]
+      }
+    },
+    {
+      "kz": "ROF",
+      "name": "Hersfeld-Rotenburg",
+      "distance": "220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.898552, 9.739876]
+      }
+    },
+    {
+      "kz": "ROK",
+      "name": "Rockenhausen",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.6311747, 7.8215535]
+      }
+    },
+    {
+      "kz": "ROW",
+      "name": "Rotenburg (Wümme)",
+      "distance": "270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.106944, 9.396944]
+      }
+    },
+    {
+      "kz": "RS",
+      "name": "Remscheid",
+      "distance": "60",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.1787418, 7.1896962]
+      }
+    },
+    {
+      "kz": "RW",
+      "name": "Rottweil",
+      "distance": "570",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.1610687, 8.6316219]
+      }
+    },
+    {
+      "kz": "S",
+      "name": "Stuttgart",
+      "distance": "450",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.7758459, 9.1829321]
+      }
+    },
+    {
+      "kz": "SE",
+      "name": "Bad Segeberg",
+      "distance": "400",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.9390528, 10.3053651]
+      }
+    },
+    {
+      "kz": "SEE",
+      "name": "Seelow",
+      "distance": "560",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.5315702, 14.3798314]
+      }
+    },
+    {
+      "kz": "SG",
+      "name": "Solingen",
+      "distance": "67",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.1702072, 7.0831408]
+      }
+    },
+    {
+      "kz": "SG (CH)",
+      "name": "St. Gallen",
+      "distance": "650",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.4244818, 9.3767173]
+      }
+    },
+    {
+      "kz": "SHG",
+      "name": "Schaumburg",
+      "distance": "170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.190555555556, 9.0813888888889]
+      }
+    },
+    {
+      "kz": "SI",
+      "name": "Siegen",
+      "distance": "110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.8838492, 8.0209591]
+      }
+    },
+    {
+      "kz": "SIG",
+      "name": "Sigmaringen",
+      "distance": "530",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.0912921, 9.2286121]
+      }
+    },
+    {
+      "kz": "SIM",
+      "name": "Simmern",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.983, 7.517]
+      }
+    },
+    {
+      "kz": "SL",
+      "name": "Schleswig-Flensburg",
+      "distance": "484",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.629896, 9.534861]
+      }
+    },
+    {
+      "kz": "SLS",
+      "name": "Saarlouis",
+      "distance": "350",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.3134606, 6.7522865]
+      }
+    },
+    {
+      "kz": "SN",
+      "name": "Schwerin",
+      "distance": "450",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.6355022, 11.4012499]
+      }
+    },
+    {
+      "kz": "SO",
+      "name": "Soest",
+      "distance": "47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5711476, 8.105754]
+      }
+    },
+    {
+      "kz": "SON",
+      "name": "Sonneberg",
+      "distance": "412",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.3601821, 11.1709899]
+      }
+    },
+    {
+      "kz": "SU",
+      "name": "Siegburg",
+      "distance": "120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.7998473, 7.2074514]
+      }
+    },
+    {
+      "kz": "STA",
+      "name": "Starnberg",
+      "distance": "650",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.9999615, 11.3390089]
+      }
+    },
+    {
+      "kz": "STD",
+      "name": "Stade",
+      "distance": "340",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.5928618, 9.4709494]
+      }
+    },
+    {
+      "kz": "TDO",
+      "name": "Torgau",
+      "distance": "500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.557934, 12.991583]
+      }
+    },
+    {
+      "kz": "TE",
+      "name": "Tecklenburg",
+      "distance": "105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.2203039, 7.8123633]
+      }
+    },
+    {
+      "kz": "TF",
+      "name": "Teltow-Fläming",
+      "distance": "500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.036416, 13.292044]
+      }
+    },
+    {
+      "kz": "UFF",
+      "name": "Uffenheim",
+      "distance": "370",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.5449973, 10.2338007]
+      }
+    },
+    {
+      "kz": "UH",
+      "name": "Unstrut-Hainich",
+      "distance": "260",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.19, 10.55]
+      }
+    },
+    {
+      "kz": "UN",
+      "name": "Unna",
+      "distance": "20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5426349, 7.6853114]
+      }
+    },
+    {
+      "kz": "V",
+      "name": "Vogtland-Kreis",
+      "distance": "490",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.616667, 12.3]
+      }
+    },
+    {
+      "kz": "VAI",
+      "name": "Vaihingen an der Enz",
+      "distance": "400",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.9334357, 8.961208]
+      }
+    },
+    {
+      "kz": "VB",
+      "name": "Vogelsberg-Kreis",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.640763888889, 9.3997916666667]
+      }
+    },
+    {
+      "kz": "VEC",
+      "name": "Vechta",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.7292252, 8.2838761]
+      }
+    },
+    {
+      "kz": "VIE",
+      "name": "Viersen",
+      "distance": "100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.2554987, 6.3965235]
+      }
+    },
+    {
+      "kz": "VIT",
+      "name": "Viechtach",
+      "distance": "600",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.0794562, 12.8831956]
+      }
+    },
+    {
+      "kz": "W",
+      "name": "Wuppertal",
+      "distance": "50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.2562128, 7.1507636]
+      }
+    },
+    {
+      "kz": "W (AT)",
+      "name": "Wien",
+      "distance": "950",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.208174, 16.373819]
+      }
+    },
+    {
+      "kz": "WA",
+      "name": "Waldeck-Frankenberg",
+      "distance": "140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.222086, 8.854924]
+      }
+    },
+    {
+      "kz": "WAF",
+      "name": "Warendorf",
+      "distance": "80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9538685, 7.9908987]
+      }
+    },
+    {
+      "kz": "WAK",
+      "name": "Wartburgkreis",
+      "distance": "270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.956714, 10.497661]
+      }
+    },
+    {
+      "kz": "WAN",
+      "name": "Wanne-Eickel",
+      "distance": "30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5368948, 7.2009147]
+      }
+    },
+    {
+      "kz": "WEL",
+      "name": "Limburg-Weilburg",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.4859255, 8.2722569]
+      }
+    },
+    {
+      "kz": "WES",
+      "name": "Wesel",
+      "distance": "80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.6643079, 6.6295679]
+      }
+    },
+    {
+      "kz": "WF",
+      "name": "Wolfenbüttel",
+      "distance": "280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.1640413, 10.5408484]
+      }
+    },
+    {
+      "kz": "WHV",
+      "name": "Wilhelmshaven",
+      "distance": "300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.5323403, 8.1068722]
+      }
+    },
+    {
+      "kz": "WI",
+      "name": "Wiesbaden",
+      "distance": "250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.0782184, 8.2397608]
+      }
+    },
+    {
+      "kz": "WIT",
+      "name": "Witten",
+      "distance": "20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.4438926, 7.353197]
+      }
+    },
+    {
+      "kz": "WL",
+      "name": "Winsen (Luhe)",
+      "distance": "330",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.3574436, 10.2127204]
+      }
+    },
+    {
+      "kz": "WND",
+      "name": "St. Wendel",
+      "distance": "320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.4677707, 7.1690625]
+      }
+    },
+    {
+      "kz": "WOB",
+      "name": "Wolfsburg",
+      "distance": "300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.4226503, 10.7865461]
+      }
+    },
+    {
+      "kz": "WOH",
+      "name": "Wolfhagen",
+      "distance": "150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3264673, 9.1710827]
+      }
+    },
+    {
+      "kz": "WT",
+      "name": "Waldshut-Tiengen",
+      "distance": "570",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.6327253, 8.2719155]
+      }
+    },
+    {
+      "kz": "WUG",
+      "name": "Weißenburg-Gunzenhausen",
+      "distance": "500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.052484, 10.90624]
+      }
+    },
+    {
+      "kz": "WW",
+      "name": "Westerwaldkreis",
+      "distance": "180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.687222, 7.645556]
+      }
+    },
+    {
+      "kz": "ZI",
+      "name": "Zittau",
+      "distance": "630",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.8999681, 14.8029971]
+      }
+    }
+  ]
+}
