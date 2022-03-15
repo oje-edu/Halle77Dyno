@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import { Icon } from "leaflet";
+import * as L from "leaflet";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -8,10 +8,36 @@ import axios from "../api/axios";
 const PLATES_URL = "/plates";
 
 const position = [51.1657065, 10.452764000000002];
-const halle77 = [51.507372, 7.491431];
+
+//  Create the Icon
+const LeafIcon = L.Icon.extend({
+  options: {},
+});
+
+const blueIcon = new LeafIcon({
+    iconUrl:
+      "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|abcdef&chf=a,s,ee00FFFF",
+  }),
+  greenIcon = new LeafIcon({
+    iconUrl:
+      "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF",
+  });
 
 const Map = () => {
   const [plates, setPlates] = useState(null);
+  //  Use the state hook:
+  const [icon, setIcon] = useState(blueIcon);
+
+  // This function will change the state's icon:
+
+  const changeIconColor = (icon) => {
+    if (icon.options.iconUrl === greenIcon.options.iconUrl) {
+      setIcon((current) => (current = blueIcon));
+    } else {
+      setIcon((current) => (current = greenIcon));
+    }
+  };
+
   useEffect(() => {
     axios.get(PLATES_URL).then((response) => {
       setPlates(response.data);
@@ -47,6 +73,7 @@ const Map = () => {
       return Math.round(dist);
     }
   }
+
   return (
     <div>
       <Header />
@@ -56,13 +83,20 @@ const Map = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {plates.map((plate) => (
-          <Marker key={plate.kz} position={[plate.lat, plate.lng]}>
+          <Marker key={plate.kz} position={[plate.lat, plate.lng]} icon={icon}>
+            (if)
             <Popup>
               <div>
                 <h2>Kennzeichen: {plate.kz}</h2>
                 <p>
                   {plate.name} -{" "}
-                  {distance(halle77[0], halle77[1], plate.lat, plate.lng, "K")}
+                  {distance(
+                    plate.lat[252],
+                    plate.lng[252],
+                    plate.lat,
+                    plate.lng,
+                    "K"
+                  )}
                   km Luftlinie
                 </p>
               </div>
