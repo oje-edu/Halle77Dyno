@@ -3,7 +3,6 @@ import AuthContext from "../context/AuthProvider";
 
 import axios from "../api/axios";
 const LOGIN_URL = "/login";
-const LOGOUT_URL = "/logout";
 
 const Login = () => {
   const { setAuth } = useContext(AuthContext);
@@ -23,14 +22,9 @@ const Login = () => {
     setErrMsg("");
   }, [user, pwd]);
 
-  const handleLogout = async (e) => {
-    e.preventDefault();
-    try {
-      await axios.post(LOGOUT_URL);
-      setAuth({});
-    } catch (err) {
-      console.log(err);
-    }
+  const handleLogout = () => {
+    localStorage.clear();
+    window.location.pathname = "/";
   };
 
   const handleSubmit = async (e) => {
@@ -75,9 +69,7 @@ const Login = () => {
       {success ? (
         <section>
           <h1>Du bist angemeldet</h1>
-          <form onSubmit={handleLogout}>
-            <button>Logout</button>
-          </form>
+          <button onClick={handleLogout}>Abmelden</button>
         </section>
       ) : (
         <section>

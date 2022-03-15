@@ -13,6 +13,9 @@ import MaterialTable, { MTableToolbar } from "material-table";
 import { cars } from "../data/cars";
 import "./table.css";
 
+//let sortedData = cars.slice().sort((a, b) => a.id - b.id);
+//console.log(JSON.stringify(sortedData));
+
 const Table = () => {
   const [tableData, setTableData] = useState(cars);
 
