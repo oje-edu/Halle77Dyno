@@ -90,13 +90,7 @@ const Map = () => {
                 <h2>Kennzeichen: {plate.kz}</h2>
                 <p>
                   {plate.name} -{" "}
-                  {distance(
-                    plate.lat[252],
-                    plate.lng[252],
-                    plate.lat,
-                    plate.lng,
-                    "K"
-                  )}
+                  {distance(51.507372, 7.491431, plate.lat, plate.lng, "K")}
                   km Luftlinie
                 </p>
               </div>
