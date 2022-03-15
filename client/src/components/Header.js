@@ -1,8 +1,23 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import axios from "../api/axios";
 
 import logo from "../assets/img/halle77.png";
 
+const MESSUNGEN_URL = "/messungen";
+
 const Header = () => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    axios.get(MESSUNGEN_URL).then((response) => {
+      setData(response.data);
+      // console.log(response.data);
+    });
+  }, []);
+
+  const countCars = data?.length;
+
+  if (!data) return null;
   return (
     <div className="header">
       <div className="logo">
@@ -12,7 +27,12 @@ const Header = () => {
       </div>
       <div className="links">
         <a href="/episoden">Episoden</a>
-        <a href="/autos">Autos</a>
+        <div className="badgeWrapper">
+          <a href="/autos">
+            Messungen
+            <span className="badge">{countCars}</span>
+          </a>
+        </div>
         <a
           href="https://shop.halle-77.de/"
           target="_blank"
@@ -20,9 +40,6 @@ const Header = () => {
         >
           Shop
         </a>
-        {/* <a href="/login" target="_blank" rel="noopener noreferrer">
-          Login
-        </a> */}
       </div>
     </div>
   );

@@ -17,6 +17,12 @@
   padding: 8px 0;
 }
 
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .links a {
   margin: 0 10px;
   padding: 8px;
@@ -24,7 +30,7 @@
   background-color: var(--h77base);
   color: var(--h77bg);
 
-  border-radius: 16px;
+  border-radius: 8px;
   text-decoration: none;
 }
 
@@ -45,6 +51,54 @@
   justify-content: center;
   align-items: center;
   padding-left: 0.35vw;
+}
+
+.badgeWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+
+  background-color: var(--h77secbase);
+  color: var(--h77base);
+  margin-bottom: 10px;
+  margin-left: 65px;
+  border-radius: 50%;
+
+  opacity: 0.75;
+
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: monospace;
+
+  cursor: crosshair;
+
+  overflow: hidden;
+
+  animation: shake 1s linear 1s infinite alternate;
+}
+@keyframes shake {
+  0% {
+    /* background-color: var(--h77bg); */
+    left: 25px;
+    top: -20px;
+    transform: scale(0.5);
+  }
+  100% {
+    /* background-color: var(--h77secbase); */
+    left: 25px;
+    top: -25px;
+    transform: rotate(40deg);
+  }
 }
 
 .leaflet-container {
@@ -91,8 +145,7 @@ td {
   padding: 8px;
   text-align: center;
 }
-.table td {
-}
+
 .table td:first-child {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -183,7 +236,8 @@ td {
 .scrollTop {
   position: fixed;
   width: 100%;
-  bottom: 20px;
+  bottom: 30px;
+  right: -70px;
   align-items: center;
   height: 20px;
   justify-content: center;

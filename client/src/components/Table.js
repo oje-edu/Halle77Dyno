@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import MaterialTable, { MTableToolbar } from "material-table";
+import ScrollArrow from "./ScrollArrow";
 import "./table.css";
 
 import axios from "../api/axios";
@@ -116,8 +117,9 @@ const Table = () => {
           style={{
             background: rowData.ps1 < rowData.hp ? "#f90000aa" : "#008000aa",
             borderRadius: "4px",
-            paddingLeft: 5,
+            padding: "3px",
             color: "white",
+            display: rowData.ps1 ? "inline-block" : "none",
           }}
         >
           {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
@@ -136,8 +138,9 @@ const Table = () => {
           style={{
             background: rowData.ps2 < rowData.hp ? "#f90000aa" : "#008000aa",
             borderRadius: "4px",
-            paddingLeft: 5,
+            padding: "3px",
             color: "white",
+            display: rowData.ps2 ? "inline-block" : "none",
           }}
         >
           {/* {rowData.ps2 ? rowData.ps2.join(", ") : "-"} */}
@@ -232,6 +235,7 @@ const Table = () => {
           },
         }}
       />
+      <ScrollArrow />
     </div>
   );
 };
