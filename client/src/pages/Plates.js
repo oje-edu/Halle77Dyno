@@ -5,9 +5,7 @@ import Footer from "../components/Footer";
 const Plates = () => {
   return (
     <div>
-      <Header />
       <CustomPolyLine />
-      <Footer />
     </div>
   );
 };
