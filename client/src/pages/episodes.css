@@ -1,0 +1,35 @@
+.gridWrapper {
+  max-width: 1430px;
+
+  margin: 0 auto;
+}
+.tablegrid {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-rows: 250px 250px 250px 250px;
+  column-gap: 5px;
+  row-gap: 15px;
+}
+
+.tablegrid img {
+  width: 300px;
+  height: auto;
+
+  border-radius: 16px;
+}
+
+.tablegrid a {
+  text-decoration: none;
+  color: inherit;
+
+  font-size: small;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .tablegrid {
+    display: flex;
+    flex-direction: column;
+  }
+}

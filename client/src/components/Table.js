@@ -91,7 +91,27 @@ const Table = () => {
     },
     { title: "Modell", field: "modell", filtering: false },
     { title: "Hubraum", field: "ccm", type: "numeric", filtering: false },
-    { title: "PS", field: "hp", type: "numeric", filtering: false },
+    {
+      title: "PS",
+      field: "hp",
+      type: "numeric",
+      filtering: false,
+      render: (rowData) => (
+        <div
+          style={{
+            background: "#f5f5f5",
+            borderRadius: "4px",
+            padding: "0 4px",
+            color: "black",
+            display: rowData.hp ? "inline-block" : "none",
+            fontFamily: "monospace",
+          }}
+        >
+          {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
+          {rowData.hp ? rowData.hp : "-"}
+        </div>
+      ),
+    },
     // {
     //   title: "KM",
     //   field: "km",
@@ -117,9 +137,10 @@ const Table = () => {
           style={{
             background: rowData.ps1 < rowData.hp ? "#f90000aa" : "#008000aa",
             borderRadius: "4px",
-            padding: "3px",
+            padding: "0 3px",
             color: "white",
             display: rowData.ps1 ? "inline-block" : "none",
+            fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
@@ -138,9 +159,10 @@ const Table = () => {
           style={{
             background: rowData.ps2 < rowData.hp ? "#f90000aa" : "#008000aa",
             borderRadius: "4px",
-            padding: "3px",
+            padding: "0 3px",
             color: "white",
             display: rowData.ps2 ? "inline-block" : "none",
+            fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps2 ? rowData.ps2.join(", ") : "-"} */}

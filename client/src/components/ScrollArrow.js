@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
-import "../App.css";
+import "./scrollArrow.css";
 
 const ScrollArrow = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -23,7 +23,11 @@ const ScrollArrow = () => {
     <FaArrowCircleUp
       className="scrollTop"
       onClick={scrollTop}
-      style={{ height: 40, display: showScroll ? "flex" : "none" }}
+      style={{
+        height: 40,
+        display: showScroll ? "flex" : "none",
+        color: "white",
+      }}
     />
   );
 };

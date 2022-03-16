@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
-import axios from "../api/axios";
+import { Link } from "react-router-dom";
 import ScrollArrow from "../components/ScrollArrow";
+import "./episodes.css";
 
+import axios from "../api/axios";
 const EPISODES_URL = "/episodes";
 
 const Episodes = () => {
@@ -16,37 +18,50 @@ const Episodes = () => {
   if (!episodes) return null;
 
   return (
-    <div>
-      <div className="table">
-        <table>
+    <div className="gridWrapper">
+      <div className="tablegrid">
+        {episodes.map((episode) => (
+          <a
+            href={episode.episodeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={episode.id}
+          >
+            <figure>
+              <img src={episode.thumbnailUrl} />
+              <figcaption>{episode.title}</figcaption>
+            </figure>
+          </a>
+        ))}
+      </div>
+      {/* <table>
           <thead>
             <tr>
               <th>Episode</th>
-              <th>Titel</th>
-              <th>Link</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             {episodes.map((episode) => (
               <tr key={episode.id}>
                 <td>{episode.id}</td>
-                <td>{episode.title}</td>
                 <td>
-                  <button className="button">
-                    <a
-                      href={episode.episodeUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Ansehen
-                    </a>
-                  </button>
+                  <a
+                    href={episode.episodeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <figure>
+                      <img src={episode.thumbnailUrl} />
+                      <figcaption>{episode.title}</figcaption>
+                    </figure>
+                  </a>
                 </td>
               </tr>
             ))}
           </tbody>
-        </table>
-      </div>
+        </table> */}
+
       <ScrollArrow />
     </div>
   );
