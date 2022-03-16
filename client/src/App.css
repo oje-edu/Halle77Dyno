@@ -209,7 +209,7 @@ td {
 }
 
 .footer {
-  width: 56%;
+  width: 56vw;
   height: 10vh;
 
   display: flex;
@@ -224,6 +224,10 @@ td {
 
   border: 4px solid var(--h77bg);
   border-radius: 10px;
+}
+
+.footer .links a {
+  color: white;
 }
 
 .github-icon {
@@ -274,5 +278,10 @@ td {
   }
   .hide {
     display: none;
+  }
+
+  .footer {
+    width: 92vw;
+    height: 10vh;
   }
 }

@@ -3,7 +3,6 @@ import {
   FeatureGroup,
   MapContainer,
   Marker,
-  Polyline,
   TileLayer,
   LayerGroup,
   Popup,
@@ -18,9 +17,9 @@ import axios from "../../api/axios";
 const PLATES_URL = "/plates";
 
 const halle77 = [51.507372, 7.491431];
-const blueOptions = { color: "#6eb8b3", fillColor: "g#6eb8b3", weight: 1 };
+const blueOptions = { color: "#6eb8b3", fillColor: "g#6eb8b3" };
 
-const CustomPolyLine = () => {
+const NormalMap = () => {
   const mapRef = useRef();
   const [center, setCenter] = useState({
     lat: 50.666872,
@@ -100,13 +99,6 @@ const CustomPolyLine = () => {
               position={[mark.lat, mark.lng]}
               icon={customMarkerUserPos}
             />
-            <Polyline
-              pathOptions={blueOptions}
-              positions={[
-                [mark.lat, mark.lng],
-                [halle77[0], halle77[1]],
-              ]}
-            />
           </FeatureGroup>
         ))}
 
@@ -119,4 +111,4 @@ const CustomPolyLine = () => {
   );
 };
 
-export default CustomPolyLine;
+export default NormalMap;
