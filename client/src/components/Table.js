@@ -179,7 +179,7 @@ const Table = () => {
           filtering: true,
           paginationType: "stepped",
           showFirstLastPageButtons: false,
-          paginationPosition: "both",
+          paginationPosition: "bottom",
           grouping: false,
           headerStyle: {
             backgroundColor: "#de6e4a",

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Map from "./pages/Map";
+import Plates from "./pages/Plates";
 import Episodes from "./pages/Episodes";
 import Cars from "./pages/Cars";
 
@@ -12,7 +12,7 @@ export default function App() {
         <Routes>
           <Route path="/autos" element={<Cars />} />
           <Route path="/episoden" element={<Episodes />} />
-          <Route path="/" element={<Map />} />
+          <Route path="/" element={<Plates />} />
         </Routes>
       </Router>
     </>
