@@ -3,7 +3,6 @@ import ScrollArrow from "../components/ScrollArrow";
 import "./episodes.css";
 
 import axios from "../api/axios";
-const EPISODES_URL = "/episodes";
 const MESSUNGEN_URL = "/messungen";
 
 const Episodes = () => {

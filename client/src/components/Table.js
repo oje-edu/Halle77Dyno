@@ -4,7 +4,6 @@ import ScrollArrow from "./ScrollArrow";
 import "./table.css";
 
 import axios from "../api/axios";
-const MESSUNGEN_URL = "/messungen";
 const EPISODEN_URL = "/episodes";
 
 // import {

@@ -22,8 +22,8 @@ const blueOptions = { color: "#6eb8b3", fillColor: "g#6eb8b3" };
 const NormalMap = () => {
   const mapRef = useRef();
   const [center, setCenter] = useState({
-    lat: 50.666872,
-    lng: 9.338379,
+    lat: 51.2,
+    lng: 10.338379,
   });
   const [map, setMap] = useState(null);
   const [plates, setPlates] = useState(null);
