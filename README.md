@@ -10,10 +10,17 @@ Maybe I can do a little online Map with Pins from where you are ...
 
 ## ONLINE
 
+###Frontend
+
 [via Vercel](http://halle77-dyno.vercel.app/)
+
+### Backend
+
+[self Hostet](https://halle77api.oje.guru/api/)
 
 ## Episoden (get Data)
 
+[# 51](https://www.youtube.com/watch?v=7VlMZ5vMEho)
 [# 50](https://www.youtube.com/watch?v=P-MOVMpB-PM)
 [# 49](https://www.youtube.com/watch?v=4ZZwdyqSjm0)
 [# 48](https://www.youtube.com/watch?v=fx_mDSNQ17A)
@@ -66,10 +73,6 @@ Maybe I can do a little online Map with Pins from where you are ...
 [# 1](https://www.youtube.com/watch?v=97FspZAbtG8)
 
 ### DISCLAIMER
-
-- Ich bin auf der Suche nach einem 9 monatigem Pflicht-Praktikumsplatz (05/2022 - 02/2023)
-
-  - Umschüler zum Anwendungsentwickler.
 
 - I Love Cars, but I am not an EXPERT! ...
 - I do a lot of research and hopefully hit the right ccm³, PS and so on (if not provided).
