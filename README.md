@@ -2,7 +2,7 @@
 
 ## This Projekt is in Alpha.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/oje-edu/laravel_halle77-api) ![GitHub repo size](https://img.shields.io/github/repo-size/oje-edu/laravel_halle77-api) ![API](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77api.oje.guru)![BACKEND](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77-dyno.vercel.app)
+![GitHub last commit](https://img.shields.io/github/last-commit/oje-edu/laravel_halle77-api) ![GitHub repo size](https://img.shields.io/github/repo-size/oje-edu/laravel_halle77-api) ![API](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77api.oje.guru/api) ![BACKEND](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77-dyno.vercel.app)
 
 ### The Goal is to build a public Database of all Episodes
 
