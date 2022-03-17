@@ -35,13 +35,11 @@ const Table = () => {
     {
       title: "Episode",
       field: "episode_id",
-      type: "numeric",
       filterPlaceholder: "Episode",
     },
     {
       title: "Nr",
       field: "messung_nr",
-      type: "numeric",
       filtering: false,
       sorting: false,
     },
@@ -99,17 +97,17 @@ const Table = () => {
     {
       title: "Hubraum",
       field: "messung_ccm",
-      type: "numeric",
       filtering: false,
     },
     {
       title: "PS",
       field: "messung_hp",
-      type: "numeric",
       filtering: false,
       render: (rowData) => (
         <div
           style={{
+            width: "50px",
+            textAlign: "center",
             background: "#f5f5f5",
             borderRadius: "4px",
             padding: "0 4px",
@@ -141,11 +139,12 @@ const Table = () => {
       title: "1. Messung",
       field: "messung_ps1",
       filtering: false,
-      align: "center",
       sorting: false,
       render: (rowData) => (
         <div
           style={{
+            width: "50px",
+            textAlign: "center",
             background:
               rowData.messung_ps1 < rowData.messung_hp
                 ? "#f90000aa"
@@ -166,11 +165,12 @@ const Table = () => {
       title: "2. Messung",
       field: "messung_ps2",
       filtering: false,
-      align: "center",
       sorting: false,
       render: (rowData) => (
         <div
           style={{
+            width: "50px",
+            textAlign: "center",
             background:
               rowData.messung_ps2 < rowData.messung_hp
                 ? "#f90000aa"
@@ -222,7 +222,7 @@ const Table = () => {
           grouping: true,
           headerStyle: {
             backgroundColor: "#de6e4a",
-            color: "#000",
+            color: "#e4cc9c",
             border: "none",
           },
         }}
