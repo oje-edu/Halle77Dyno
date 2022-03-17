@@ -2,6 +2,8 @@
 
 ## This Projekt is in Alpha.
 
+![GitHub last commit](https://img.shields.io/github/last-commit/oje-edu/laravel_halle77-api) ![GitHub repo size](https://img.shields.io/github/repo-size/oje-edu/laravel_halle77-api) ![API](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77api.oje.guru)![BACKEND](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77-dyno.vercel.app)
+
 ### The Goal is to build a public Database of all Episodes
 
 The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](https://www.youtube.com/channel/UCNhFsNZQfB2mdM1FoV6q1Kw)
@@ -10,7 +12,7 @@ Maybe I can do a little online Map with Pins from where you are ...
 
 ## ONLINE
 
-###Frontend
+### Frontend
 
 [via Vercel](http://halle77-dyno.vercel.app/)
 
