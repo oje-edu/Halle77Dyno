@@ -4,13 +4,19 @@
   --h77bg: #6eb8b3;
 }
 
+table {
+  font-family: monospace;
+
+  color: white;
+}
+
 tr:nth-child(odd) {
   background-color: var(--h77base);
-  color: var(--h77bg);
+  /* color: var(--h77bg); */
 }
 tr:nth-child(even) {
   background-color: var(--h77bg);
-  color: var(--h77base);
+  /* color: var(--h77base); */
 }
 
 .MuiToolbar-root {

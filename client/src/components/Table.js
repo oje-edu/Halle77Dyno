@@ -5,6 +5,7 @@ import "./table.css";
 
 import axios from "../api/axios";
 const MESSUNGEN_URL = "/messungen";
+const EPISODEN_URL = "/episodes";
 
 // import {
 //   MuiThemeProvider,
@@ -23,7 +24,7 @@ const Table = () => {
   const [tableData, setTableData] = useState(null);
 
   useEffect(() => {
-    axios.get(MESSUNGEN_URL).then((response) => {
+    axios.get(EPISODEN_URL).then((response) => {
       setTableData(response.data);
       //console.log(response.data);
     });
@@ -38,10 +39,16 @@ const Table = () => {
       type: "numeric",
       filterPlaceholder: "Episode",
     },
-    { title: "Nr", field: "nr", type: "numeric", filtering: false },
+    {
+      title: "Nr",
+      field: "messung_nr",
+      type: "numeric",
+      filtering: false,
+      sorting: false,
+    },
     {
       title: "Marke",
-      field: "marke",
+      field: "messung_marke",
       filterPlaceholder: "Marke",
       // lookup: {
       //   "Alfa Romeo": "Alfa Romeo",
@@ -89,11 +96,16 @@ const Table = () => {
       // },
       sorting: false,
     },
-    { title: "Modell", field: "modell", filtering: false },
-    { title: "Hubraum", field: "ccm", type: "numeric", filtering: false },
+    { title: "Modell", field: "messung_modell", filtering: false },
+    {
+      title: "Hubraum",
+      field: "messung_ccm",
+      type: "numeric",
+      filtering: false,
+    },
     {
       title: "PS",
-      field: "hp",
+      field: "messung_hp",
       type: "numeric",
       filtering: false,
       render: (rowData) => (
@@ -103,12 +115,12 @@ const Table = () => {
             borderRadius: "4px",
             padding: "0 4px",
             color: "black",
-            display: rowData.hp ? "inline-block" : "none",
+            display: rowData.messung_hp ? "inline-block" : "none",
             fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
-          {rowData.hp ? rowData.hp : "-"}
+          {rowData.messung_hp ? rowData.messung_hp : "-"}
         </div>
       ),
     },
@@ -128,49 +140,55 @@ const Table = () => {
     // },
     {
       title: "1. Messung",
-      field: "ps1",
+      field: "messung_ps1",
       filtering: false,
       align: "center",
       sorting: false,
       render: (rowData) => (
         <div
           style={{
-            background: rowData.ps1 < rowData.hp ? "#f90000aa" : "#008000aa",
+            background:
+              rowData.messung_ps1 < rowData.messung_hp
+                ? "#f90000aa"
+                : "#008000aa",
             borderRadius: "4px",
             padding: "0 3px",
             color: "white",
-            display: rowData.ps1 ? "inline-block" : "none",
+            display: rowData.messung_ps1 ? "inline-block" : "none",
             fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
-          {rowData.ps1 ? rowData.ps1 : "-"}
+          {rowData.messung_ps1 ? rowData.messung_ps1 : "-"}
         </div>
       ),
     },
     {
       title: "2. Messung",
-      field: "ps2",
+      field: "messung_ps2",
       filtering: false,
       align: "center",
       sorting: false,
       render: (rowData) => (
         <div
           style={{
-            background: rowData.ps2 < rowData.hp ? "#f90000aa" : "#008000aa",
+            background:
+              rowData.messung_ps2 < rowData.messung_hp
+                ? "#f90000aa"
+                : "#008000aa",
             borderRadius: "4px",
             padding: "0 3px",
             color: "white",
-            display: rowData.ps2 ? "inline-block" : "none",
+            display: rowData.messung_ps2 ? "inline-block" : "none",
             fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps2 ? rowData.ps2.join(", ") : "-"} */}
-          {rowData.ps2 ? rowData.ps2 : "-"}
+          {rowData.messung_ps2 ? rowData.messung_ps2 : "-"}
         </div>
       ),
     },
-    // { title: "Bemerkung", field: "comment", filtering: false, sorting: false },
+    // { title: "Bemerkung", field: "messung_comment", filtering: false, sorting: false },
   ];
   return (
     <div>
@@ -202,7 +220,7 @@ const Table = () => {
           paginationType: "stepped",
           showFirstLastPageButtons: false,
           paginationPosition: "bottom",
-          grouping: false,
+          grouping: true,
           headerStyle: {
             backgroundColor: "#de6e4a",
             color: "#000",
@@ -256,6 +274,9 @@ const Table = () => {
             searchPlaceholder: "Suche",
           },
         }}
+        // parentChildData={(row, rows) =>
+        //   rows.find((a) => a.episode === row.episode_id)
+        // }
       />
       <ScrollArrow />
     </div>

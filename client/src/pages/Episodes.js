@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import ScrollArrow from "../components/ScrollArrow";
 import "./episodes.css";
 
 import axios from "../api/axios";
 const EPISODES_URL = "/episodes";
+const MESSUNGEN_URL = "/messungen";
 
 const Episodes = () => {
   const [episodes, setEpisodes] = useState(null);
+
   useEffect(() => {
-    axios.get(EPISODES_URL).then((response) => {
+    axios.get(MESSUNGEN_URL).then((response) => {
       setEpisodes(response.data);
       //console.log(response.data);
     });
@@ -20,48 +21,20 @@ const Episodes = () => {
   return (
     <div className="gridWrapper">
       <div className="tablegrid">
-        {episodes.map((episode) => (
+        {episodes?.map((episode) => (
           <a
+            key={episode.id}
             href={episode.episodeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            key={episode.id}
           >
             <figure>
-              <img src={episode.thumbnailUrl} />
+              <img alt="" src={episode.thumbnailUrl} />
               <figcaption>{episode.title}</figcaption>
             </figure>
           </a>
         ))}
       </div>
-      {/* <table>
-          <thead>
-            <tr>
-              <th>Episode</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            {episodes.map((episode) => (
-              <tr key={episode.id}>
-                <td>{episode.id}</td>
-                <td>
-                  <a
-                    href={episode.episodeUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <figure>
-                      <img src={episode.thumbnailUrl} />
-                      <figcaption>{episode.title}</figcaption>
-                    </figure>
-                  </a>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table> */}
-
       <ScrollArrow />
     </div>
   );
