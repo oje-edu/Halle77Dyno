@@ -2,7 +2,7 @@
   position: fixed;
   width: 35px;
   bottom: 30px;
-  right: 50%;
+  right: 25%;
   align-items: center;
   height: 20px;
   justify-content: center;
@@ -23,5 +23,12 @@
   }
   100% {
     opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollTop {
+    bottom: 14px;
+    right: 1.5%;
   }
 }

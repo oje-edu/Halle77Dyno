@@ -235,19 +235,32 @@ td {
   color: white;
 }
 
-.github-icon {
+.github-icon,
+.smile-icon {
   background-color: var(--h77base);
   color: var(--h77bg);
 
   border-radius: 50%;
 }
-.github-icon:hover {
+.github-icon:hover,
+.smile-icon:hover {
   background-color: var(--h77bg);
   color: var(--h77base);
 
   border-radius: 100%;
 
   transition: all 0.5s ease-in-out;
+}
+
+.yo a {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-decoration: none;
+  color: var(--h77base);
 }
 
 @media screen and (max-width: 768px) {
@@ -263,4 +276,3 @@ td {
     height: 10vh;
   }
 }
-
