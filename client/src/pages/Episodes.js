@@ -3,13 +3,13 @@ import ScrollArrow from "../components/ScrollArrow";
 import "./episodes.css";
 
 import axios from "../api/axios";
-const MESSUNGEN_URL = "/messungen";
+const EPISODEN_URL = "/episodes";
 
 const Episodes = () => {
   const [episodes, setEpisodes] = useState(null);
 
   useEffect(() => {
-    axios.get(MESSUNGEN_URL).then((response) => {
+    axios.get(EPISODEN_URL).then((response) => {
       setEpisodes(response.data);
       //console.log(response.data);
     });

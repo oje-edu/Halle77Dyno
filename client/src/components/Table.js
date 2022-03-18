@@ -4,7 +4,7 @@ import ScrollArrow from "./ScrollArrow";
 import "./table.css";
 
 import axios from "../api/axios";
-const EPISODEN_URL = "/episodes";
+const MESSUNGEN_URL = "/messungen";
 
 // import {
 //   MuiThemeProvider,
@@ -23,7 +23,7 @@ const Table = () => {
   const [tableData, setTableData] = useState(null);
 
   useEffect(() => {
-    axios.get(EPISODEN_URL).then((response) => {
+    axios.get(MESSUNGEN_URL).then((response) => {
       setTableData(response.data);
       //console.log(response.data);
     });
@@ -39,13 +39,13 @@ const Table = () => {
     },
     {
       title: "Nr",
-      field: "messung_nr",
+      field: "nr",
       filtering: false,
       sorting: false,
     },
     {
       title: "Marke",
-      field: "messung_marke",
+      field: "marke",
       filterPlaceholder: "Marke",
       // lookup: {
       //   "Alfa Romeo": "Alfa Romeo",
@@ -93,15 +93,15 @@ const Table = () => {
       // },
       sorting: false,
     },
-    { title: "Modell", field: "messung_modell", filtering: false },
+    { title: "Modell", field: "modell", filtering: false },
     {
       title: "Hubraum",
-      field: "messung_ccm",
+      field: "ccm",
       filtering: false,
     },
     {
       title: "PS",
-      field: "messung_hp",
+      field: "hp",
       filtering: false,
       render: (rowData) => (
         <div
@@ -112,12 +112,12 @@ const Table = () => {
             borderRadius: "4px",
             padding: "0 4px",
             color: "black",
-            display: rowData.messung_hp ? "inline-block" : "none",
+            display: rowData.hp ? "inline-block" : "none",
             fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
-          {rowData.messung_hp ? rowData.messung_hp : "-"}
+          {rowData.hp ? rowData.hp : "-"}
         </div>
       ),
     },
@@ -137,7 +137,7 @@ const Table = () => {
     // },
     {
       title: "1. Messung",
-      field: "messung_ps1",
+      field: "ps1",
       filtering: false,
       sorting: false,
       render: (rowData) => (
@@ -145,25 +145,22 @@ const Table = () => {
           style={{
             width: "50px",
             textAlign: "center",
-            background:
-              rowData.messung_ps1 < rowData.messung_hp
-                ? "#f90000aa"
-                : "#008000aa",
+            background: rowData.ps1 < rowData.hp ? "#f90000aa" : "#008000aa",
             borderRadius: "4px",
             padding: "0 3px",
             color: "white",
-            display: rowData.messung_ps1 ? "inline-block" : "none",
+            display: rowData.ps1 ? "inline-block" : "none",
             fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
-          {rowData.messung_ps1 ? rowData.messung_ps1 : "-"}
+          {rowData.ps1 ? rowData.ps1 : "-"}
         </div>
       ),
     },
     {
       title: "2. Messung",
-      field: "messung_ps2",
+      field: "ps2",
       filtering: false,
       sorting: false,
       render: (rowData) => (
@@ -171,19 +168,16 @@ const Table = () => {
           style={{
             width: "50px",
             textAlign: "center",
-            background:
-              rowData.messung_ps2 < rowData.messung_hp
-                ? "#f90000aa"
-                : "#008000aa",
+            background: rowData.ps2 < rowData.hp ? "#f90000aa" : "#008000aa",
             borderRadius: "4px",
             padding: "0 3px",
             color: "white",
-            display: rowData.messung_ps2 ? "inline-block" : "none",
+            display: rowData.ps2 ? "inline-block" : "none",
             fontFamily: "monospace",
           }}
         >
           {/* {rowData.ps2 ? rowData.ps2.join(", ") : "-"} */}
-          {rowData.messung_ps2 ? rowData.messung_ps2 : "-"}
+          {rowData.ps2 ? rowData.ps2 : "-"}
         </div>
       ),
     },
