@@ -1,6 +1,6 @@
 import Table from "../components/Table";
 
-const Cars = () => {
+const Messungen = () => {
   return (
     <div>
       <Table />
@@ -8,4 +8,4 @@ const Cars = () => {
   );
 };
 
-export default Cars;
+export default Messungen;

@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Plates from "./pages/Plates";
 import Episodes from "./pages/Episodes";
-import Cars from "./pages/Cars";
+import Messungen from "./pages/Messungen";
 
 import "./App.css";
 
@@ -13,7 +13,7 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/autos" element={<Cars />} />
+          <Route path="/autos" element={<Messungen />} />
           <Route path="/episoden" element={<Episodes />} />
           <Route path="/" element={<Plates />} />
         </Routes>

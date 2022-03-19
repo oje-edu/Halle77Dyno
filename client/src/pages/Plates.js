@@ -1,4 +1,4 @@
-import CustomPolyLine from "../components/PolyLine/CustomPolyline";
+import CustomPolyLine from "../components/Map/PolyLine/CustomPolyline";
 
 const Plates = () => {
   return (

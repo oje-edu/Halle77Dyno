@@ -10,8 +10,8 @@ const Header = () => {
 
   useEffect(() => {
     axios.get(MESSUNGEN_URL).then((response) => {
-      setData(response.data);
-      // console.log(response.data);
+      setData(response.data.data);
+      // console.log(response.data.data);
     });
   }, []);
 

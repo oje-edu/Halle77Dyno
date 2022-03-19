@@ -13,7 +13,7 @@ import {
   customMarkerHalle77Pos,
 } from "../Markers/CustomMarker";
 
-import axios from "../../api/axios";
+import axios from "../../../api/axios";
 const PLATES_URL = "/plates";
 
 const halle77 = [51.507372, 7.491431];

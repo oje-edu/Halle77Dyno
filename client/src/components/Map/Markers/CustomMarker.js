@@ -1,5 +1,5 @@
 import L from "leaflet";
-import logo from "../../assets/img/halle77.png";
+import logo from "../../../assets/img/halle77.png";
 
 export const customMarkerUserPos = new L.Icon({
   iconUrl:

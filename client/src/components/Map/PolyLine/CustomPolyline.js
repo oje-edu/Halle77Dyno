@@ -14,7 +14,7 @@ import {
   customMarkerHalle77Pos,
 } from "../Markers/CustomMarker";
 
-import axios from "../../api/axios";
+import axios from "../../../api/axios";
 const PLATES_URL = "/plates";
 
 const halle77 = [51.507372, 7.491431];
@@ -32,7 +32,7 @@ const CustomPolyLine = () => {
   useEffect(() => {
     axios.get(PLATES_URL).then((response) => {
       setPlates(response.data);
-      //console.log(response.data[252]);
+      // console.log(response.data);
     });
   }, []);
 

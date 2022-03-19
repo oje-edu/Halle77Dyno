@@ -24,8 +24,8 @@ const Table = () => {
 
   useEffect(() => {
     axios.get(MESSUNGEN_URL).then((response) => {
-      setTableData(response.data);
-      //console.log(response.data);
+      setTableData(response.data.data);
+      console.log(response.data.data);
     });
   }, []);
 
@@ -34,7 +34,7 @@ const Table = () => {
   const columns = [
     {
       title: "Episode",
-      field: "episode_id",
+      field: "episode.id",
       filterPlaceholder: "Episode",
     },
     {

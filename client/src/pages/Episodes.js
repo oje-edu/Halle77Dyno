@@ -10,8 +10,8 @@ const Episodes = () => {
 
   useEffect(() => {
     axios.get(EPISODEN_URL).then((response) => {
-      setEpisodes(response.data);
-      //console.log(response.data);
+      setEpisodes(response.data.data);
+      // console.log(response.data.data);
     });
   }, []);
 
