@@ -267,9 +267,6 @@ const Table = () => {
             searchPlaceholder: "Suche",
           },
         }}
-        // parentChildData={(row, rows) =>
-        //   rows.find((a) => a.episode === row.episode_id)
-        // }
       />
       <ScrollArrow />
     </div>

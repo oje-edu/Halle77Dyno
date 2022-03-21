@@ -34,11 +34,11 @@ const Header = () => {
           </a>
         </div>
         <a
-          href="https://shop.halle-77.de/"
+          href="https://hd-autos.de/pruefstand/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Shop
+          Prüfstand
         </a>
       </div>
     </div>
