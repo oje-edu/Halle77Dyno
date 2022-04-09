@@ -3,19 +3,20 @@ import axios from "../api/axios";
 
 import logo from "../assets/img/halle77.png";
 
-const MESSUNGEN_URL = "/messungen";
+const CARS_URL = "/cars";
 
 const Header = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get(MESSUNGEN_URL).then((response) => {
-      setData(response.data.data);
-      // console.log(response.data.data);
+    axios.get(CARS_URL).then((response) => {
+      setData(response.data.cars);
     });
   }, []);
 
   const countCars = data?.length;
+
+  // console.log(countCars);
 
   if (!data) return null;
   return (

@@ -31,8 +31,8 @@ const CustomPolyLine = () => {
 
   useEffect(() => {
     axios.get(PLATES_URL).then((response) => {
-      setPlates(response.data);
-      // console.log(response.data);
+      setPlates(response.data.plates);
+      // console.log(plates);
     });
   }, []);
 

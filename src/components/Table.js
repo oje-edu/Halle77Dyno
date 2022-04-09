@@ -4,7 +4,7 @@ import ScrollArrow from "./ScrollArrow";
 import "./table.css";
 
 import axios from "../api/axios";
-const MESSUNGEN_URL = "/messungen";
+const CARS_URL = "/cars";
 
 // import {
 //   MuiThemeProvider,
@@ -23,9 +23,9 @@ const Table = () => {
   const [tableData, setTableData] = useState(null);
 
   useEffect(() => {
-    axios.get(MESSUNGEN_URL).then((response) => {
-      setTableData(response.data.data);
-      console.log(response.data.data);
+    axios.get(CARS_URL).then((response) => {
+      setTableData(response.data.cars);
+      console.log(tableData);
     });
   }, []);
 
@@ -34,18 +34,18 @@ const Table = () => {
   const columns = [
     {
       title: "Episode",
-      field: "episode.id",
+      field: "episodeNr",
       filterPlaceholder: "Episode",
     },
     {
       title: "Nr",
-      field: "nr",
+      field: "carNr",
       filtering: false,
       sorting: false,
     },
     {
       title: "Marke",
-      field: "marke",
+      field: "brand",
       filterPlaceholder: "Marke",
       // lookup: {
       //   "Alfa Romeo": "Alfa Romeo",
@@ -93,7 +93,7 @@ const Table = () => {
       // },
       sorting: false,
     },
-    { title: "Modell", field: "modell", filtering: false },
+    { title: "Modell", field: "type", filtering: false },
     {
       title: "Hubraum",
       field: "ccm",
