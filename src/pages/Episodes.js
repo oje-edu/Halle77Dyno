@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import _ from "lodash";
 import ScrollArrow from "../components/ScrollArrow";
 import "./episodes.css";
 
@@ -17,10 +18,12 @@ const Episodes = () => {
 
   if (!episodes) return null;
 
+    const sortedResponse = _.orderBy(episodes, (e) => e.episodeNr, ["desc"]);
+
   return (
     <div className="gridWrapper">
       <div className="tablegrid">
-        {episodes?.map((episode) => (
+        {sortedResponse?.map((episode) => (
           <a
             key={episode.id}
             href={episode.episodeUrl}

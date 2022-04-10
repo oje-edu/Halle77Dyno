@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import _ from "lodash";
 import MaterialTable, { MTableToolbar } from "material-table";
 import ScrollArrow from "./ScrollArrow";
 import "./table.css";
@@ -25,11 +26,16 @@ const Table = () => {
   useEffect(() => {
     axios.get(CARS_URL).then((response) => {
       setTableData(response.data.cars);
-      console.log(tableData);
+      // console.log(response.data.cars);
     });
   }, []);
 
   if (!tableData) return null;
+
+  const sortedResponse = _.orderBy(tableData, (r) => r.episodeNr, ["desc"]);
+
+  console.log(sortedResponse);
+
 
   const columns = [
     {
@@ -187,7 +193,7 @@ const Table = () => {
     <div>
       <MaterialTable
         title="Messungen"
-        data={tableData}
+        data={sortedResponse}
         columns={columns}
         components={{
           Toolbar: (props) => (
