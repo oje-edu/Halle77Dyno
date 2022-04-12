@@ -66,11 +66,10 @@ const CustomPolyLine = () => {
   }
 
   return (
-    <div>
+    <div className="h-auto md:py-2 md:px-16 bg-primary-dark">
       <MapContainer
-        className="map"
         // style={{ height: "480px", width: "100%" }}
-        style={{ borderRadius: "10px" }}
+        style={{ margin: '0 auto', height: "70vh", width: "90vw", borderRadius: "16px", padding: '0 2px'}}
         zoom={6}
         center={center}
         ref={mapRef}

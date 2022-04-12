@@ -2,7 +2,7 @@ import CustomPolyLine from "../components/Map/PolyLine/CustomPolyline";
 
 const Plates = () => {
   return (
-    <div>
+    <div className="h-full bg-secondary">
       <CustomPolyLine />
     </div>
   );

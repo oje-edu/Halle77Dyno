@@ -1,24 +1,11 @@
 import { useState, useEffect } from "react";
 import _ from "lodash";
 import MaterialTable, { MTableToolbar } from "material-table";
-import ScrollArrow from "./ScrollArrow";
 import "./table.css";
 
 import axios from "../api/axios";
 const CARS_URL = "/cars";
 
-// import {
-//   MuiThemeProvider,
-//   createMuiTheme,
-//   FormControlLabel,
-//   Switch,
-//   Grid,
-//   Typography,
-//   Divider,
-// } from "@material-ui/core";
-
-//let sortedData = cars.slice().sort((a, b) => a.id - b.id);
-//console.log(JSON.stringify(sortedData));
 
 const Table = () => {
   const [tableData, setTableData] = useState(null);
@@ -53,50 +40,6 @@ const Table = () => {
       title: "Marke",
       field: "brand",
       filterPlaceholder: "Marke",
-      // lookup: {
-      //   "Alfa Romeo": "Alfa Romeo",
-      //   Audi: "Audi",
-      //   Barkas: "Barkas",
-      //   BMW: "BMW",
-      //   Cadillac: "Cadillac",
-      //   Caterham: "Caterham",
-      //   Citroen: "Citroen",
-      //   Dacia: "Dacia",
-      //   Daihatsu: "Daihatsu",
-      //   Dodge: "Dodge",
-      //   Ferrari: "Ferrari",
-      //   Fiat: "Fiat",
-      //   Ford: "Ford",
-      //   Honda: "Honda",
-      //   Jaguar: "Jaguar",
-      //   Jeep: "Jeep",
-      //   KitCar: "KitCar",
-      //   Lada: "Lada",
-      //   Lancia: "Lancia",
-      //   Lexus: "Lexus",
-      //   Mazda: "Mazda",
-      //   Mercedes: "Mercedes",
-      //   Mitsubishi: "Mitsubishi",
-      //   Mini: "Mini",
-      //   "Morris Mini": "Morris Mini",
-      //   Nissan: "Nissan",
-      //   NSU: "NSU",
-      //   Oldsmobile: "Oldsmobile",
-      //   Opel: "Opel",
-      //   Pontiac: "Pontiac",
-      //   Porsche: "Porsche",
-      //   Renault: "Renault",
-      //   Peugeot: "Peugeot",
-      //   Saab: "Saab",
-      //   Seat: "Seat",
-      //   Skoda: "Skoda",
-      //   Smart: "Smart",
-      //   Subaru: "Subaru",
-      //   Triumph: "Triumph",
-      //   Toyota: "Toyota",
-      //   Volvo: "Volvo",
-      //   VW: "VW",
-      // },
       sorting: false,
     },
     { title: "Modell", field: "type", filtering: false },
@@ -127,20 +70,6 @@ const Table = () => {
         </div>
       ),
     },
-    // {
-    //   title: "KM",
-    //   field: "km",
-    //   type: "numeric",
-    //   filtering: false,
-    //   sorting: false,
-    // },
-    // {
-    //   title: "BJ",
-    //   field: "year",
-    //   type: "numeric",
-    //   filtering: false,
-    //   sorting: false,
-    // },
     {
       title: "1. Messung",
       field: "ps1",
@@ -221,8 +150,8 @@ const Table = () => {
           paginationPosition: "bottom",
           grouping: true,
           headerStyle: {
-            backgroundColor: "#de6e4a",
-            color: "#e4cc9c",
+            backgroundColor: "#6ee7b7",
+            color: "#94a3b8",
             border: "none",
           },
         }}
@@ -274,7 +203,6 @@ const Table = () => {
           },
         }}
       />
-      <ScrollArrow />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 :root {
-  --h77base: #e4cc9c;
-  --h77secbase: #de6e4a;
-  --h77bg: #6eb8b3;
+  --h77base: #94a3b8;
+  --h77secbase: #6ee7b7;
+  --h77bg: #6ee7b7;
 }
 
 table {
@@ -36,5 +36,12 @@ tr:nth-child(even) {
 
 .MuiPaper-root {
   max-width: 1430px;
+  background-color: var(--h77bg);
+  color: var(--h77base);
   margin: 0 auto;
+}
+
+.MuiToolbar-root {
+  background-color: var(--h77base);
+  color: var(--h77bg);
 }

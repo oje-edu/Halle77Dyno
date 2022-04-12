@@ -1,23 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --h77base: #e4cc9c;
-  --h77bg: #6eb8b3;
-}
-*,
-*::before,
-*::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  --h77base: #94a3b8;
+  --h77secbase: #de6e4a;
+  --h77bg: #6ee7b7;
 }
 
 body {
-  min-height: 100vh;
-  background-color: var(--h77bg);
+  /* background-color: var(--h77bg); */
   font-family: "Merriweather", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.badge {
+  @apply absolute p-1 -mr-2 text-xs font-bold rounded-full -top-2 left-20 bg-primary-light text-secondary-dark opacity-70 rotate-12;
+}
+
+.card {
+  @apply  pb-2 font-bold border-b text-secondary border-secondary-light;
+}
+
+
 
 /* Firefox */
 * {
