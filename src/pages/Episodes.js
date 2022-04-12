@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import _ from "lodash";
-import ScrollArrow from "../components/ScrollArrow";
 
 import axios from "../api/axios";
 import EpisodesCard from "../components/EpisodesCard";
@@ -21,7 +20,7 @@ const Episodes = () => {
   const sortedResponse = _.orderBy(episodes, (e) => e.episodeNr, ["desc"]);
 
   return (
-    <div className="px-8 pt-8 md:px-16 bg-primary-dark">
+    <main className="px-8 pt-8 md:px-16 bg-primary-dark">
       <h4 className="text-4xl font-bold text-secondary font-text">Episoden</h4>
 
       <div className="grid gap-6 mt-8 md:grid-cols-4">
@@ -34,9 +33,7 @@ const Episodes = () => {
           </div>
         ))}
       </div>
-
-      <ScrollArrow />
-    </div>
+    </main>
   );
 };
 

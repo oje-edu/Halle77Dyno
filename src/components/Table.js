@@ -21,7 +21,7 @@ const Table = () => {
 
   const sortedResponse = _.orderBy(tableData, (r) => r.episodeNr, ["desc"]);
 
-  console.log(sortedResponse);
+  // console.log(sortedResponse);
 
 
   const columns = [
