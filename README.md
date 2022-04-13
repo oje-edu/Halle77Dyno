@@ -1,6 +1,6 @@
 # Dyno [@5ZYLMarco](https://www.youtube.com/c/5ZYLMarco) - Halle77 based in Dortmund
 
-![GitHub last commit](https://img.shields.io/github/last-commit/oje-edu/laravel_halle77-api) ![GitHub repo size](https://img.shields.io/github/repo-size/oje-edu/laravel_halle77-api) ![API](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77api.oje.guru/api) ![BACKEND](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77-dyno.vercel.app)
+![GitHub last commit](https://img.shields.io/github/last-commit/oje-edu/Halle77Dyno) ![GitHub repo size](https://img.shields.io/github/repo-size/oje-edu/Halle77Dyno) ![BACKEND](https://img.shields.io/website?down_color=red&down_message=offline&style=plastic&up_color=lime&up_message=online&url=https%3A%2F%2Fhalle77-dyno.vercel.app)
 
 ### Goal
 
