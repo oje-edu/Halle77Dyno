@@ -63,14 +63,14 @@ const Header = () => {
                 Eure Autos auf der Rolle!
               </span>
             </div>
-            <ul className="ml-2 md:p-4 md:flex">
+            <ul className="md:flex">
               {menuItems.map((item) => (
                 <li key={item.text}>
                   <div
                     className={
                       location.pathname === item.link
-                        ? "bg-primary-dark text-secondary hover:text-primary-dark hover:bg-secondary hover:border hover:border-primary-dark rounded-md p-2 items-center  mr-8 flex duration-500"
-                        : "items-center p-2 mr-8 flex duration-500 hover:text-primary-dark hover:bg-secondary hover:border hover:border-primary-dark rounded-md"
+                        ? "items-center bg-primary-dark text-secondary hover:text-primary-dark hover:bg-secondary hover:border hover:border-primary-dark rounded-md p-[2px] hover:p-[1px]  mr-8 flex "
+                        : "items-center p-[2px] mr-8 flex hover:text-primary-dark hover:bg-secondary hover:border hover:p-[1px] hover:border-primary-dark rounded-md"
                     }
                   >
                     {item.icon}
@@ -81,7 +81,7 @@ const Header = () => {
                 </li>
               ))}
               <li>
-                <div className="flex items-center p-2 mr-8 duration-500 rounded-md hover:text-primary-dark hover:bg-secondary hover:border hover:border-primary-dark">
+                <div className="flex items-center p-[2px] hover:p-[1px] mr-8 rounded-md hover:text-primary-dark hover:bg-secondary hover:border hover:border-primary-dark">
                   <MdOutlineCarRepair color="secondary" />
                   <a
                     href="https://hd-autos.de/pruefstand/"
