@@ -87,7 +87,7 @@ const Charts = () => {
   // console.log(psData)
 
   return (
-    <main className="bg-secondary">
+    <main className="pb-16 bg-secondary">
       <h1 className="pt-2 text-4xl font-bold text-center text-primary-dark">
         Statistiken
       </h1>

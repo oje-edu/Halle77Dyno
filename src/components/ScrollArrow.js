@@ -26,7 +26,7 @@ const ScrollArrow = () => {
       style={{
         height: 40,
         display: showScroll ? "flex" : "none",
-        color: "#6ee7b7",
+        color: "#ec4899",
       }}
     />
   );
