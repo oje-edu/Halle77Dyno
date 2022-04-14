@@ -35,17 +35,18 @@ const Charts = () => {
     count: data?.filter((item) => item.brand === mediaType).length,
   }));
 
-  let ps = 0;
+  let hp = 0;
   let ps1 = 0;
   let ps2 = 0;
+  let ccm = 0;
 
   data.forEach((car) => {
-    ps += car.hp;
+    hp += car.hp;
     ps1 += Math.round(car.ps1);
     ps2 += Math.round(car.ps2);
+    ccm += car.ccm * 1000;
   });
 
-  // console.log(counts);
   // console.log(ps1 + "PS")
   // const sortedCounts = _.orderBy(counts, (r) => r.count, ["desc"]);
 
@@ -72,7 +73,7 @@ const Charts = () => {
     labels: ["PS lt. Hersteller", "PS Messung 1", "PS Messung 2"],
     datasets: [
       {
-        data: [ps, ps1, ps2],
+        data: [hp, ps1, ps2],
         backgroundColor: [
           "rgba(37, 150, 190, 0.5)",
           "rgba(14, 116, 144, 0.5)",
@@ -83,8 +84,6 @@ const Charts = () => {
     ],
     responsive: true,
   };
-
-  // console.log(psData)
 
   return (
     <main className="pb-16 bg-secondary">
@@ -105,11 +104,17 @@ const Charts = () => {
             <h2 className="text-center text-secondary">Marken</h2>
             <Doughnut data={chartData} />
           </div>
-          <div className="py-2 rounded bg-primary-dark">
+          <div className="py-2 mb-2 rounded bg-primary-dark">
             <h2 className="mt-4 text-center text-secondary">
               Gemessene PS (gesamt)
             </h2>
             <PolarArea data={psData} />
+          </div>
+          <div className="py-2 mb-2 rounded bg-primary-dark">
+            <h2 className="mt-4 text-center text-secondary">
+              Hubraum (gesamt)
+            </h2>
+            <p className="text-center">{ccm} ccm³</p>
           </div>
         </div>
       </div>

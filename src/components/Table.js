@@ -6,7 +6,6 @@ import "./table.css";
 import axios from "../api/axios";
 const CARS_URL = "/cars";
 
-
 const Table = () => {
   const [tableData, setTableData] = useState(null);
 
@@ -22,7 +21,6 @@ const Table = () => {
   const sortedResponse = _.orderBy(tableData, (r) => r.episodeNr, ["desc"]);
 
   // console.log(sortedResponse);
-
 
   const columns = [
     {
@@ -119,7 +117,7 @@ const Table = () => {
     // { title: "Bemerkung", field: "messung_comment", filtering: false, sorting: false },
   ];
   return (
-    <div>
+    <div className="pt-2 pb-16">
       <MaterialTable
         title="Messungen"
         data={sortedResponse}
