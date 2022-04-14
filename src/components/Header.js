@@ -24,28 +24,28 @@ const Header = () => {
 
   const countCars = data?.length;
 
-    const menuItems = [
-      {
-        text: "Kennzeichen",
-        icon: <MdOutlineLanguage color="secondary" />,
-        link: "/",
-      },
-      {
-        text: "Episoden",
-        icon: <AiOutlineYoutube color="secondary" />,
-        link: "/episoden",
-      },
-      {
-        text: "Messungen",
-        icon: <MdOutlineSpeed color="secondary" />,
-        link: "/autos",
-      },
-      {
-        text: "Statistik",
-        icon: <MdOutlineBarChart color="secondary" />,
-        link: "/charts",
-      },
-    ];
+  const menuItems = [
+    {
+      text: "Kennzeichen",
+      icon: <MdOutlineLanguage color="secondary" />,
+      link: "/",
+    },
+    {
+      text: "Episoden",
+      icon: <AiOutlineYoutube color="secondary" />,
+      link: "/episoden",
+    },
+    {
+      text: "Messungen",
+      icon: <MdOutlineSpeed color="secondary" />,
+      link: "/autos",
+    },
+    {
+      text: "Statistik",
+      icon: <MdOutlineBarChart color="secondary" />,
+      link: "/charts",
+    },
+  ];
 
   // console.log(countCars);
 
@@ -69,7 +69,7 @@ const Header = () => {
                   <div
                     className={
                       location.pathname === item.link
-                        ? "items-center bg-primary-dark text-secondary hover:text-primary-dark hover:bg-secondary hover:border hover:border-primary-dark rounded-md p-[2px] hover:p-[1px]  mr-8 flex "
+                        ? "items-center bg-primary-dark text-secondary hover:text-primary-dark hover:bg-secondary hover:border hover:border-primary-dark rounded-md p-[2px] hover:p-[1px] mr-8 flex "
                         : "items-center p-[2px] mr-8 flex hover:text-primary-dark hover:bg-secondary hover:border hover:p-[1px] hover:border-primary-dark rounded-md"
                     }
                   >
