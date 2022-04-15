@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import {
   FeatureGroup,
   MapContainer,
@@ -14,29 +14,16 @@ import {
   customMarkerHalle77Pos,
 } from "../Markers/CustomMarker";
 
-import axios from "../../../api/axios";
-const PLATES_URL = "/plates";
-
 const halle77 = [51.507372, 7.491431];
 const blueOptions = { color: "#6eb8b3", fillColor: "g#6eb8b3", weight: 1 };
 
-const CustomPolyLine = () => {
+const CustomPolyLine = ({ plates }) => {
   const mapRef = useRef();
   const [center, setCenter] = useState({
     lat: 51.2,
     lng: 10.338379,
   });
   const [map, setMap] = useState(null);
-  const [plates, setPlates] = useState(null);
-
-  useEffect(() => {
-    axios.get(PLATES_URL).then((response) => {
-      setPlates(response.data.plates);
-      // console.log(plates);
-    });
-  }, []);
-
-  if (!plates) return null;
 
   function distance(lat1, lon1, lat2, lon2, unit) {
     if (lat1 === lat2 && lon1 === lon2) {
@@ -88,7 +75,7 @@ const CustomPolyLine = () => {
           />
         </LayerGroup>
         {plates?.map((mark, i) => (
-          <FeatureGroup>
+          <FeatureGroup key={i}>
             <Popup>
               <div>
                 <h2>Kennzeichen: {mark.kz}</h2>
@@ -100,7 +87,6 @@ const CustomPolyLine = () => {
               </div>
             </Popup>
             <Marker
-              key={i}
               position={[mark.lat, mark.lng]}
               icon={customMarkerUserPos}
             />
