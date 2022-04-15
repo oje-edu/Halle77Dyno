@@ -114,7 +114,7 @@ const Charts = () => {
             <h2 className="mt-4 text-center text-secondary">
               Hubraum (gesamt)
             </h2>
-            <p className="text-center">{ccm} ccm³</p>
+            <div className="text-center">{ccm.toLocaleString()} ccm³</div>
           </div>
         </div>
       </div>
