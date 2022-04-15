@@ -1,26 +1,9 @@
-import { useState, useEffect } from "react";
 import _ from "lodash";
 import MaterialTable, { MTableToolbar } from "material-table";
 import "./table.css";
 
-import axios from "../api/axios";
-const CARS_URL = "/cars";
-
-const Table = () => {
-  const [tableData, setTableData] = useState(null);
-
-  useEffect(() => {
-    axios.get(CARS_URL).then((response) => {
-      setTableData(response.data.cars);
-      // console.log(response.data.cars);
-    });
-  }, []);
-
-  if (!tableData) return null;
-
+const Table = ({ tableData }) => {
   const sortedResponse = _.orderBy(tableData, (r) => r.episodeNr, ["desc"]);
-
-  // console.log(sortedResponse);
 
   const columns = [
     {
