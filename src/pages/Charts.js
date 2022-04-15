@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 // import _ from "lodash";
 import {
   Chart as ChartJS,
@@ -15,16 +16,16 @@ ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend);
 const CARS_URL = "/cars";
 
 const Charts = () => {
+  const [loading, setLoading] = useState(true);
   const [data, setData] = useState(null);
 
   useEffect(() => {
+    setLoading(true);
     axios.get(CARS_URL).then((response) => {
       setData(response.data.cars);
-      // console.log(response.data.cars);
+      setLoading(false);
     });
   }, []);
-
-  if (!data) return null;
 
   const mediaTypes = data
     ?.map((dataItem) => dataItem.brand) // get all media types
@@ -40,7 +41,7 @@ const Charts = () => {
   let ps2 = 0;
   let ccm = 0;
 
-  data.forEach((car) => {
+  data?.forEach((car) => {
     hp += car.hp;
     ps1 += Math.round(car.ps1);
     ps2 += Math.round(car.ps2);
@@ -90,9 +91,15 @@ const Charts = () => {
       <h1 className="pt-2 text-4xl font-bold text-center text-primary-dark">
         Statistiken
       </h1>
-      <div className="mx-auto rounded md:w-2/5 ">
-        <div className="flex flex-col px-2">
-          {/* <ul>
+      {loading ? (
+        <div className="flex flex-col items-center justify-center w-full h-[95vh] lg:h-[90vh] pt-6 mx-auto lg:pt-0 text-orange-600">
+          <ClimbingBoxLoader loading={loading} size={35} color={"#ea580c"} />
+          <div className="mt-16">Daten werden geladen ...</div>
+        </div>
+      ) : (
+        <div className="mx-auto rounded md:w-2/5 ">
+          <div className="flex flex-col px-2">
+            {/* <ul>
           {sortedCounts?.map((count) => (
 
             <li>
@@ -100,24 +107,25 @@ const Charts = () => {
             </li>
           ))}
         </ul> */}
-          <div className="py-2 mb-2 rounded bg-primary-dark">
-            <h2 className="text-center text-secondary">Marken</h2>
-            <Doughnut data={chartData} />
-          </div>
-          <div className="py-2 mb-2 rounded bg-primary-dark">
-            <h2 className="mt-4 text-center text-secondary">
-              Gemessene PS (gesamt)
-            </h2>
-            <PolarArea data={psData} />
-          </div>
-          <div className="py-2 mb-2 rounded bg-primary-dark">
-            <h2 className="mt-4 text-center text-secondary">
-              Hubraum (gesamt)
-            </h2>
-            <div className="text-center">{ccm.toLocaleString()} ccm³</div>
+            <div className="py-2 mb-2 rounded bg-primary-dark">
+              <h2 className="text-center text-secondary">Marken</h2>
+              <Doughnut data={chartData} />
+            </div>
+            <div className="py-2 mb-2 rounded bg-primary-dark">
+              <h2 className="mt-4 text-center text-secondary">
+                Gemessene PS (gesamt)
+              </h2>
+              <PolarArea data={psData} />
+            </div>
+            <div className="py-2 mb-2 rounded bg-primary-dark">
+              <h2 className="mt-4 text-center text-secondary">
+                Hubraum (gesamt)
+              </h2>
+              <div className="text-center">{ccm.toLocaleString()} ccm³</div>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </main>
   );
 };
