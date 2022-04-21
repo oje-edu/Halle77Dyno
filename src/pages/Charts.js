@@ -4,14 +4,27 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import {
   Chart as ChartJS,
   ArcElement,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
   Tooltip,
   Legend,
   RadialLinearScale,
 } from "chart.js";
-import { Doughnut, PolarArea } from "react-chartjs-2";
+import { Doughnut, PolarArea, Bar } from "react-chartjs-2";
 import axios from "../api/axios";
 
-ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend);
+ChartJS.register(
+  RadialLinearScale,
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title
+);
 
 const CARS_URL = "/cars";
 
@@ -27,14 +40,34 @@ const Charts = () => {
     });
   }, []);
 
-  const mediaTypes = data
-    ?.map((dataItem) => dataItem.brand) // get all media types
-    .filter((mediaType, index, array) => array.indexOf(mediaType) === index); // filter out duplicates
-
-  const counts = mediaTypes?.map((mediaType) => ({
-    type: mediaType,
-    count: data?.filter((item) => item.brand === mediaType).length,
+  const allDatas = data?.map((allData) => ({
+    brand: allData.brand,
+    type: allData.type,
+    hp: allData.hp,
+    ccm: allData.ccm,
+    ps1: Math.round(allData.ps1),
+    ps2: Math.round(allData.ps2),
   }));
+
+  const brandTypes = allDatas
+    ?.map((dataItem) => dataItem.brand) // get all brand types
+    .filter((brandType, index, array) => array.indexOf(brandType) === index); // filter out duplicates
+
+  const counts = brandTypes?.map((brandType) => ({
+    type: brandType,
+    count: allDatas?.filter((item) => item.brand === brandType).length,
+    morePs2: data
+      ?.filter((car) => car.brand === brandType)
+      .filter((car) => car.hp < car.ps2).length,
+    lessPs2: data
+      ?.filter((car) => car.brand === brandType)
+      .filter((car) => car.hp > car.ps2).length,
+    exactPs2: data
+      ?.filter((car) => car.brand === brandType)
+      .filter((car) => car.hp === car.ps2).length,
+  }));
+
+  // console.log(counts);
 
   let hp = 0;
   let ps1 = 0;
@@ -68,6 +101,51 @@ const Charts = () => {
       },
     ],
     responsive: true,
+  };
+
+  const psChartOptions = {
+    plugins: {
+      title: {
+        display: false,
+        text: "mehr/weniger/genau (PS in Messung 2) wie angegeben",
+      },
+    },
+    responsive: true,
+    interaction: {
+      intersect: false,
+    },
+    scales: {
+      x: {
+        stacked: true,
+      },
+      y: {
+        stacked: true,
+      },
+    },
+  };
+
+  const psChartData = {
+    labels: counts?.map((item) => item.type),
+    datasets: [
+      {
+        label: "Autos mit mehr PS",
+        data: counts?.map((item) => item.morePs2),
+        backgroundColor: "rgb(110, 231, 183)",
+        stack: "Stack 0",
+      },
+      {
+        label: "Autos mit weniger PS",
+        data: counts?.map((item) => item.lessPs2),
+        backgroundColor: "rgb(255, 99, 132)",
+        stack: "Stack 1",
+      },
+      {
+        label: "wie angegeben",
+        data: counts?.map((item) => item.exactPs2),
+        backgroundColor: "rgb(53, 162, 235)",
+        stack: "Stack 2",
+      },
+    ],
   };
 
   const psData = {
@@ -108,8 +186,14 @@ const Charts = () => {
           ))}
         </ul> */}
             <div className="py-2 mb-2 rounded bg-primary-dark">
-              <h2 className="text-center text-secondary">Marken</h2>
+              <h2 className="text-center text-secondary">Alle Marken</h2>
               <Doughnut data={chartData} />
+            </div>
+            <div className="py-2 mb-2 rounded bg-primary-dark">
+              <h2 className="text-center text-secondary">
+                gemessene PS vs. angegebene (in Messung 2)
+              </h2>
+              <Bar options={psChartOptions} data={psChartData} />
             </div>
             <div className="py-2 mb-2 rounded bg-primary-dark">
               <h2 className="mt-4 text-center text-secondary">
