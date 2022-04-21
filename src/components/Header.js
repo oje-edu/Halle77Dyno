@@ -41,7 +41,8 @@ const Header = () => {
     },
     {
       text: "Messungen",
-      icon: <MdOutlineSpeed size={28} />,
+      // icon: <MdOutlineSpeed size={28} />,
+      icon: `${countCars}`,
       link: "/autos",
     },
     {
@@ -79,7 +80,7 @@ const Header = () => {
               >
                 <div className="flex items-center space-x-1">
                   {item.icon}
-                  <span className="">{item.text}</span>
+                  <span className="lg:ml-1">{item.text}</span>
                 </div>
               </Link>
             ))}
