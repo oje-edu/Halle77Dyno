@@ -3,7 +3,6 @@ import { useLocation, Link } from "react-router-dom";
 import axios from "../api/axios";
 
 import { MdOutlineCarRepair } from "react-icons/md";
-import { MdOutlineSpeed } from "react-icons/md";
 import { MdOutlineLanguage } from "react-icons/md";
 import { MdOutlineBarChart } from "react-icons/md";
 import { MdOutlineClose } from "react-icons/md";
@@ -41,7 +40,6 @@ const Header = () => {
     },
     {
       text: "Messungen",
-      // icon: <MdOutlineSpeed size={28} />,
       icon: `${countCars}`,
       link: "/autos",
     },
