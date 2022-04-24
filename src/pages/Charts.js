@@ -45,8 +45,8 @@ const Charts = () => {
     type: allData.type,
     hp: allData.hp,
     ccm: allData.ccm,
-    ps1: Math.round(allData.ps1),
-    ps2: Math.round(allData.ps2),
+    ps1: allData.ps1,
+    ps2: allData.ps2,
   }));
 
   const brandTypes = allDatas
@@ -81,7 +81,7 @@ const Charts = () => {
     ccm += car.ccm * 1000;
   });
 
-  // console.log(ps1 + "PS")
+  // console.log(hp);
   // const sortedCounts = _.orderBy(counts, (r) => r.count, ["desc"]);
 
   const chartData = {
