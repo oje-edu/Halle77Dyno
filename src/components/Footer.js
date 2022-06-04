@@ -1,5 +1,7 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 
 const Footer = () => {
   return (
@@ -11,16 +13,25 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiFillGithub className="" size="2.25em" color="#94a3b8" />
+            <AiFillGithub className="footerIcon" size="2.25em" />
           </a>
         </div>
-        <div className="p-2 duration-500 bg-secondary text-primary-dark hover:text-orange-600">
+        <div className="">
+          <a
+            href="https://www.facebook.com/Halle77-Dyno-102373999155922"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook className="footerIcon" size="2.25em" />
+          </a>
+        </div>
+        <div className="">
           <a
             href="https://halle77api.oje.guru/api"
             target="_blank"
             rel="noopener noreferrer"
           >
-            API
+            <TbApi className="footerIcon" size="2.25em" />
           </a>
         </div>
       </div>

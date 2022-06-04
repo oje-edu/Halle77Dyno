@@ -1,8 +1,8 @@
 .scrollTop {
   position: fixed;
   width: 35px;
-  bottom: 10px;
-  right: 49.25%;
+  bottom: 46px;
+  right: 12%;
   align-items: center;
   height: 20px;
   justify-content: center;
@@ -26,10 +26,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) {
   .scrollTop {
-    bottom: 10px;
-    right: 45%;
+    bottom: 6px;
+    right: 5%;
 
     z-index: 1000;
   }

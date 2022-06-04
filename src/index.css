@@ -33,6 +33,10 @@ body {
   @apply flex items-center justify-center ml-2 outline-none;
 }
 
+.footerIcon {
+  @apply duration-500 hover:text-orange-600 text-primary-dark hover:bg-primary-dark hover:rounded-full;
+}
+
 /* Firefox */
 * {
   scrollbar-color: var(--h77base) var(--h77bg);
