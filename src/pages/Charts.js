@@ -12,7 +12,7 @@ import {
   Legend,
   RadialLinearScale,
 } from "chart.js";
-import { Doughnut, PolarArea, Bar } from "react-chartjs-2";
+import { PolarArea, Bar } from "react-chartjs-2";
 import axios from "../api/axios";
 
 ChartJS.register(
@@ -47,6 +47,8 @@ const Charts = () => {
     ccm: allData.ccm,
     ps1: allData.ps1,
     ps2: allData.ps2,
+    bj: allData.year,
+    km: allData.km,
   }));
 
   const brandTypes = allDatas
@@ -56,6 +58,7 @@ const Charts = () => {
   const counts = brandTypes?.map((brandType) => ({
     type: brandType,
     count: allDatas?.filter((item) => item.brand === brandType).length,
+
     morePs2: data
       ?.filter((car) => car.brand === brandType)
       .filter((car) => car.hp < car.ps2).length,
@@ -67,40 +70,89 @@ const Charts = () => {
       .filter((car) => car.hp === car.ps2).length,
   }));
 
-  // console.log(counts);
+  counts?.sort((a, b) => b.count - a.count);
 
   let hp = 0;
   let ps1 = 0;
   let ps2 = 0;
   let ccm = 0;
+  let count = 0;
+  let total = 0;
+  let average = 0;
 
   data?.forEach((car) => {
     hp += car.hp;
     ps1 += Math.round(car.ps1);
     ps2 += Math.round(car.ps2);
     ccm += car.ccm * 1000;
-  });
 
+    if (car.year !== null) {
+      count++;
+      total += car.year;
+      average = total / count;
+    }
+  });
+  // console.log(total / count);
+  // console.log(data);
+  // console.log(ccm);
   // console.log(hp);
   // const sortedCounts = _.orderBy(counts, (r) => r.count, ["desc"]);
+
+  const chartDataOptions = {
+    indexAxis: "y",
+    elements: {
+      bar: {
+        borderWidth: 2,
+      },
+    },
+    responsive: true,
+    plugins: {
+      legend: {
+        // position: "right",
+        display: false,
+      },
+      layout: {
+        font: 40,
+        // padding: {
+        //   left: 40,
+        // },
+      },
+      title: {
+        display: false,
+        text: "",
+      },
+    },
+  };
 
   const chartData = {
     labels: counts?.map((item) => item.type),
     datasets: [
       {
+        // label: counts?.map((item) => item.type),
         data: counts?.map((item) => item.count),
         backgroundColor: [
-          "rgba(220, 38, 38,0.5)",
-          "rgba(101, 163, 13,0.5)",
-          "rgba(153, 246, 228,0.5)",
-          "rgba(34, 211, 238,0.5)",
-          "rgba(162, 28, 175,0.5)",
-          "rgba(236, 72, 153,0.5)",
+          "#16a34a",
+          "#22c55e",
+          "#4ade80",
+          "#86efac",
+          "#a5f3fc",
+          "#67e8f9",
+          "#22d3ee",
+          "#06b6d4",
+          "#2563eb",
+          "#a78bfa",
+          "#c084fc",
+          "#e879f9",
+          "#d946ef",
+          "#c026d3",
+          "#a21caf",
+          "#ec4899",
+          "#db2777",
+          "#be185d",
+          "#e11d48",
         ],
-        borderWidth: 0,
       },
     ],
-    responsive: true,
   };
 
   const psChartOptions = {
@@ -175,19 +227,14 @@ const Charts = () => {
           <div className="mt-16">Daten werden geladen ...</div>
         </div>
       ) : (
-        <div className="mx-auto rounded md:w-2/5 ">
+        <div className="mx-auto rounded md:w-3/5 ">
           <div className="flex flex-col px-2">
-            {/* <ul>
-          {sortedCounts?.map((count) => (
-
-            <li>
-              {count.type} - {count.count}
-            </li>
-          ))}
-        </ul> */}
             <div className="py-2 mb-2 rounded bg-primary-dark">
-              <h2 className="text-center text-secondary">Alle Marken</h2>
-              <Doughnut data={chartData} />
+              <h2 className="text-center text-secondary">
+                Alle {counts.length} Marken
+              </h2>
+              {/* <Doughnut data={chartData} /> */}
+              <Bar options={chartDataOptions} data={chartData} height={200} />
             </div>
             <div className="py-2 mb-2 rounded bg-primary-dark">
               <h2 className="text-center text-secondary">
@@ -206,6 +253,15 @@ const Charts = () => {
                 Hubraum (gesamt)
               </h2>
               <div className="text-center">{ccm.toLocaleString()} ccm³</div>
+            </div>
+            <div className="py-2 mb-2 rounded bg-primary-dark">
+              <h2 className="mt-4 text-center text-secondary">
+                Baujahr (Durchschnitt)*
+              </h2>
+              <div className="text-center">{Math.round(average)}</div>
+              <p class="text-xs italic text-center">
+                *Nur {count} Datensätze vorhanden.
+              </p>
             </div>
           </div>
         </div>

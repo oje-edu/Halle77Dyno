@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1024px) {
   .scrollTop {
-    bottom: 6px;
+    bottom: 16px;
     right: 5%;
 
     z-index: 1000;

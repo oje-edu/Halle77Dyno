@@ -10,6 +10,7 @@
     "env-cmd": "^10.1.0",
     "leaflet": "^1.7.1",
     "material-table": "^1.69.3",
+    "npm": "^8.12.1",
     "react": "^18.0.0",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.0.0",

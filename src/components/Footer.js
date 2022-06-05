@@ -6,7 +6,7 @@ import { TbApi } from "react-icons/tb";
 const Footer = () => {
   return (
     <footer className="fixed bottom-0 w-full shadow-lg bg-secondary text-primary-dark">
-      <div className="flex justify-around p-2 md:justify-evenly">
+      <div className="flex justify-around p-2 md:justify-evenly md:mb-0 lg:mb-4">
         <div className="">
           <a
             href="https://github.com/oje-edu/Halle77Dyno"

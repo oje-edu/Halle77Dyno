@@ -53,7 +53,7 @@ const CustomPolyLine = ({ plates }) => {
   }
 
   return (
-    <div className="max-h-full pt-2 pb-16 lg:pb-24 bg-secondary">
+    <div className="max-h-full pt-2 pb-16 lg:pb-20 bg-secondary">
       <MapContainer
         // style={{ height: "480px", width: "100%" }}
         style={{
