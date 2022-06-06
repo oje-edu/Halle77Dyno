@@ -13,7 +13,6 @@
     "npm": "^8.12.1",
     "react": "^18.0.0",
     "react-chartjs-2": "^4.1.0",
-    "react-d3-speedometer": "^1.0.2",
     "react-dom": "^18.0.0",
     "react-icons": "^4.4.0",
     "react-leaflet": "^3.2.5",
