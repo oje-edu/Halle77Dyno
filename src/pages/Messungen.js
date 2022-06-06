@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Table from "../components/Table";
+
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 
 import axios from "../api/axios";

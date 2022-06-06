@@ -51,29 +51,29 @@ const Table = ({ tableData }) => {
         </div>
       ),
     },
-    {
-      title: "1. Messung",
-      field: "ps1",
-      filtering: false,
-      sorting: false,
-      render: (rowData) => (
-        <div
-          style={{
-            width: "50px",
-            textAlign: "center",
-            background: rowData.ps1 < rowData.hp ? "#f90000aa" : "#008000aa",
-            borderRadius: "4px",
-            padding: "0 3px",
-            color: "white",
-            display: rowData.ps1 ? "inline-block" : "none",
-            fontFamily: "monospace",
-          }}
-        >
-          {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
-          {rowData.ps1 ? rowData.ps1 : "-"}
-        </div>
-      ),
-    },
+    // {
+    //   title: "1. Messung",
+    //   field: "ps1",
+    //   filtering: false,
+    //   sorting: false,
+    //   render: (rowData) => (
+    //     <div
+    //       style={{
+    //         width: "50px",
+    //         textAlign: "center",
+    //         // background: rowData.ps1 < rowData.hp ? "#f90000aa" : "#008000aa",
+    //         borderRadius: "4px",
+    //         padding: "0 3px",
+    //         color: "white",
+    //         // display: rowData.ps1 ? "inline-block" : "none",
+    //         fontFamily: "monospace",
+    //       }}
+    //     >
+    //       {/* {rowData.ps1 ? rowData.ps1.join(", ") : "-"} */}
+    //       {/* {rowData.ps1 ? rowData.ps1 : "-"} */}
+    //     </div>
+    //   ),
+    // },
     {
       title: "2. Messung",
       field: "ps2",
