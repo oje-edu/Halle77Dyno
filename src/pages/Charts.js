@@ -12,7 +12,7 @@ import {
   Legend,
   RadialLinearScale,
 } from "chart.js";
-import { PolarArea, Bar } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import axios from "../api/axios";
 
 ChartJS.register(
@@ -73,7 +73,7 @@ const Charts = () => {
   counts?.sort((a, b) => b.count - a.count);
 
   let hp = 0;
-  let ps1 = 0;
+  // let ps1 = 0;
   let ps2 = 0;
   let ccm = 0;
   let count = 0;
@@ -82,7 +82,7 @@ const Charts = () => {
 
   data?.forEach((car) => {
     hp += car.hp;
-    ps1 += Math.round(car.ps1);
+    // ps1 += Math.round(car.ps1);
     ps2 += Math.round(car.ps2);
     ccm += car.ccm * 1000;
 
@@ -156,6 +156,7 @@ const Charts = () => {
   };
 
   const psChartOptions = {
+    indexAxis: "y",
     plugins: {
       title: {
         display: false,
@@ -200,21 +201,17 @@ const Charts = () => {
     ],
   };
 
-  const psData = {
-    labels: ["PS lt. Hersteller", "PS Messung 1", "PS Messung 2"],
-    datasets: [
-      {
-        data: [hp, ps1, ps2],
-        backgroundColor: [
-          "rgba(37, 150, 190, 0.5)",
-          "rgba(14, 116, 144, 0.5)",
-          "rgba(162, 28, 175, 0.5)",
-        ],
-        borderWidth: 0,
-      },
-    ],
-    responsive: true,
-  };
+  // const psData = {
+  //   labels: ["PS lt. Hersteller", "PS Messung 2"],
+  //   datasets: [
+  //     {
+  //       data: [hp, ps2],
+  //       backgroundColor: ["rgb(255, 99, 132)", "rgb(110, 231, 183)"],
+  //       borderWidth: 0,
+  //     },
+  //   ],
+  //   responsive: true,
+  // };
 
   return (
     <main className="pb-16 bg-secondary">
@@ -233,20 +230,24 @@ const Charts = () => {
               <h2 className="text-center text-secondary">
                 Alle {counts.length} Marken
               </h2>
-              {/* <Doughnut data={chartData} /> */}
               <Bar options={chartDataOptions} data={chartData} height={200} />
             </div>
             <div className="py-2 mb-2 rounded bg-primary-dark">
               <h2 className="text-center text-secondary">
                 gemessene PS vs. angegebene (in Messung 2)
               </h2>
-              <Bar options={psChartOptions} data={psChartData} />
+              <Bar options={psChartOptions} data={psChartData} height={200} />
             </div>
             <div className="py-2 mb-2 rounded bg-primary-dark">
               <h2 className="mt-4 text-center text-secondary">
-                Gemessene PS (gesamt)
+                Gemessene PS (gesamt {data?.length} Autos)
               </h2>
-              <PolarArea data={psData} />
+              <div className="text-center">
+                {hp.toLocaleString()} PS lt. Hersteller
+              </div>
+              <div className="text-center">
+                {ps2.toLocaleString()} PS lt. Messung
+              </div>
             </div>
             <div className="py-2 mb-2 rounded bg-primary-dark">
               <h2 className="mt-4 text-center text-secondary">
@@ -260,7 +261,7 @@ const Charts = () => {
               </h2>
               <div className="text-center">{Math.round(average)}</div>
               <p class="text-xs italic text-center">
-                *Nur {count} Datensätze vorhanden.
+                *Nur {count} Datensätze vorhanden, somit nicht repräsentativ.
               </p>
             </div>
           </div>
