@@ -14,7 +14,7 @@ The Database should contain all "Dyno" Results from the YT-Channel [5ZYL_Marco](
 
 ### Backend
 
-[self Hostet](https://halle77api.oje.guru/api/)
+[self Hostet](https://halle77api.oje.guru)
 
 ### DISCLAIMER
 
