@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="">
           <a
-            href="https://halle77api.oje.guru/api"
+            href="https://halle77api.oje.guru"
             target="_blank"
             rel="noopener noreferrer"
           >
